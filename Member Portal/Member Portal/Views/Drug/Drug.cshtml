@@ -1,0 +1,26 @@
+﻿@model Member_Portal.Models.DrugDetails;
+@{
+    ViewData["Title"] = "Drug Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="justify-content-center">
+    <h2>Drug Details</h2>
+</div>
+
+<div class="row">
+    <div class="col-8 offset-2">
+        <p><strong>Drug Id -- </strong>@Model.Id</p>
+        <p><strong>Drug Name -- </strong>@Model.Name</p>
+        <p><strong>Expiry Date -- </strong>@Model.ExpiryDate</p>
+        <p><strong>Manufacturer -- </strong>@Model.Manufacturer</p>
+        <p><strong>Manufactured Date -- </strong>@Model.ManufacturedDate</p>
+        <p><strong>Quantity in Your Location -- </strong>@Model.Quantity</p>
+    </div>
+</div>
+
+
+<div>
+    <a class="btn btn-primary" asp-action="Index" asp-controller="Subscription">Go Back</a>
+</div>
+

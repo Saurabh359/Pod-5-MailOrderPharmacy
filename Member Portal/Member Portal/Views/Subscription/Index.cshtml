@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Member_Portal.Models.SubscriptionDetails>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="justify-content-center">
+    <h2>Mail Order Pharmacy</h2>
+</div>
+
+<div class="container">
+
+    <h1>Vehicle Index</h1>
+    <div class="d-flex justify-content-around">
+        <p>
+            <a class="btn btn-outline-primary" asp-action="Subscribe" asp-controller="Subscription">New Subscription</a>
+        </p>
+        <p>
+            <a class="btn btn-outline-primary" asp-action="Index" asp-controller="Drug">Drug Details</a>
+        </p>
+        <p>
+            <a class="btn btn-outline-primary" asp-action="Logout" asp-controller="Home">Log Out</a>
+        </p>
+    </div>
+    <div class="container pt-3">
+        @foreach (var item in Model)
+        {
+            <div class="row mt-3 shadow">
+                <div class="col-sm-6 text-center">
+                    <h3 class="card-title m-0"><strong>Subscription Id -- </strong>@item.Id</h3>
+                    <p class="card-text m-0"><strong>Subscription Date --  </strong>@item.SubscriptionDate</p>
+                    <p class="card-text m-0"><strong>Refill Occurrence --  </strong>@item.RefillOccurrence</p>
+                    <p class="card-text m-0"><strong>Delivery Location --  </strong>@item.MemberLocation</p>
+                    <p class="card-text m-0"><strong>Prescription Id --  </strong>@item.PrescriptionId</p>
+                </div>
+                <div class="col-sm-6">
+                    <a class="btn btn-primary" asp-controller="Subscription" asp-action="UnSubscribe" asp-route-id="@item.Id">UnSubscribe</a>
+                    <a class="btn btn-primary" asp-controller="Refill" asp-action="RefillStatus" asp-route-id="@item.Id">Last Refill Details</a>
+                    <a class="btn btn-primary" asp-controller="Refill" asp-action="RefillDues" asp-route-id="@item.Id">Due Refills</a>
+                    <a class="btn btn-primary" asp-controller="Refill" asp-action="AdhocRefill" asp-route-id="@item.Id">Adhoc Refill</a>
+                </div>
+            </div>
+        }
+    </div>
+
+</div>
