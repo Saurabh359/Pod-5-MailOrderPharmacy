@@ -12,5 +12,6 @@ namespace Member_Portal.Models
         public int DrugQuantity { get; set; }
         public bool RefillDelivered { get; set; }
         public bool Payment { get; set; }
+        public int SubscriptionId { get; set; }
     }
 }

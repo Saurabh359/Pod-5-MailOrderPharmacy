@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Member_Portal.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace Member_Portal.Controllers
 {
@@ -16,22 +19,32 @@ namespace Member_Portal.Controllers
 
         public IActionResult Drug(string name)
         {
-            DrugDetails drug;
-
-            //send Drug Name
-            // access drug details from Drug MicroService --  getDrugByName Method
-
-            drug = new DrugDetails
+            if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
             {
-                Id = 9,
-                Name = name,
-                Quantity = 210,
-                ExpiryDate = Convert.ToDateTime("2020-11-24 12:12:00 PM"),
-                Manufacturer = "asddads",
-                ManufacturedDate = Convert.ToDateTime("2020-11-24 12:12:00 PM")
-            };
+                // _log4net.Info("Anonymous Log in try to add vehicle but redirected to login page");
+                return RedirectToAction("Login", "User");
+            }
 
-            return View(drug);
+            // call Drug microservice
+
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = httpClient.GetAsync("https://localhost:44329/api/DrugsApi/searchDrugsByName/" + name).Result)
+                {
+
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        string message = "Something Went Wrong";
+                        return RedirectToAction("ResponseDisplay", message);
+                    }
+
+                    var data = response.Content.ReadAsStringAsync().Result;
+
+                    var result = JsonConvert.DeserializeObject<DrugDetails>(data);
+
+                    return View(result);
+                }
+            }
         }
     }
 }

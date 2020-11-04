@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
 using Member_Portal.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace Member_Portal.Controllers
 {
@@ -17,6 +21,7 @@ namespace Member_Portal.Controllers
         public IActionResult Index()
         {
             // List of all subscriptions
+
             return View(details);
         }
 
@@ -26,36 +31,92 @@ namespace Member_Portal.Controllers
         }
 
         [HttpPost]
-        public IActionResult Subscribe([Bind(include: "InsurancePolicyNumber,InsuranceProvider,PrescriptionDate,DrugName,DoctorName,RefillOccurrence")]PrescriptionDetails prescription)
+        public IActionResult Subscribe([Bind("InsurancePolicyNumber,InsuranceProvider,PrescriptionDate,DrugName,DoctorName,RefillOccurrence")]PrescriptionDetails prescription)
         {
-            bool success = true;
-
-            // Get MemberId from Session
-            // Call Subscription Service -- Subscribe method with prescription details and Member Id
-
-            if(success)
+           
+            if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
             {
-                return RedirectToAction("Index");
+               // _log4net.Info("Anonymous Log in try to add vehicle but redirected to login page");
+                return RedirectToAction("Login", "User");
+            }
+       
+            // Get MemberId from Session
+
+            SubscriptionDetails result = new SubscriptionDetails();
+            int id = (int)HttpContext.Session.GetInt32("MemberId");
+            string policy = "sad";
+
+            // Call Subscription Service -- Subscribe method with prescription details and policy details and Member Id
+
+            using (var httpClient = new HttpClient())
+            {
+                var content = new StringContent(JsonConvert.SerializeObject(prescription), Encoding.UTF8, "application/json");
+
+                using (var response = httpClient.PostAsync("https://localhost:44329/api/Subscribe/PostSubscribe" + policy+"/"+ id, content).Result)
+                {
+
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        string message = "Something Went Wrong";
+                        return RedirectToAction("ResponseDisplay", message);
+                    }
+
+                    var data = response.Content.ReadAsStringAsync().Result;
+
+                    result = JsonConvert.DeserializeObject<SubscriptionDetails>(data);
+
+                    if(result.Status)
+                    {
+                        string message = "Subscription failed due to InAvailability of Drugs ";
+                        return RedirectToAction("ResponseDisplay", message);
+                    }
+
+                    return RedirectToAction("Index");
+                }
             }
 
-
-            string message = "Subscription not possible";
-
-            return RedirectToAction("ResponseDisplay",message);
         }
 
         public IActionResult UnSubscribe(int id)
         {
-            bool success = false;
+            
+            if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
+            {
+                // _log4net.Info("Anonymous Log in try to add vehicle but redirected to login page");
+                return RedirectToAction("Login", "User");
+            }
+            
+            SubscriptionDetails result = new SubscriptionDetails();
+            int MemberId = (int)HttpContext.Session.GetInt32("MemberId");
 
-            // Call Subscription Service -- UnSubscribe method with Subscription Id 
+              // call subscription microservice
 
-            if(success)
-                return RedirectToAction("Index");
+            using (var httpClient = new HttpClient())
+            {
+                var content = new StringContent(JsonConvert.SerializeObject("hello"), Encoding.UTF8, "application/json");
 
-            string message = "Unsubscribe Not Possible due to pending Refill Dues";
+                using (var response = httpClient.PostAsync("https://localhost:44329/api/Subscribe/PostUnSubscribe/" + MemberId + "/" + id, content).Result)
+                {
 
-            return RedirectToAction("ResponseDisplay",message); 
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        string message = "Something Went Wrong";
+                        return RedirectToAction("ResponseDisplay", message);
+                    }
+
+                    var data = response.Content.ReadAsStringAsync().Result;
+
+                    result = JsonConvert.DeserializeObject<SubscriptionDetails>(data);
+
+                    if (result.Status)
+                    {
+                        string message = "Subscription failed due to pending refill dues ";
+                        return RedirectToAction("ResponseDisplay", message);
+                    }
+
+                    return RedirectToAction("Index");
+                }
+            }
         }
 
         public IActionResult ResponseDisplay(string message)

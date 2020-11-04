@@ -106,8 +106,6 @@ C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Member Portal.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Member Portal.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Razor\Views\Drug\Drug.cshtml.g.cs
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Razor\Views\Drug\Index.cshtml.g.cs
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Razor\Views\Refill\AdhocRefill.cshtml.g.cs
@@ -116,3 +114,13 @@ C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Razor\Views\Subscription\Index.cshtml.g.cs
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Razor\Views\Subscription\Subscribe.cshtml.g.cs
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Razor\Views\Subscription\ResponseDisplay.cshtml.g.cs
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Member Portal.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Member Portal.MvcApplicationPartsAssemblyInfo.cache

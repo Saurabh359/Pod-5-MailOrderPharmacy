@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
 using Member_Portal.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace Member_Portal.Controllers
 {
@@ -11,21 +15,32 @@ namespace Member_Portal.Controllers
     {
         public IActionResult RefillStatus(int id)
         {
-            RefillOrderDetails refillOrder;
+            if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
+            {
+                // _log4net.Info("Anonymous Log in try to add vehicle but redirected to login page");
+                return RedirectToAction("Login", "User");
+            }
 
-            //send Subscription Id 
+            // call Refill microservice
 
-            //Call Refill Microservice -- LatestRefill Method
-            //Return RefillOrderDetails 
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = httpClient.GetAsync("https://localhost:44329/api/RefillOrders/RefillStatus/"+ id).Result)
+                {
 
-            refillOrder = new RefillOrderDetails { Id = 3,
-                                                   DrugQuantity = 7,
-                                                   RefillDate = Convert.ToDateTime("2020-11-24 12:12:00 PM"),
-                                                   RefillDelivered = true,
-                                                   Payment = true
-                                                 };
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        string message = "Something Went Wrong";
+                        return RedirectToAction("ResponseDisplay", message);
+                    }
 
-            return View(refillOrder);
+                    var data = response.Content.ReadAsStringAsync().Result;
+
+                    var result = JsonConvert.DeserializeObject<RefillOrderDetails>(data);
+
+                    return View(result);
+                }
+            }
         }
 
         public IActionResult RefillDues(int id)
@@ -37,44 +52,69 @@ namespace Member_Portal.Controllers
             //Call Refill Microservice -- DueRefills Method
             //Return Refill Counts
 
-            due = 4;
-            ViewBag.DueCount = due;
 
-            return View();
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = httpClient.GetAsync("https://localhost:44329/api/RefillOrders/RefillDues/" + id).Result)
+                {
+
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        string message = "Something Went Wrong";
+                        return RedirectToAction("ResponseDisplay", message);
+                    }
+
+                    var data = response.Content.ReadAsStringAsync().Result;
+
+                    due = JsonConvert.DeserializeObject<int>(data);
+
+                    ViewBag.DueCount = due;
+
+                    return View();
+                }
+            }
+
         }
 
         public IActionResult AdhocRefill(int id)
         {
-            bool success = true;
-            RefillOrderDetails refillOrder;
-
-            //get Member Id From Session
-
-            //send Policy Id
-            //send Member Id
-            //send Subscription Id
-
-            //Call Refill Microservice -- Adhoc Method
-            //Return RefillOrderDetails
-
-            if (success)
+            if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
             {
-                refillOrder = new RefillOrderDetails
-                {
-                    Id = 5,
-                    DrugQuantity = 7,
-                    RefillDate = Convert.ToDateTime("2020-11-24 12:12:00 PM"),
-                    RefillDelivered = false,
-                    Payment = false
-                };
-
-                return View(refillOrder);
+                // _log4net.Info("Anonymous Log in try to add vehicle but redirected to login page");
+                return RedirectToAction("Login", "User");
             }
 
-            string message = "Drug Not Available";
+            //Call Refill Microservice -- Adhoc Method
 
-            return RedirectToAction("ResponseDisplay","Subscription",message);
+            int PolicyId = 2;
+            int MemberId= (int)HttpContext.Session.GetInt32("MemberId");
 
+            using (var httpClient = new HttpClient())
+            {
+                var content = new StringContent(JsonConvert.SerializeObject("hello"), Encoding.UTF8, "application/json");
+
+                using (var response = httpClient.PostAsync("https://localhost:44329/api/RefillOrders/AdhocRefill/" + PolicyId + "/" + MemberId + "/" + id, content).Result)
+                {
+
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        string message = "Something Went Wrong";
+                        return RedirectToAction("ResponseDisplay", message);
+                    }
+
+                    var data = response.Content.ReadAsStringAsync().Result;
+
+                    var result = JsonConvert.DeserializeObject<RefillOrderDetails>(data);
+
+                    if(result==null)
+                    {
+                        string message = "Adhoc Refill Not Possible";
+                        return RedirectToAction("ResponseDisplay", message);
+                    }
+
+                    return View(result);
+                }
+            }
         }
     }
 }

@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Member_Portal.Models;
+using System.Net.Http;
+using Newtonsoft.Json;
+using System.Text;
+using Microsoft.AspNetCore.Http;
 
 namespace Member_Portal.Controllers
 {
@@ -18,14 +22,35 @@ namespace Member_Portal.Controllers
 
         public IActionResult Login([Bind(include:"Email,Password")]UserDetails user)
         {
-            bool success = true;
+            AuthorizedData authorizedData;
 
             // call Authentication service and recieve token
 
-            if (success)
-                return RedirectToAction("Index","Subscription");
+           
+            using (var httpClient = new HttpClient())
+            {
+                var content = new StringContent(JsonConvert.SerializeObject(user), Encoding.UTF8, "application/json");
 
-            return View();
+                using (var response = httpClient.PostAsync("https://localhost:32770/token", content).Result)
+                {
+
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        return RedirectToAction("Index");
+                    }
+
+                    var data =  response.Content.ReadAsStringAsync().Result;
+
+                    authorizedData = JsonConvert.DeserializeObject<AuthorizedData>(data);
+
+                    HttpContext.Session.SetString("Token", authorizedData.Token);
+                    HttpContext.Session.SetInt32("MemberId", authorizedData.Id);
+                    HttpContext.Session.SetString("MemberLocation", authorizedData.Location);
+
+                    return RedirectToAction("Index", "Subscription");
+                }
+            }
+           
         }
 
         public IActionResult Register()
@@ -48,7 +73,7 @@ namespace Member_Portal.Controllers
         public IActionResult Logout()
         {
             //clear all session data
-
+            HttpContext.Session.Clear();
             return RedirectToAction("Index");
         }
 
