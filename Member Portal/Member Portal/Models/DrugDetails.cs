@@ -13,5 +13,6 @@ namespace Member_Portal.Models
         public DateTime ManufacturedDate { get; set; }
         public DateTime ExpiryDate { get; set; }
         public int Quantity { get; set; }
+        public string Location { get; set; }
     }
 }

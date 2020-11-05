@@ -16,17 +16,27 @@ namespace Member_Portal.Controllers
         private List<SubscriptionDetails> details = new List<SubscriptionDetails>()
         {
             new SubscriptionDetails{Id=1, MemberId=1, MemberLocation="Haldwani", PrescriptionId=2, RefillOccurrence="Weekly", SubscriptionDate=Convert.ToDateTime("2020-11-24 12:12:00 PM"), Status=true },
-            new SubscriptionDetails{Id=2, MemberId=1, MemberLocation="Haldwani", PrescriptionId=3, RefillOccurrence="Weekly", SubscriptionDate=Convert.ToDateTime("2020-11-24 12:12:00 PM"), Status=true },
+            new SubscriptionDetails{Id=2, MemberId=2, MemberLocation="Haldwani", PrescriptionId=3, RefillOccurrence="Weekly", SubscriptionDate=Convert.ToDateTime("2020-11-24 12:12:00 PM"), Status=true },
+            new SubscriptionDetails{Id=3, MemberId=1, MemberLocation="Haldwani", PrescriptionId=2, RefillOccurrence="Weekly", SubscriptionDate=Convert.ToDateTime("2020-11-24 12:12:00 PM"), Status=true },
+            new SubscriptionDetails{Id=4, MemberId=3, MemberLocation="Haldwani", PrescriptionId=3, RefillOccurrence="Monthly", SubscriptionDate=Convert.ToDateTime("2020-11-24 12:12:00 PM"), Status=true },
         };
+
+
+        static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(SubscriptionController));
+        
         public IActionResult Index()
         {
-            // List of all subscriptions
+            _log4net.Info("Display Member Subscriptions");
 
-            return View(details);
+            // List of all subscriptions
+            int MemberId = (int)HttpContext.Session.GetInt32("MemberId");
+            var subs = details.FindAll(x => x.MemberId.Equals(MemberId));
+            return View(subs);
         }
 
         public IActionResult Subscribe()
         {
+            _log4net.Info("Subscribe Page");
             return View();
         }
 
@@ -36,7 +46,7 @@ namespace Member_Portal.Controllers
            
             if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
             {
-               // _log4net.Info("Anonymous Log in try to add vehicle but redirected to login page");
+               _log4net.Info("Anonymous user trying to Subscribe");
                 return RedirectToAction("Login", "User");
             }
        

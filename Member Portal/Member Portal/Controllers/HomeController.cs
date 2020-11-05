@@ -15,8 +15,13 @@ namespace Member_Portal.Controllers
 {
     public class HomeController : Controller
     {
+
+        static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(HomeController));
+
         public IActionResult Index()
         {
+            _log4net.Info("Login Page");
+
             return View();
         }
 
@@ -25,17 +30,18 @@ namespace Member_Portal.Controllers
             AuthorizedData authorizedData;
 
             // call Authentication service and recieve token
+            _log4net.Info("Access Authorization Microservice and get Token");
 
-           
             using (var httpClient = new HttpClient())
             {
                 var content = new StringContent(JsonConvert.SerializeObject(user), Encoding.UTF8, "application/json");
 
                 using (var response = httpClient.PostAsync("https://localhost:32770/token", content).Result)
                 {
-
+                    _log4net.Info("Back to Member Portal from Authorization Microservice");
                     if (!response.IsSuccessStatusCode)
                     {
+                        _log4net.Info("Login failed");
                         return RedirectToAction("Index");
                     }
 
@@ -47,6 +53,7 @@ namespace Member_Portal.Controllers
                     HttpContext.Session.SetInt32("MemberId", authorizedData.Id);
                     HttpContext.Session.SetString("MemberLocation", authorizedData.Location);
 
+                    _log4net.Info("Login Successfull");
                     return RedirectToAction("Index", "Subscription");
                 }
             }
@@ -55,6 +62,7 @@ namespace Member_Portal.Controllers
 
         public IActionResult Register()
         {
+            _log4net.Info("Register Page");
             return View();
         }
 
@@ -63,7 +71,7 @@ namespace Member_Portal.Controllers
         {
             bool success = true;
             // Register user in Member Database
-
+            _log4net.Info("Register to Site ");
             if (success)
                 return RedirectToAction("Index");
 
@@ -72,6 +80,8 @@ namespace Member_Portal.Controllers
 
         public IActionResult Logout()
         {
+            _log4net.Info("Logout -- clear all session data");
+
             //clear all session data
             HttpContext.Session.Clear();
             return RedirectToAction("Index");

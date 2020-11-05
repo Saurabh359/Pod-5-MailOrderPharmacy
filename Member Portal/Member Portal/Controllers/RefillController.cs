@@ -13,15 +13,18 @@ namespace Member_Portal.Controllers
 {
     public class RefillController : Controller
     {
+        private static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(SubscriptionController));
+
         public IActionResult RefillStatus(int id)
         {
             if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
             {
-                // _log4net.Info("Anonymous Log in try to add vehicle but redirected to login page");
+                _log4net.Info("Anonymous user trying to access "+nameof(SubscriptionController));
                 return RedirectToAction("Login", "User");
             }
 
             // call Refill microservice
+            _log4net.Info("Accessing RefillService for latest completed refill");
 
             using (var httpClient = new HttpClient())
             {
@@ -45,13 +48,17 @@ namespace Member_Portal.Controllers
 
         public IActionResult RefillDues(int id)
         {
+            if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
+            {
+                _log4net.Info("Anonymous user trying to access " + nameof(SubscriptionController));
+                return RedirectToAction("Login", "User");
+            }
+
             int due;
 
-            //send Subscription Id
-
             //Call Refill Microservice -- DueRefills Method
-            //Return Refill Counts
 
+            _log4net.Info("Accessing RefillService for due refill count");
 
             using (var httpClient = new HttpClient())
             {
@@ -80,11 +87,13 @@ namespace Member_Portal.Controllers
         {
             if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
             {
-                // _log4net.Info("Anonymous Log in try to add vehicle but redirected to login page");
+                _log4net.Info("Anonymous user trying to access " + nameof(SubscriptionController));
                 return RedirectToAction("Login", "User");
             }
 
             //Call Refill Microservice -- Adhoc Method
+            _log4net.Info("Accessing RefillService for Adhoc refill");
+
 
             int PolicyId = 2;
             int MemberId= (int)HttpContext.Session.GetInt32("MemberId");

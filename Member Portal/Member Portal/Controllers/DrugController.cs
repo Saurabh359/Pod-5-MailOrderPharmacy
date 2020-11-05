@@ -12,20 +12,23 @@ namespace Member_Portal.Controllers
 {
     public class DrugController : Controller
     {
+        private static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(SubscriptionController));
+
         public IActionResult Index()
         {
             return View();
         }
-
+        
         public IActionResult Drug(string name)
         {
             if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
             {
-                // _log4net.Info("Anonymous Log in try to add vehicle but redirected to login page");
+                _log4net.Info("Anonymous user trying to access "+nameof(DrugController));
                 return RedirectToAction("Login", "User");
             }
 
             // call Drug microservice
+            _log4net.Info("Accessing DrugService for Drug Details ");
 
             using (var httpClient = new HttpClient())
             {
@@ -34,14 +37,17 @@ namespace Member_Portal.Controllers
 
                     if (!response.IsSuccessStatusCode)
                     {
+                        _log4net.Error("Response failure ");
+
                         string message = "Something Went Wrong";
                         return RedirectToAction("ResponseDisplay", message);
                     }
 
                     var data = response.Content.ReadAsStringAsync().Result;
 
-                    var result = JsonConvert.DeserializeObject<DrugDetails>(data);
+                    var result = JsonConvert.DeserializeObject<List<DrugDetails>>(data);
 
+                    _log4net.Info("Successfull result display ");
                     return View(result);
                 }
             }
