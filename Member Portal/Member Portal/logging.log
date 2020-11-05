@@ -23,3 +23,19 @@ INFO  10:01:15 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Memb
 INFO  10:01:35 Login Page
 INFO  10:01:54 Register Page
 INFO  10:02:07 Login Page
+INFO  11:08:18 Now listening on: https://localhost:5001
+INFO  11:08:18 Now listening on: https://localhost:5001
+INFO  11:08:18 Now listening on: http://localhost:5000
+INFO  11:08:18 Now listening on: http://localhost:5000
+INFO  11:08:18 Application started. Press Ctrl+C to shut down.
+INFO  11:08:18 Application started. Press Ctrl+C to shut down.
+INFO  11:08:18 Hosting environment: Development
+INFO  11:08:18 Hosting environment: Development
+INFO  11:08:18 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  11:08:18 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  11:08:32 Login Page
+INFO  11:08:53 Access Authorization Microservice and get Token
+INFO  11:10:06 Back to Member Portal from Authorization Microservice
+INFO  11:10:24 Login Successfull
+INFO  11:10:24 Display Member Subscriptions
+INFO  11:10:53 Accessing DrugService for Drug Details 

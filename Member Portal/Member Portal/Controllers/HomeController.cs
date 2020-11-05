@@ -36,7 +36,7 @@ namespace Member_Portal.Controllers
             {
                 var content = new StringContent(JsonConvert.SerializeObject(user), Encoding.UTF8, "application/json");
 
-                using (var response = httpClient.PostAsync("https://localhost:32770/token", content).Result)
+                using (var response = httpClient.PostAsync("https://localhost:32768/token", content).Result)
                 {
                     _log4net.Info("Back to Member Portal from Authorization Microservice");
                     if (!response.IsSuccessStatusCode)

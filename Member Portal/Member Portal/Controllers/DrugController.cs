@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Member_Portal.Models;
 using Microsoft.AspNetCore.Http;
@@ -32,7 +33,11 @@ namespace Member_Portal.Controllers
 
             using (var httpClient = new HttpClient())
             {
-                using (var response = httpClient.GetAsync("https://localhost:44329/api/DrugsApi/searchDrugsByName/" + name).Result)
+                var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:44329/api/DrugsApi/searchDrugsByName/" + name);
+
+                request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("Token"));
+
+                using (var response = httpClient.SendAsync(request).Result)
                 {
 
                     if (!response.IsSuccessStatusCode)

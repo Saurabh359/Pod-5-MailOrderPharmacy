@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using Member_Portal.Models;
@@ -28,7 +29,11 @@ namespace Member_Portal.Controllers
 
             using (var httpClient = new HttpClient())
             {
-                using (var response = httpClient.GetAsync("https://localhost:44329/api/RefillOrders/RefillStatus/"+ id).Result)
+                var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:44329/api/RefillOrders/RefillStatus/" + id);
+
+                request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("Token"));
+
+                using (var response = httpClient.SendAsync(request).Result)
                 {
 
                     if (!response.IsSuccessStatusCode)
@@ -62,7 +67,11 @@ namespace Member_Portal.Controllers
 
             using (var httpClient = new HttpClient())
             {
-                using (var response = httpClient.GetAsync("https://localhost:44329/api/RefillOrders/RefillDues/" + id).Result)
+                var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:44329/api/RefillOrders/RefillDues/" + id);
+
+                request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("Token"));
+
+                using (var response = httpClient.SendAsync(request).Result)
                 {
 
                     if (!response.IsSuccessStatusCode)
@@ -102,7 +111,14 @@ namespace Member_Portal.Controllers
             {
                 var content = new StringContent(JsonConvert.SerializeObject("hello"), Encoding.UTF8, "application/json");
 
-                using (var response = httpClient.PostAsync("https://localhost:44329/api/RefillOrders/AdhocRefill/" + PolicyId + "/" + MemberId + "/" + id, content).Result)
+                var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:44329/api/RefillOrders/AdhocRefill/" + PolicyId + "/" + MemberId + "/" + id)
+                {
+                    Content = content
+                };
+
+                request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("Token"));
+
+                using (var response = httpClient.SendAsync(request).Result)
                 {
 
                     if (!response.IsSuccessStatusCode)

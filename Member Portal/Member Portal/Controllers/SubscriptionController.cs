@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using Member_Portal.Models;
@@ -20,7 +21,6 @@ namespace Member_Portal.Controllers
             new SubscriptionDetails{Id=3, MemberId=1, MemberLocation="Haldwani", PrescriptionId=2, RefillOccurrence="Weekly", SubscriptionDate=Convert.ToDateTime("2020-11-24 12:12:00 PM"), Status=true },
             new SubscriptionDetails{Id=4, MemberId=3, MemberLocation="Haldwani", PrescriptionId=3, RefillOccurrence="Monthly", SubscriptionDate=Convert.ToDateTime("2020-11-24 12:12:00 PM"), Status=true },
         };
-
 
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(SubscriptionController));
         
@@ -58,11 +58,20 @@ namespace Member_Portal.Controllers
 
             // Call Subscription Service -- Subscribe method with prescription details and policy details and Member Id
 
+                
+            
             using (var httpClient = new HttpClient())
             {
                 var content = new StringContent(JsonConvert.SerializeObject(prescription), Encoding.UTF8, "application/json");
+                
+                var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:44329/api/Subscribe/PostSubscribe/" + policy + "/" + id)
+                {
+                    Content = content
+                };
 
-                using (var response = httpClient.PostAsync("https://localhost:44329/api/Subscribe/PostSubscribe" + policy+"/"+ id, content).Result)
+                request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("Token"));
+
+                using (var response = httpClient.SendAsync(request).Result)
                 {
 
                     if (!response.IsSuccessStatusCode)
@@ -105,7 +114,14 @@ namespace Member_Portal.Controllers
             {
                 var content = new StringContent(JsonConvert.SerializeObject("hello"), Encoding.UTF8, "application/json");
 
-                using (var response = httpClient.PostAsync("https://localhost:44329/api/Subscribe/PostUnSubscribe/" + MemberId + "/" + id, content).Result)
+                var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:44329/api/Subscribe/PostUnSubscribe/" + MemberId + "/" + id)
+                {
+                    Content = content
+                };
+
+                request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("Token"));
+
+                using (var response = httpClient.SendAsync(request).Result)
                 {
 
                     if (!response.IsSuccessStatusCode)

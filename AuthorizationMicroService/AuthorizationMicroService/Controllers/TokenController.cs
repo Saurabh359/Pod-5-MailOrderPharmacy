@@ -17,6 +17,7 @@ namespace AuthorizationMicroService.Controllers
     [Route("[controller]")]
     public class TokenController : ControllerBase
     {
+        static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(TokenController));
 
         private readonly List<MemberDetails> members = new List<MemberDetails>()
         {
@@ -34,7 +35,7 @@ namespace AuthorizationMicroService.Controllers
         [HttpPost]
         public IActionResult Post([FromBody]MemberDetails userData)
         {
-            // _log4net.Info("Authentication initiated");
+            _log4net.Info("Authentication initiated");
 
             if (userData != null && userData.Email != null && userData.Password != null)
             {
@@ -42,9 +43,9 @@ namespace AuthorizationMicroService.Controllers
 
                 if (user != null)
                 {
-                    // _log4net.Info("login data is correct");
+                    _log4net.Info("login data is correct");
 
-                    //_log4net.Info("Token generation initiated");
+                    _log4net.Info("Token generation initiated");
 
                     var tokenHandler = new JwtSecurityTokenHandler();
                     var tokenkey = Encoding.ASCII.GetBytes(configuration["Jwt:Key"]);
@@ -65,7 +66,7 @@ namespace AuthorizationMicroService.Controllers
                     var tokencreate = tokenHandler.CreateToken(tokenDescriptor);
                     var token = tokenHandler.WriteToken(tokencreate);
 
-                    // _log4net.Info("Token Generated Successfuly");
+                    _log4net.Info("Token Generated Successfuly");
 
                     UserData data = new UserData
                     {
@@ -78,13 +79,15 @@ namespace AuthorizationMicroService.Controllers
                 }
                 else
                 {
-                    //_log4net.Info("Bad Request !! Invalid Login Credentials");
+                    _log4net.Info("Bad Request !! Invalid Login Credentials");
+
                     return BadRequest("Invalid credentials");
                 }
             }
             else
             {
-                // _log4net.Info("Bad request !!!  user data is null");
+                _log4net.Info("Bad request !!!  user data is null");
+
                 return BadRequest();
             }
         }
