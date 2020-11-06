@@ -31,7 +31,7 @@ namespace Member_Portal.Controllers
             AuthorizedData authorizedData;
 
             // call Authentication service and recieve token
-            _log4net.Info("Access Authorization Microservice and get Token");
+            _log4net.Info("Access Authorization Microservice and get Token for email- "+user.Email+" and password- "+user.Password);
 
             using (var httpClient = new HttpClient())
             {
@@ -43,7 +43,7 @@ namespace Member_Portal.Controllers
                     
                     if (!response.IsSuccessStatusCode)
                     {
-                        _log4net.Error("Login failed");
+                        _log4net.Error("Login failed "+ response.StatusCode);
                         return RedirectToAction("Index");
                     }
 
@@ -55,7 +55,7 @@ namespace Member_Portal.Controllers
                     HttpContext.Session.SetInt32("MemberId", authorizedData.Id);
                     HttpContext.Session.SetString("MemberLocation", authorizedData.Location);
 
-                    _log4net.Info("Login Successfull");
+                    _log4net.Info("Login Successfull for email- " + user.Email + " and password- " + user.Password);
                     return RedirectToAction("Index", "Subscription");
                 }
             }

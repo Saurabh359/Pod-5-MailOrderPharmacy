@@ -30,7 +30,7 @@ namespace Member_Portal.Controllers
             }
 
             // call Drug microservice
-            _log4net.Debug("Accessing DrugService for Drug Details ");
+            _log4net.Debug("Accessing DrugService for Details of "+name+" Drug");
 
             using (var httpClient = new HttpClient())
             {
@@ -45,13 +45,19 @@ namespace Member_Portal.Controllers
                     {
                         _log4net.Error("Response failure ");
 
-                        string message = "Something Went Wrong";
+                        string message = "Something Went wrong "+response.StatusCode;
                         return RedirectToAction("ResponseDisplay", "Subscription", new { message });
                     }
 
                     var data = response.Content.ReadAsStringAsync().Result;
 
                     var result = JsonConvert.DeserializeObject<List<DrugDetails>>(data);
+
+                    if (result == null)
+                    {
+                        string message = name+"Drug Not Available";
+                        return RedirectToAction("ResponseDisplay", "Subscription", new { message });
+                    }
 
                     _log4net.Info("Successfull result display ");
                     return View(result);

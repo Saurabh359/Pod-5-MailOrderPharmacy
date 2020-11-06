@@ -25,7 +25,7 @@ namespace AuthorizationMicroService
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>()
-                     .ConfigureLogging((hostingContext, logging) =>
+                    .ConfigureLogging((hostingContext, logging) =>
                      {
                          logging.AddLog4Net();
 

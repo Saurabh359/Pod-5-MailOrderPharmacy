@@ -14,7 +14,7 @@ namespace Member_Portal.Controllers
 {
     public class SubscriptionController : Controller
     {
-        private List<SubscriptionDetails> details = new List<SubscriptionDetails>()
+        static List<SubscriptionDetails> details = new List<SubscriptionDetails>()
         {
             new SubscriptionDetails{Id=1, MemberId=1, MemberLocation="Haldwani", PrescriptionId=2, RefillOccurrence="Weekly", SubscriptionDate=Convert.ToDateTime("2020-11-24 12:12:00 PM"), Status=true },
             new SubscriptionDetails{Id=2, MemberId=2, MemberLocation="Haldwani", PrescriptionId=3, RefillOccurrence="Weekly", SubscriptionDate=Convert.ToDateTime("2020-11-24 12:12:00 PM"), Status=true },
@@ -88,7 +88,7 @@ namespace Member_Portal.Controllers
                     if (!response.IsSuccessStatusCode)
                     {
                         _log4net.Error("False Response");
-                        string message = "Something Went Wrong";
+                        string message = "Something Went Wrong "+ response.StatusCode;
                         return RedirectToAction("ResponseDisplay","Subscription", new { message });
                     }
 
@@ -102,6 +102,7 @@ namespace Member_Portal.Controllers
                         return RedirectToAction("ResponseDisplay", "Subscription",new { message } );
                     }
 
+                    details.Add(result);
                     return RedirectToAction("Index");
                 }
             }
@@ -138,7 +139,7 @@ namespace Member_Portal.Controllers
 
                     if (!response.IsSuccessStatusCode)
                     {
-                        string message = "Something Went Wrong";
+                        string message = "Something Went Wrong "+ response.StatusCode;
                         return RedirectToAction("ResponseDisplay","Subscription", new { message });
                     }
 
@@ -152,6 +153,8 @@ namespace Member_Portal.Controllers
                         return RedirectToAction("ResponseDisplay", "Subscription", new { message });
                     }
 
+                    var ob = details.Find(x=>x.Id==id);
+                    details.Remove(ob);
                     return RedirectToAction("Index");
                 }
             }

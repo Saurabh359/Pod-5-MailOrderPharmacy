@@ -25,7 +25,7 @@ namespace Member_Portal.Controllers
             }
 
             // call Refill microservice
-            _log4net.Debug("Accessing RefillService for latest completed refill");
+            _log4net.Debug("Accessing RefillService for latest completed refill of Subscription Id - "+ id);
 
             using (var httpClient = new HttpClient())
             {
@@ -38,7 +38,7 @@ namespace Member_Portal.Controllers
 
                     if (!response.IsSuccessStatusCode)
                     {
-                        string message = "Something Went Wrong";
+                        string message = "Something Went Wrong" + response.StatusCode;
                         return RedirectToAction("ResponseDisplay", "Subscription", new { message });
                     }
 
@@ -63,7 +63,7 @@ namespace Member_Portal.Controllers
 
             //Call Refill Microservice -- DueRefills Method
 
-            _log4net.Debug("Accessing RefillService for due refill count");
+            _log4net.Debug("Accessing RefillService for due refill count of Subscription Id - " + id);
 
             using (var httpClient = new HttpClient())
             {
@@ -76,7 +76,7 @@ namespace Member_Portal.Controllers
 
                     if (!response.IsSuccessStatusCode)
                     {
-                        string message = "Something Went Wrong";
+                        string message = "Something Went Wrong" + response.StatusCode;
                         return RedirectToAction("ResponseDisplay", "Subscription", new { message });
                     }
 
@@ -101,7 +101,7 @@ namespace Member_Portal.Controllers
             }
 
             //Call Refill Microservice -- Adhoc Method
-            _log4net.Debug("Accessing RefillService for Adhoc refill");
+            _log4net.Debug("Accessing RefillService for Adhoc refill for Subscription Id - " + id);
 
 
             int PolicyId = 2;
@@ -123,7 +123,7 @@ namespace Member_Portal.Controllers
 
                     if (!response.IsSuccessStatusCode)
                     {
-                        string message = "Something Went Wrong";
+                        string message = "Something Went Wrong " + response.StatusCode;
                         return RedirectToAction("ResponseDisplay", "Subscription", new { message });
                     }
 

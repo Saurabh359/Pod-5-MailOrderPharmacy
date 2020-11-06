@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AuthorizationMicroService.Models;
+using AuthorizationMicroService.Providers;
+using AuthorizationMicroService.Repository;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -33,6 +36,8 @@ namespace AuthorizationMicroService
 
             var Key = Configuration.GetConnectionString("DatabaseKey");
 
+            services.AddScoped<ITokenProvider<MemberDetails>, TokenProvider>();
+            services.AddScoped<ITokenRepository<MemberDetails>, TokenRepository>();
 
             services.AddSwaggerGen(c =>
             {
