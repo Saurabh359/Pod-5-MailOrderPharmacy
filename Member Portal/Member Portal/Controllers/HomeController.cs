@@ -10,13 +10,20 @@ using System.Net.Http;
 using Newtonsoft.Json;
 using System.Text;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 
 namespace Member_Portal.Controllers
 {
     public class HomeController : Controller
     {
-
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(HomeController));
+
+        private IConfiguration configuration;
+
+        public HomeController(IConfiguration configuration)
+        {
+            this.configuration = configuration;
+        }
 
         public IActionResult Index()
         {
@@ -37,7 +44,9 @@ namespace Member_Portal.Controllers
             {
                 var content = new StringContent(JsonConvert.SerializeObject(user), Encoding.UTF8, "application/json");
 
-                using (var response = httpClient.PostAsync("https://localhost:32768/token", content).Result)
+                string url = "" + configuration["ServiceUrls:Authorization"];
+
+                using (var response = httpClient.PostAsync(url, content).Result)
                 {
                     _log4net.Debug("Back to Member Portal from Authorization Microservice");
                     

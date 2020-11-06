@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Member_Portal.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 
 namespace Member_Portal.Controllers
@@ -23,7 +24,14 @@ namespace Member_Portal.Controllers
         };
 
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(SubscriptionController));
-        
+
+        private IConfiguration configuration;
+
+        public SubscriptionController(IConfiguration configuration)
+        {
+            this.configuration = configuration;
+        }
+
         public IActionResult Index()
         {
             if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
@@ -74,8 +82,10 @@ namespace Member_Portal.Controllers
             using (var httpClient = new HttpClient())
             {
                 var content = new StringContent(JsonConvert.SerializeObject(prescription), Encoding.UTF8, "application/json");
-                
-                var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:44345/api/Subscribe/PostSubscribe/" + policy + "/" + id)
+
+                string url = "" + configuration["ServiceUrls:Subscription"] + "PostSubscribe";
+
+                var request = new HttpRequestMessage(HttpMethod.Post, url+"/" + policy + "/" + id)
                 {
                     Content = content
                 };
@@ -127,7 +137,9 @@ namespace Member_Portal.Controllers
             {
                 var content = new StringContent(JsonConvert.SerializeObject("hello"), Encoding.UTF8, "application/json");
 
-                var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:44345/api/Subscribe/PostUnSubscribe/" + MemberId + "/" + id)
+                string url = "" + configuration["ServiceUrls:Subscription"] + "PostUnSubscribe";
+
+                var request = new HttpRequestMessage(HttpMethod.Post, url+"/" + MemberId + "/" + id)
                 {
                     Content = content
                 };

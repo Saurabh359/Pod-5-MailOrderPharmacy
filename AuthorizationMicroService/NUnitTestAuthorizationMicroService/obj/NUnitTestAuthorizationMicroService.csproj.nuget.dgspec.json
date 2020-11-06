@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\AuthorizationMicroService\\NUnitTestingOfAuthorizationMicroService\\NUnitTestingOfAuthorizationMicroService.csproj": {}
+    "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\AuthorizationMicroService\\NUnitTestAuthorizationMicroService\\NUnitTestAuthorizationMicroService.csproj": {}
   },
   "projects": {
     "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\AuthorizationMicroService\\AuthorizationMicroService\\AuthorizationMicroService.csproj": {
@@ -100,14 +100,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\AuthorizationMicroService\\NUnitTestingOfAuthorizationMicroService\\NUnitTestingOfAuthorizationMicroService.csproj": {
+    "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\AuthorizationMicroService\\NUnitTestAuthorizationMicroService\\NUnitTestAuthorizationMicroService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\AuthorizationMicroService\\NUnitTestingOfAuthorizationMicroService\\NUnitTestingOfAuthorizationMicroService.csproj",
-        "projectName": "NUnitTestingOfAuthorizationMicroService",
-        "projectPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\AuthorizationMicroService\\NUnitTestingOfAuthorizationMicroService\\NUnitTestingOfAuthorizationMicroService.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\AuthorizationMicroService\\NUnitTestAuthorizationMicroService\\NUnitTestAuthorizationMicroService.csproj",
+        "projectName": "NUnitTestAuthorizationMicroService",
+        "projectPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\AuthorizationMicroService\\NUnitTestAuthorizationMicroService\\NUnitTestAuthorizationMicroService.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\AuthorizationMicroService\\NUnitTestingOfAuthorizationMicroService\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\AuthorizationMicroService\\NUnitTestAuthorizationMicroService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -141,9 +141,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.4.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.7, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",

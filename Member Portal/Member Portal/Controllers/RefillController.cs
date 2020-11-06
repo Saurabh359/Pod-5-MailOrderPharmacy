@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Member_Portal.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 
 namespace Member_Portal.Controllers
@@ -15,6 +16,13 @@ namespace Member_Portal.Controllers
     public class RefillController : Controller
     {
         private static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(SubscriptionController));
+
+        private IConfiguration configuration;
+
+        public RefillController(IConfiguration configuration)
+        {
+            this.configuration = configuration;
+        } 
 
         public IActionResult RefillStatus(int id)
         {
@@ -29,7 +37,9 @@ namespace Member_Portal.Controllers
 
             using (var httpClient = new HttpClient())
             {
-                var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:44329/api/RefillOrders/RefillStatus/" + id);
+                string url = "" + configuration["ServiceUrls:Refill"]+ "RefillStatus";
+
+                var request = new HttpRequestMessage(HttpMethod.Get, url+"/" + id);
 
                 request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("Token"));
 
@@ -67,7 +77,9 @@ namespace Member_Portal.Controllers
 
             using (var httpClient = new HttpClient())
             {
-                var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:44329/api/RefillOrders/RefillDues/" + id);
+                string url = "" + configuration["ServiceUrls:Refill"]+ "RefillDues";
+
+                var request = new HttpRequestMessage(HttpMethod.Get, url+"/" + id);
 
                 request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("Token"));
 
@@ -111,7 +123,9 @@ namespace Member_Portal.Controllers
             {
                 var content = new StringContent(JsonConvert.SerializeObject("hello"), Encoding.UTF8, "application/json");
 
-                var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:44329/api/RefillOrders/AdhocRefill/" + PolicyId + "/" + MemberId + "/" + id)
+                string url = "" + configuration["ServiceUrls:Refill"] + "AdhocRefill";
+
+                var request = new HttpRequestMessage(HttpMethod.Post, url+"/" + PolicyId + "/" + MemberId + "/" + id)
                 {
                     Content = content
                 };

@@ -19,23 +19,21 @@ namespace AuthorizationMicroService.Controllers
     public class TokenController : ControllerBase
     {
         private static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(TokenController));
-        public IConfiguration configuration;
         private ITokenProvider<MemberDetails> tokenProvider;
 
-        public TokenController(IConfiguration _configuration, ITokenProvider<MemberDetails> _tokenProvider)
+        public TokenController(ITokenProvider<MemberDetails> _tokenProvider)
         {
-            configuration = _configuration;
             tokenProvider = _tokenProvider; 
         }
         [HttpPost]
         public IActionResult Post([FromBody]MemberDetails userData)
         {
 
-            if (userData == null || userData.Email == null || userData.Password == null)
+            if (userData == null || String.IsNullOrEmpty(userData.Email) || String.IsNullOrEmpty(userData.Password) )
             {
                 _log4net.Warn("Bad request !!!  user data is null");
 
-                return BadRequest();
+                return BadRequest("Data is Null or Empty");
             }
 
             var res = tokenProvider.GetToken(userData);

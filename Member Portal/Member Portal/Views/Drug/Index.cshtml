@@ -20,3 +20,8 @@
 <div>
     <a class="btn btn-primary" asp-action="Index" asp-controller="Subscription">Go Back</a>
 </div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -42,7 +42,7 @@ namespace AuthorizationMicroService
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1.0", new OpenApiInfo { Title = "Authorization MicroService", Version = "1.0" });
-
+                /*
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     Name = "Authorization",
@@ -67,9 +67,10 @@ namespace AuthorizationMicroService
                          new string[] {}
                   }
                 });
+                */
             });
 
-
+            /*
             services.AddAuthentication(x =>
             {
                 x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -89,6 +90,7 @@ namespace AuthorizationMicroService
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Configuration["Jwt:Key"]))
                 };
             });
+            */
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

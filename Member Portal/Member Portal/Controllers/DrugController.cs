@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Member_Portal.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 
 namespace Member_Portal.Controllers
@@ -14,6 +15,13 @@ namespace Member_Portal.Controllers
     public class DrugController : Controller
     {
         private static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(SubscriptionController));
+
+        private IConfiguration configuration;
+
+        public DrugController(IConfiguration configuration)
+        {
+            this.configuration = configuration;
+        }
 
         public IActionResult Index()
         {
@@ -34,7 +42,8 @@ namespace Member_Portal.Controllers
 
             using (var httpClient = new HttpClient())
             {
-                var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:44393/api/DrugsApi/searchDrugsByName/" + name);
+                string url = "" + configuration["ServiceUrls:Drug"]+ "searchDrugsByName/";
+                var request = new HttpRequestMessage(HttpMethod.Get, url + name);
 
                 request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("Token"));
 

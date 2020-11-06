@@ -23,7 +23,7 @@ namespace AuthorizationMicroService.Repository
 
         public UserData GetToken(MemberDetails user)
         {
-            _log4net.Debug("Token generation initiated");
+            _log4net.Debug("Token generation initiated for User- "+user.Name);
 
             try
             {
@@ -55,7 +55,7 @@ namespace AuthorizationMicroService.Repository
                     Token = token
                 };
 
-                _log4net.Debug("Returning token with user data");
+                _log4net.Debug("Returning token with user data containing Id- "+data.Id+" and Location- "+data.Location+" and Token- "+data.Token);
                 return data;
             }
             catch(Exception e)

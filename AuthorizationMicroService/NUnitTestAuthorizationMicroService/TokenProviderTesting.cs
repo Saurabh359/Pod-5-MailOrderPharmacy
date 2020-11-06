@@ -1,31 +1,26 @@
-using AuthorizationMicroService.Controllers;
 using AuthorizationMicroService.Models;
 using AuthorizationMicroService.Providers;
 using AuthorizationMicroService.Repository;
-using Microsoft.Extensions.Configuration;
 using Moq;
 using NUnit.Framework;
-using System;
 using System.Collections.Generic;
 
-namespace NUnitTestingOfAuthorizationMicroService
+namespace NUnitTestAuthorizationMicroService
 {
-    public class Tests
+    public class TokenProviderTesting
     {
         private ITokenProvider<MemberDetails> provider;
-        private Mock<List<MemberDetails>> MockMember;
         private Mock<ITokenRepository<MemberDetails>> repository;
-
+        
         [SetUp]
         public void Setup()
         {
-            MockMember = new Mock<List<MemberDetails>>();
             repository = new Mock<ITokenRepository<MemberDetails>>();
             provider = new TokenProvider(repository.Object);
         }
 
         [Test]
-        public void Test_GetToken_ReturnsNullOnFalseData()
+        public void GetToken_ReturnsNull_OnFalseData()
         {
            //Arrange
             MemberDetails details = new MemberDetails()
@@ -37,8 +32,8 @@ namespace NUnitTestingOfAuthorizationMicroService
                 Location = ""
             };
 
-            //MemberDetails response = null;
-            //MockMember.Setup(x => x.Find(x => x.Email.Equals(details.Email) && x.Password.Equals(details.Password))).Returns(response);
+            UserData userData = null;
+            repository.Setup(x => x.GetToken(details)).Returns(userData);
 
             //Act
             var result = provider.GetToken(details);
@@ -49,10 +44,10 @@ namespace NUnitTestingOfAuthorizationMicroService
         }
 
         [Test]
-        public void Test_GetToken_ReturnUserDataObjectOnTrueData()
+        public void GetToken_ReturnUserDataObject_OnTrueData()
         {
             //Arrange
-            MemberDetails details = new MemberDetails()
+            MemberDetails details = new MemberDetails
             {
                 Id = 0,
                 Name = "",
@@ -61,11 +56,13 @@ namespace NUnitTestingOfAuthorizationMicroService
                 Location = ""
             };
 
-            MemberDetails members = new MemberDetails{ Id = 1, Name = "Saurabh", Email = "sm123@gmail.com", Password = "hello", Location = "Haldwani" };
-            //MockMember.Setup(x => x.Find(x => x.Email.Equals(details.Email) && x.Password.Equals(details.Password))).Returns(members);
-
-            UserData user = new UserData{ Id = 1, Location = "Haldwani", Token = "TrileToken" };
-            repository.Setup(x => x.GetToken(members)).Returns(user);
+            UserData user = new UserData
+            { 
+                Id = 1,
+                Location = "Haldwani",
+                Token = "TrileToken"
+            };
+            repository.Setup(x => x.GetToken(It.IsAny<MemberDetails>())).Returns(user);
 
             //Act
             var result = provider.GetToken(details);

@@ -12,12 +12,15 @@ namespace Member_Portal.Models
         [Required]
         public int InsurancePolicyNumber { get; set; }
         [Required]
+        [StringLength(255)]
         public string InsuranceProvider { get; set; }
         [Required]
         public DateTime PrescriptionDate { get; set; }
         [Required]
+        [StringLength(255)]
         public string DrugName { get; set; }
         [Required]
+        [StringLength(255)]
         public string DoctorName { get; set; }
         [Required]
         public string RefillOccurrence { get; set; }

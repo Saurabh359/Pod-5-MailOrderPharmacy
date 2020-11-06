@@ -25,16 +25,17 @@ namespace AuthorizationMicroService.Providers
         }
         public UserData GetToken(MemberDetails entity)
         {
-            _log4net.Debug("Validate Login Details");
+            _log4net.Debug("Validate Login Details Email- "+entity.Email+" and Password- "+entity.Password);
             try
             {
-                var res = members.Find(x => x.Email.Equals(entity.Email) && x.Password.Equals(entity.Password));
+              var res = members.Find(x => x.Email.Equals(entity.Email) && x.Password.Equals(entity.Password));
 
                 if (res == null)
                     return null;
 
-                _log4net.Info("login data is correct");
-                return tokenRepository.GetToken(res);
+                _log4net.Info("login data is correct for Email- " + entity.Email + " and Password- " + entity.Password);
+                var s=tokenRepository.GetToken(res);
+                return s;
             }
             catch (Exception e)
             {
