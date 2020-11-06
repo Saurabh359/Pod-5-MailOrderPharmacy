@@ -39,3 +39,216 @@ INFO  11:10:06 Back to Member Portal from Authorization Microservice
 INFO  11:10:24 Login Successfull
 INFO  11:10:24 Display Member Subscriptions
 INFO  11:10:53 Accessing DrugService for Drug Details 
+INFO  10:44:29 Now listening on: https://localhost:5001
+INFO  10:44:31 Now listening on: https://localhost:5001
+INFO  10:44:31 Now listening on: http://localhost:5000
+INFO  10:44:31 Now listening on: http://localhost:5000
+INFO  10:44:31 Application started. Press Ctrl+C to shut down.
+INFO  10:44:31 Application started. Press Ctrl+C to shut down.
+INFO  10:44:32 Hosting environment: Development
+INFO  10:44:32 Hosting environment: Development
+INFO  10:44:32 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  10:44:32 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  10:45:16 Login Page
+INFO  10:46:34 Access Authorization Microservice and get Token
+INFO  10:47:04 Back to Member Portal from Authorization Microservice
+INFO  10:47:06 Login Successfull
+INFO  10:47:08 Display Member Subscriptions
+INFO  10:51:14 Accessing DrugService for Drug Details 
+INFO  10:51:35 Successfull result display 
+INFO  10:53:04 Display Member Subscriptions
+INFO  10:53:21 Subscribe Page
+INFO  10:59:08 Display Member Subscriptions
+INFO  11:00:54 Subscribe Page
+INFO  11:01:47 Display Member Subscriptions
+INFO  11:19:36 Subscribe Page
+INFO  11:26:55 Now listening on: https://localhost:5001
+INFO  11:26:55 Now listening on: https://localhost:5001
+INFO  11:26:55 Now listening on: http://localhost:5000
+INFO  11:26:55 Now listening on: http://localhost:5000
+INFO  11:26:55 Application started. Press Ctrl+C to shut down.
+INFO  11:26:55 Application started. Press Ctrl+C to shut down.
+INFO  11:26:55 Hosting environment: Development
+INFO  11:26:55 Hosting environment: Development
+INFO  11:26:55 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  11:26:55 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  11:27:10 Login Page
+INFO  11:27:31 Access Authorization Microservice and get Token
+INFO  11:28:16 Back to Member Portal from Authorization Microservice
+INFO  11:28:16 Login Successfull
+INFO  11:28:17 Display Member Subscriptions
+INFO  11:28:47 Subscribe Page
+INFO  11:29:32 Display Member Subscriptions
+INFO  11:34:03 Now listening on: https://localhost:5001
+INFO  11:34:03 Now listening on: https://localhost:5001
+INFO  11:34:03 Now listening on: http://localhost:5000
+INFO  11:34:03 Now listening on: http://localhost:5000
+INFO  11:34:03 Application started. Press Ctrl+C to shut down.
+INFO  11:34:03 Application started. Press Ctrl+C to shut down.
+INFO  11:34:03 Hosting environment: Development
+INFO  11:34:03 Hosting environment: Development
+INFO  11:34:03 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  11:34:03 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  11:34:10 Login Page
+INFO  11:34:49 Display Member Subscriptions
+ERROR 11:35:06 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Nullable object must have a value.
+   at System.Nullable`1.get_Value()
+   at Member_Portal.Controllers.SubscriptionController.Index() in C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\Controllers\SubscriptionController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 11:35:06 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Nullable object must have a value.
+   at System.Nullable`1.get_Value()
+   at Member_Portal.Controllers.SubscriptionController.Index() in C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\Controllers\SubscriptionController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:35:10 Login Page
+INFO  11:35:18 Subscribe Page
+INFO  11:35:24 Anonymous user trying to Subscribe
+INFO  11:35:24 Login Page
+INFO  11:35:40 Subscribe Page
+INFO  11:36:10 Anonymous user trying to Subscribe
+INFO  11:36:10 Login Page
+INFO  11:38:04 Now listening on: https://localhost:5001
+INFO  11:38:04 Now listening on: https://localhost:5001
+INFO  11:38:04 Now listening on: http://localhost:5000
+INFO  11:38:04 Now listening on: http://localhost:5000
+INFO  11:38:04 Application started. Press Ctrl+C to shut down.
+INFO  11:38:04 Application started. Press Ctrl+C to shut down.
+INFO  11:38:04 Hosting environment: Development
+INFO  11:38:04 Hosting environment: Development
+INFO  11:38:04 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  11:38:04 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  11:38:12 Login Page
+INFO  11:38:43 Subscribe Page
+INFO  11:42:51 Now listening on: https://localhost:5001
+INFO  11:42:52 Now listening on: https://localhost:5001
+INFO  11:42:52 Now listening on: http://localhost:5000
+INFO  11:42:52 Now listening on: http://localhost:5000
+INFO  11:42:52 Application started. Press Ctrl+C to shut down.
+INFO  11:42:52 Application started. Press Ctrl+C to shut down.
+INFO  11:42:52 Hosting environment: Development
+INFO  11:42:52 Hosting environment: Development
+INFO  11:42:52 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  11:42:52 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  11:43:00 Login Page
+INFO  11:43:08 Subscribe Page
+INFO  11:47:51 Now listening on: https://localhost:5001
+INFO  11:47:51 Now listening on: https://localhost:5001
+INFO  11:47:51 Now listening on: http://localhost:5000
+INFO  11:47:51 Now listening on: http://localhost:5000
+INFO  11:47:51 Application started. Press Ctrl+C to shut down.
+INFO  11:47:51 Application started. Press Ctrl+C to shut down.
+INFO  11:47:51 Hosting environment: Development
+INFO  11:47:51 Hosting environment: Development
+INFO  11:47:51 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  11:47:51 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  11:47:58 Login Page
+INFO  11:48:09 Subscribe Page
+INFO  11:48:35 Display Member Subscriptions
+INFO  11:57:45 Now listening on: https://localhost:5001
+INFO  11:57:46 Now listening on: https://localhost:5001
+INFO  11:57:46 Now listening on: http://localhost:5000
+INFO  11:57:46 Now listening on: http://localhost:5000
+INFO  11:57:46 Application started. Press Ctrl+C to shut down.
+INFO  11:57:46 Application started. Press Ctrl+C to shut down.
+INFO  11:57:46 Hosting environment: Development
+INFO  11:57:46 Hosting environment: Development
+INFO  11:57:46 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  11:57:46 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  11:58:01 Login Page
+INFO  11:58:32 Register Page
+INFO  12:04:59 Now listening on: https://localhost:5001
+INFO  12:05:00 Now listening on: https://localhost:5001
+INFO  12:05:00 Now listening on: http://localhost:5000
+INFO  12:05:00 Now listening on: http://localhost:5000
+INFO  12:05:01 Application started. Press Ctrl+C to shut down.
+INFO  12:05:01 Application started. Press Ctrl+C to shut down.
+INFO  12:05:01 Hosting environment: Development
+INFO  12:05:01 Hosting environment: Development
+INFO  12:05:01 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  12:05:01 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  12:05:13 Login Page
+WARN  12:05:13 Trile Warn
+ERROR 12:05:13 Trile Error
+INFO  12:05:23 Register Page
+INFO  12:05:41 Login Page
+WARN  12:05:41 Trile Warn
+ERROR 12:05:41 Trile Error
+INFO  12:08:55 Now listening on: https://localhost:5001
+INFO  12:08:56 Now listening on: https://localhost:5001
+INFO  12:08:56 Now listening on: http://localhost:5000
+INFO  12:08:56 Now listening on: http://localhost:5000
+INFO  12:08:56 Application started. Press Ctrl+C to shut down.
+INFO  12:08:56 Application started. Press Ctrl+C to shut down.
+INFO  12:08:56 Hosting environment: Development
+INFO  12:08:56 Hosting environment: Development
+INFO  12:08:56 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  12:08:56 Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+INFO  12:09:10 Login Page
+WARN  12:09:10 Trile Warn
+ERROR 12:09:10 Trile Error
+INFO  12:09:22 Register Page
+INFO  12:09:26 Login Page
+WARN  12:09:26 Trile Warn
+ERROR 12:09:26 Trile Error
+2020-11-06 00:21:34,635  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5001
+ 2020-11-06 00:21:35,231  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5001
+ 2020-11-06 00:21:35,252  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5000
+ 2020-11-06 00:21:35,261  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5000
+ 2020-11-06 00:21:35,272  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-06 00:21:35,280  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-06 00:21:35,295  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-06 00:21:35,298  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-06 00:21:35,312  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-06 00:21:35,316  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-06 00:21:43,086 DEBUG Member_Portal.Controllers.HomeController.Index [23] - MESSAGE: Login Page
+ 2020-11-06 00:21:43,550  WARN Member_Portal.Controllers.HomeController.Index [24] - MESSAGE: Trile Warn
+ 2020-11-06 00:21:43,703 ERROR Member_Portal.Controllers.HomeController.Index [25] - MESSAGE: Trile Error
+ 2020-11-06 00:21:55,986 DEBUG Member_Portal.Controllers.HomeController.Register [67] - MESSAGE: Register Page
+ 2020-11-06 00:22:00,616 DEBUG Member_Portal.Controllers.HomeController.Index [23] - MESSAGE: Login Page
+ 2020-11-06 00:22:00,685  WARN Member_Portal.Controllers.HomeController.Index [24] - MESSAGE: Trile Warn
+ 2020-11-06 00:22:00,706 ERROR Member_Portal.Controllers.HomeController.Index [25] - MESSAGE: Trile Error
+ 2020-11-06 00:22:05,335  INFO Member_Portal.Controllers.HomeController.Login [34] - MESSAGE: Access Authorization Microservice and get Token
+ 

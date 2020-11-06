@@ -35,7 +35,7 @@ namespace AuthorizationMicroService.Controllers
         [HttpPost]
         public IActionResult Post([FromBody]MemberDetails userData)
         {
-            _log4net.Info("Authentication initiated");
+            _log4net.Debug("Authentication initiated");
 
             if (userData != null && userData.Email != null && userData.Password != null)
             {
@@ -45,7 +45,7 @@ namespace AuthorizationMicroService.Controllers
                 {
                     _log4net.Info("login data is correct");
 
-                    _log4net.Info("Token generation initiated");
+                    _log4net.Debug("Token generation initiated");
 
                     var tokenHandler = new JwtSecurityTokenHandler();
                     var tokenkey = Encoding.ASCII.GetBytes(configuration["Jwt:Key"]);
@@ -75,18 +75,19 @@ namespace AuthorizationMicroService.Controllers
                         Token = token
                     };
 
+                    _log4net.Debug("Returning token with user data");
                     return Ok(data);
                 }
                 else
                 {
-                    _log4net.Info("Bad Request !! Invalid Login Credentials");
+                    _log4net.Warn("Bad Request !! Invalid Login Credentials");
 
                     return BadRequest("Invalid credentials");
                 }
             }
             else
             {
-                _log4net.Info("Bad request !!!  user data is null");
+                _log4net.Warn("Bad request !!!  user data is null");
 
                 return BadRequest();
             }
@@ -94,6 +95,7 @@ namespace AuthorizationMicroService.Controllers
 
         private MemberDetails GetMember(string email, string password)
         {
+            _log4net.Debug("Validate Login Details");
             var res = members.Find(x => x.Email.Equals(email) && x.Password.Equals(password));
             return res;
         }

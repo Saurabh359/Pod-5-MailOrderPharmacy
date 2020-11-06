@@ -20,12 +20,12 @@ namespace Member_Portal.Controllers
         {
             if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
             {
-                _log4net.Info("Anonymous user trying to access "+nameof(SubscriptionController));
-                return RedirectToAction("Login", "User");
+                _log4net.Warn("Anonymous user trying to access "+nameof(SubscriptionController));
+                return RedirectToAction("Index", "Home");
             }
 
             // call Refill microservice
-            _log4net.Info("Accessing RefillService for latest completed refill");
+            _log4net.Debug("Accessing RefillService for latest completed refill");
 
             using (var httpClient = new HttpClient())
             {
@@ -39,7 +39,7 @@ namespace Member_Portal.Controllers
                     if (!response.IsSuccessStatusCode)
                     {
                         string message = "Something Went Wrong";
-                        return RedirectToAction("ResponseDisplay", message);
+                        return RedirectToAction("ResponseDisplay", "Subscription", new { message });
                     }
 
                     var data = response.Content.ReadAsStringAsync().Result;
@@ -55,15 +55,15 @@ namespace Member_Portal.Controllers
         {
             if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
             {
-                _log4net.Info("Anonymous user trying to access " + nameof(SubscriptionController));
-                return RedirectToAction("Login", "User");
+                _log4net.Warn("Anonymous user trying to access " + nameof(SubscriptionController));
+                return RedirectToAction("Index", "Home");
             }
 
             int due;
 
             //Call Refill Microservice -- DueRefills Method
 
-            _log4net.Info("Accessing RefillService for due refill count");
+            _log4net.Debug("Accessing RefillService for due refill count");
 
             using (var httpClient = new HttpClient())
             {
@@ -77,7 +77,7 @@ namespace Member_Portal.Controllers
                     if (!response.IsSuccessStatusCode)
                     {
                         string message = "Something Went Wrong";
-                        return RedirectToAction("ResponseDisplay", message);
+                        return RedirectToAction("ResponseDisplay", "Subscription", new { message });
                     }
 
                     var data = response.Content.ReadAsStringAsync().Result;
@@ -96,12 +96,12 @@ namespace Member_Portal.Controllers
         {
             if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
             {
-                _log4net.Info("Anonymous user trying to access " + nameof(SubscriptionController));
-                return RedirectToAction("Login", "User");
+                _log4net.Warn("Anonymous user trying to access " + nameof(SubscriptionController));
+                return RedirectToAction("Index", "Home");
             }
 
             //Call Refill Microservice -- Adhoc Method
-            _log4net.Info("Accessing RefillService for Adhoc refill");
+            _log4net.Debug("Accessing RefillService for Adhoc refill");
 
 
             int PolicyId = 2;
@@ -124,7 +124,7 @@ namespace Member_Portal.Controllers
                     if (!response.IsSuccessStatusCode)
                     {
                         string message = "Something Went Wrong";
-                        return RedirectToAction("ResponseDisplay", message);
+                        return RedirectToAction("ResponseDisplay", "Subscription", new { message });
                     }
 
                     var data = response.Content.ReadAsStringAsync().Result;
@@ -134,7 +134,7 @@ namespace Member_Portal.Controllers
                     if(result==null)
                     {
                         string message = "Adhoc Refill Not Possible";
-                        return RedirectToAction("ResponseDisplay", message);
+                        return RedirectToAction("ResponseDisplay", "Subscription", new { message });
                     }
 
                     return View(result);

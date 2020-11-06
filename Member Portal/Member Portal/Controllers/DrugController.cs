@@ -17,6 +17,7 @@ namespace Member_Portal.Controllers
 
         public IActionResult Index()
         {
+            _log4net.Debug("Index page for Drug Search Acccessed");
             return View();
         }
         
@@ -24,16 +25,16 @@ namespace Member_Portal.Controllers
         {
             if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
             {
-                _log4net.Info("Anonymous user trying to access "+nameof(DrugController));
-                return RedirectToAction("Login", "User");
+                _log4net.Warn("Anonymous user trying to access "+nameof(DrugController));
+                return RedirectToAction("Index", "Home");
             }
 
             // call Drug microservice
-            _log4net.Info("Accessing DrugService for Drug Details ");
+            _log4net.Debug("Accessing DrugService for Drug Details ");
 
             using (var httpClient = new HttpClient())
             {
-                var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:44329/api/DrugsApi/searchDrugsByName/" + name);
+                var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:44393/api/DrugsApi/searchDrugsByName/" + name);
 
                 request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("Token"));
 
@@ -45,7 +46,7 @@ namespace Member_Portal.Controllers
                         _log4net.Error("Response failure ");
 
                         string message = "Something Went Wrong";
-                        return RedirectToAction("ResponseDisplay", message);
+                        return RedirectToAction("ResponseDisplay", "Subscription", new { message });
                     }
 
                     var data = response.Content.ReadAsStringAsync().Result;

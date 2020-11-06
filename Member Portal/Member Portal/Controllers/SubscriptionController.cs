@@ -26,6 +26,12 @@ namespace Member_Portal.Controllers
         
         public IActionResult Index()
         {
+            if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
+            {
+                _log4net.Warn("Anonymous user");
+                return RedirectToAction("Index", "Home");
+            }
+
             _log4net.Info("Display Member Subscriptions");
 
             // List of all subscriptions
@@ -36,20 +42,25 @@ namespace Member_Portal.Controllers
 
         public IActionResult Subscribe()
         {
-            _log4net.Info("Subscribe Page");
+            if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
+            {
+                _log4net.Warn("Anonymous user trying to Subscribe");
+                return RedirectToAction("Index", "Home");
+            }
+
+            _log4net.Debug("Subscribe Page");
             return View();
         }
 
         [HttpPost]
         public IActionResult Subscribe([Bind("InsurancePolicyNumber,InsuranceProvider,PrescriptionDate,DrugName,DoctorName,RefillOccurrence")]PrescriptionDetails prescription)
         {
-           
             if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
             {
-               _log4net.Info("Anonymous user trying to Subscribe");
-                return RedirectToAction("Login", "User");
+               _log4net.Warn("Anonymous user trying to Subscribe");
+                return RedirectToAction("Index", "Home");
             }
-       
+            
             // Get MemberId from Session
 
             SubscriptionDetails result = new SubscriptionDetails();
@@ -64,7 +75,7 @@ namespace Member_Portal.Controllers
             {
                 var content = new StringContent(JsonConvert.SerializeObject(prescription), Encoding.UTF8, "application/json");
                 
-                var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:44329/api/Subscribe/PostSubscribe/" + policy + "/" + id)
+                var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:44345/api/Subscribe/PostSubscribe/" + policy + "/" + id)
                 {
                     Content = content
                 };
@@ -76,18 +87,19 @@ namespace Member_Portal.Controllers
 
                     if (!response.IsSuccessStatusCode)
                     {
+                        _log4net.Error("False Response");
                         string message = "Something Went Wrong";
-                        return RedirectToAction("ResponseDisplay", message);
+                        return RedirectToAction("ResponseDisplay","Subscription", new { message });
                     }
 
                     var data = response.Content.ReadAsStringAsync().Result;
 
                     result = JsonConvert.DeserializeObject<SubscriptionDetails>(data);
 
-                    if(result.Status)
+                    if(!result.Status)
                     {
                         string message = "Subscription failed due to InAvailability of Drugs ";
-                        return RedirectToAction("ResponseDisplay", message);
+                        return RedirectToAction("ResponseDisplay", "Subscription",new { message } );
                     }
 
                     return RedirectToAction("Index");
@@ -101,8 +113,8 @@ namespace Member_Portal.Controllers
             
             if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
             {
-                // _log4net.Info("Anonymous Log in try to add vehicle but redirected to login page");
-                return RedirectToAction("Login", "User");
+                _log4net.Warn("Anonymous access to Unsubscribe");
+                return RedirectToAction("Index", "Home");
             }
             
             SubscriptionDetails result = new SubscriptionDetails();
@@ -114,7 +126,7 @@ namespace Member_Portal.Controllers
             {
                 var content = new StringContent(JsonConvert.SerializeObject("hello"), Encoding.UTF8, "application/json");
 
-                var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:44329/api/Subscribe/PostUnSubscribe/" + MemberId + "/" + id)
+                var request = new HttpRequestMessage(HttpMethod.Post, "https://localhost:44345/api/Subscribe/PostUnSubscribe/" + MemberId + "/" + id)
                 {
                     Content = content
                 };
@@ -127,7 +139,7 @@ namespace Member_Portal.Controllers
                     if (!response.IsSuccessStatusCode)
                     {
                         string message = "Something Went Wrong";
-                        return RedirectToAction("ResponseDisplay", message);
+                        return RedirectToAction("ResponseDisplay","Subscription", new { message });
                     }
 
                     var data = response.Content.ReadAsStringAsync().Result;
@@ -137,7 +149,7 @@ namespace Member_Portal.Controllers
                     if (result.Status)
                     {
                         string message = "Subscription failed due to pending refill dues ";
-                        return RedirectToAction("ResponseDisplay", message);
+                        return RedirectToAction("ResponseDisplay", "Subscription", new { message });
                     }
 
                     return RedirectToAction("Index");

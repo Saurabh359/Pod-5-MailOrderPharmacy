@@ -20,8 +20,9 @@ namespace Member_Portal.Controllers
 
         public IActionResult Index()
         {
-            _log4net.Info("Login Page");
-
+            _log4net.Debug("Login Page");
+            _log4net.Warn("Trile Warn");
+            _log4net.Error("Trile Error");
             return View();
         }
 
@@ -38,10 +39,11 @@ namespace Member_Portal.Controllers
 
                 using (var response = httpClient.PostAsync("https://localhost:32768/token", content).Result)
                 {
-                    _log4net.Info("Back to Member Portal from Authorization Microservice");
+                    _log4net.Debug("Back to Member Portal from Authorization Microservice");
+                    
                     if (!response.IsSuccessStatusCode)
                     {
-                        _log4net.Info("Login failed");
+                        _log4net.Error("Login failed");
                         return RedirectToAction("Index");
                     }
 
@@ -62,7 +64,7 @@ namespace Member_Portal.Controllers
 
         public IActionResult Register()
         {
-            _log4net.Info("Register Page");
+            _log4net.Debug("Register Page");
             return View();
         }
 
@@ -71,7 +73,7 @@ namespace Member_Portal.Controllers
         {
             bool success = true;
             // Register user in Member Database
-            _log4net.Info("Register to Site ");
+            _log4net.Debug("Register to Site ");
             if (success)
                 return RedirectToAction("Index");
 
