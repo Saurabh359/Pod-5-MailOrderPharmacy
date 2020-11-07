@@ -568,4 +568,253 @@ ERROR 12:09:26 Trile Error
  2020-11-07 01:13:47,016 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
  2020-11-07 01:13:47,033  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
  2020-11-07 01:13:47,045 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 10:22:52,844  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 10:22:53,733  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 10:22:53,749  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 10:22:53,751  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 10:22:53,765  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 10:22:53,788  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 10:22:53,803  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 10:22:53,818  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 10:22:53,862  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 10:22:53,874  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 10:23:02,531 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 10:23:02,923  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 10:23:02,933 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 10:25:14,454  INFO Member_Portal.Controllers.HomeController.Login [41] - MESSAGE: Access Authorization Microservice and get Token for email- b@123gmail.com and password- saddd
+ 2020-11-07 10:25:21,693 DEBUG Member_Portal.Controllers.HomeController.Login [51] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 10:25:21,722 ERROR Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Login failed BadRequest
+ 2020-11-07 10:25:21,972 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 10:25:22,064  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 10:25:22,080 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 10:25:48,560  INFO Member_Portal.Controllers.HomeController.Login [41] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 2020-11-07 10:25:51,064 DEBUG Member_Portal.Controllers.HomeController.Login [51] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 10:25:51,759  INFO Member_Portal.Controllers.HomeController.Login [68] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 2020-11-07 10:25:52,029  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 10:26:00,853  INFO Member_Portal.Controllers.HomeController.Logout [95] - MESSAGE: Logout -- clear all session data
+ 2020-11-07 10:26:00,953 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 10:26:00,969  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 10:26:00,975 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 10:27:09,566  INFO Member_Portal.Controllers.HomeController.Login [41] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- sda
+ 2020-11-07 10:27:09,922 DEBUG Member_Portal.Controllers.HomeController.Login [51] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 10:27:09,965 ERROR Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Login failed BadRequest
+ 2020-11-07 10:27:10,266 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 10:27:10,347  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 10:27:10,367 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 10:33:40,578  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 10:33:41,398  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 10:33:41,417  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 10:33:41,420  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 10:33:41,435  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 10:33:41,440  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 10:33:41,453  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 10:33:41,462  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 10:33:41,476  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 10:33:41,482  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 10:33:48,573 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 10:33:48,698  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 10:33:48,730 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 10:34:01,508  INFO Member_Portal.Controllers.HomeController.Login [41] - MESSAGE: Access Authorization Microservice and get Token for email- sa123@gmail.com and password- sxs
+ 2020-11-07 10:34:05,467 DEBUG Member_Portal.Controllers.HomeController.Login [51] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 10:34:05,493 ERROR Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Login failed BadRequest
+ 2020-11-07 10:34:05,686 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 10:34:05,703  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 10:34:05,741 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 11:26:07,589  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 11:26:08,280  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 11:26:08,297  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 11:26:08,300  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 11:26:08,318  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 11:26:08,325  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 11:26:08,347  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 11:26:08,372  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 11:26:08,393  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 11:26:08,422  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 11:26:14,420 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 11:26:14,525  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 11:26:14,561 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 11:28:39,428  INFO Member_Portal.Controllers.HomeController.Login [42] - MESSAGE: Access Authorization Microservice and get Token for email- r123@gmail.com and password- bhj
+ 2020-11-07 11:28:45,179 DEBUG Member_Portal.Controllers.HomeController.Login [52] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 11:28:45,210 ERROR Member_Portal.Controllers.HomeController.Login [56] - MESSAGE: Login failed BadRequest
+ 2020-11-07 11:28:45,449 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 11:28:45,473  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 11:28:45,494 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 11:30:26,925  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 11:30:27,841  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 11:30:27,923  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 11:30:27,944  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 11:30:27,963  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 11:30:27,982  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 11:30:28,007  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 11:30:28,020  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 11:30:28,052  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 11:30:28,056  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 11:30:35,510 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 11:30:35,595  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 11:30:35,719 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 11:30:49,272  INFO Member_Portal.Controllers.HomeController.Login [41] - MESSAGE: Access Authorization Microservice and get Token for email- sa123@gmail.com and password- sdda
+ 2020-11-07 11:30:52,434 DEBUG Member_Portal.Controllers.HomeController.Login [51] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 11:30:52,447 ERROR Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Login failed BadRequest
+ 2020-11-07 11:30:52,547 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 11:30:52,567  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 11:30:52,605 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 11:38:35,051  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 11:38:35,567  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 11:38:35,583  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 11:38:35,591  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 11:38:35,606  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 11:38:35,610  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 11:38:35,626  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 11:38:35,632  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 11:38:35,649  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 11:38:35,653  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 11:38:52,962 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 11:38:53,511  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 11:38:53,666 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 11:39:17,114  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- uyttyugh
+ 2020-11-07 11:39:21,451 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 11:39:21,473 ERROR Member_Portal.Controllers.HomeController.Login [59] - MESSAGE: Login failed BadRequest
+ 2020-11-07 11:39:21,668 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 11:39:21,678  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 11:39:21,697 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 11:40:46,735  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- b@123gmail.com and password- fygh
+ 2020-11-07 11:40:46,949 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 11:40:46,975 ERROR Member_Portal.Controllers.HomeController.Login [59] - MESSAGE: Login failed BadRequest
+ 2020-11-07 11:40:47,093 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 11:40:47,127  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 11:40:47,140 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 11:43:14,329  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 11:43:15,255  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 11:43:15,292  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 11:43:15,299  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 11:43:15,329  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 11:43:15,342  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 11:43:15,368  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 11:43:15,373  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 11:43:15,403  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 11:43:15,475  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 11:43:24,296 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 11:43:24,500  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 11:43:24,531 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 11:43:49,205  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- b@123gmail.com and password- uujhgf
+ 2020-11-07 11:43:53,417 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 11:43:53,429 ERROR Member_Portal.Controllers.HomeController.Login [59] - MESSAGE: Login failed BadRequest
+ 2020-11-07 11:43:53,678 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 11:43:53,704  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 11:43:53,839 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 11:44:41,359  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sa123@gmail.com and password- uyg
+ 2020-11-07 11:44:41,917 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 11:44:41,948 ERROR Member_Portal.Controllers.HomeController.Login [59] - MESSAGE: Login failed BadRequest
+ 2020-11-07 11:45:21,956 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 11:45:21,975  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 11:45:21,987 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 11:47:07,169  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 11:47:07,906  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 11:47:07,964  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 11:47:07,971  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 11:47:08,003  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 11:47:08,014  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 11:47:08,040  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 11:47:08,043  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 11:47:08,064  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 11:47:08,067  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 11:47:17,438 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 11:47:17,571  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 11:47:17,594 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 11:47:37,963  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sa123@gmail.com and password- asdd
+ 2020-11-07 11:47:41,971 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 11:47:42,029 ERROR Member_Portal.Controllers.HomeController.Login [59] - MESSAGE: Login failed BadRequest
+ 2020-11-07 11:47:42,152 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 11:47:42,169  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 11:47:42,177 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 11:53:49,069  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 11:53:50,077  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 11:53:50,109  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 11:53:50,114  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 11:53:50,147  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 11:53:50,154  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 11:53:50,174  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 11:53:50,180  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 11:53:50,195  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 11:53:50,198  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 11:53:58,815 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 11:53:58,987  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 11:53:59,034 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 11:54:19,339  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sa123@gmail.com and password- sad
+ 2020-11-07 11:54:23,435 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 11:54:23,451 ERROR Member_Portal.Controllers.HomeController.Login [59] - MESSAGE: Login failed BadRequest
+ 2020-11-07 11:54:23,814 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 11:54:23,826  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 11:54:23,844 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 11:55:13,016  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sa123@gmail.com and password- cxvvc
+ 2020-11-07 11:55:13,233 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 11:55:13,259 ERROR Member_Portal.Controllers.HomeController.Login [59] - MESSAGE: Login failed BadRequest
+ 2020-11-07 11:55:18,187 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 11:55:18,205  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 11:55:18,222 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 11:57:20,834  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 11:57:21,438  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 11:57:21,461  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 11:57:21,464  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 11:57:21,486  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 11:57:21,499  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 11:57:21,515  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 11:57:21,518  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 11:57:21,538  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 11:57:21,560  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 11:57:29,656 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 11:57:29,763  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 11:57:29,850 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 11:57:51,115  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sa123@gmail.com and password- bvn
+ 2020-11-07 11:57:54,411 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 11:57:54,434 ERROR Member_Portal.Controllers.HomeController.Login [59] - MESSAGE: Login failed BadRequest
+ 2020-11-07 11:57:54,601 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 11:57:54,632  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 11:57:54,643 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 12:15:16,644  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 12:15:17,374  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 12:15:17,406  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 12:15:17,423  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 12:15:17,500  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 12:15:17,514  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 12:15:17,529  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 12:15:17,536  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 12:15:17,548  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 12:15:17,556  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 12:15:25,659 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 12:15:26,052  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 12:15:26,198 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 12:15:47,437  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- zczcz
+ 2020-11-07 12:15:51,522 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 12:15:51,556 ERROR Member_Portal.Controllers.HomeController.Login [59] - MESSAGE: Login failed BadRequest
+ 2020-11-07 12:15:51,768 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 12:15:51,793  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 12:15:51,817 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 12:15:59,712  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 2020-11-07 12:16:01,971 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 12:16:02,631  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 2020-11-07 12:16:02,860  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 12:16:07,134 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [61] - MESSAGE: Subscribe Page
+ 2020-11-07 12:17:15,813 ERROR Member_Portal.Controllers.SubscriptionController.Subscribe [102] - MESSAGE: False Response
+ 2020-11-07 12:17:16,063 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [61] - MESSAGE: Subscribe Page
+ 2020-11-07 12:19:11,548 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [61] - MESSAGE: Subscribe Page
+ 2020-11-07 12:19:14,073 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [61] - MESSAGE: Subscribe Page
+ 2020-11-07 12:19:17,990 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [61] - MESSAGE: Subscribe Page
+ 2020-11-07 12:19:21,286 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [61] - MESSAGE: Subscribe Page
+ 2020-11-07 12:19:24,633 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 12:19:24,657  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 12:19:24,676 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 12:19:35,028  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 2020-11-07 12:19:35,468 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 12:19:35,501  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 2020-11-07 12:19:35,655  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 12:19:38,785 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [61] - MESSAGE: Subscribe Page
+ 2020-11-07 12:19:43,087  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 12:19:45,487 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [61] - MESSAGE: Subscribe Page
+ 2020-11-07 12:20:14,351 ERROR Member_Portal.Controllers.SubscriptionController.Subscribe [102] - MESSAGE: False Response
+ 2020-11-07 12:20:14,502 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [61] - MESSAGE: Subscribe Page
+ 2020-11-07 12:20:18,935  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 12:20:21,029 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [61] - MESSAGE: Subscribe Page
+ 2020-11-07 12:20:54,250  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 12:21:02,767 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [61] - MESSAGE: Subscribe Page
  

@@ -25,11 +25,15 @@ namespace Member_Portal.Controllers
             this.configuration = configuration;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(bool status)
         {
             _log4net.Debug("Login Page");
             _log4net.Warn("Trile Warn");
             _log4net.Error("Trile Error");
+            if(status)
+            {
+                ModelState.AddModelError(string.Empty, "Email or Password is Invalid !!!");
+            }
             return View();
         }
 
@@ -53,7 +57,8 @@ namespace Member_Portal.Controllers
                     if (!response.IsSuccessStatusCode)
                     {
                         _log4net.Error("Login failed "+ response.StatusCode);
-                        return RedirectToAction("Index");
+                        var status = true;
+                        return RedirectToAction("Index",new { status });
                     }
 
                     var data =  response.Content.ReadAsStringAsync().Result;

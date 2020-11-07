@@ -5,8 +5,14 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="justify-content-center">
-    <h1>Subscribe</h1>
+<div class="m-4 text-center">
+    <h2 class="display-4">Subscribe</h2>
+    @if (!String.IsNullOrEmpty(ViewBag.Response))
+    {
+         <div class="alert alert-danger" role="alert">
+            <strong>@ViewBag.Response</strong>
+         </div>
+    }
 </div>
 
 <div class="row">

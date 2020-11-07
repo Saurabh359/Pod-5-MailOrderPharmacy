@@ -32,7 +32,7 @@ namespace Member_Portal.Controllers
             this.configuration = configuration;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string status,string message)
         {
             if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
             {
@@ -42,19 +42,24 @@ namespace Member_Portal.Controllers
 
             _log4net.Info("Display Member Subscriptions");
 
+            ViewBag.Response = status;
+            ViewBag.message = message;
+
             // List of all subscriptions
             int MemberId = (int)HttpContext.Session.GetInt32("MemberId");
             var subs = details.FindAll(x => x.MemberId.Equals(MemberId));
             return View(subs);
         }
 
-        public IActionResult Subscribe()
+        public IActionResult Subscribe(string message)
         {
             if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
             {
                 _log4net.Warn("Anonymous user trying to Subscribe");
                 return RedirectToAction("Index", "Home");
             }
+
+            ViewBag.Response = message;
 
             _log4net.Debug("Subscribe Page");
             return View();
@@ -99,7 +104,7 @@ namespace Member_Portal.Controllers
                     {
                         _log4net.Error("False Response");
                         string message = "Something Went Wrong "+ response.StatusCode;
-                        return RedirectToAction("ResponseDisplay","Subscription", new { message });
+                        return RedirectToAction("Subscribe", new { message });
                     }
 
                     var data = response.Content.ReadAsStringAsync().Result;
@@ -108,12 +113,16 @@ namespace Member_Portal.Controllers
 
                     if(!result.Status)
                     {
+                        _log4net.Info(prescription.DrugName + " Drug Not Available.... Subscription Failed ");
                         string message = "Subscription failed due to InAvailability of Drugs ";
-                        return RedirectToAction("ResponseDisplay", "Subscription",new { message } );
+                        return RedirectToAction("Subscribe", new { message } );
                     }
 
                     details.Add(result);
-                    return RedirectToAction("Index");
+
+                    string status1 = "Success";
+                    string message1 = " Subscription Successfull..... Subscription Id is " + result.Id;
+                    return RedirectToAction("Index", new { status1, message1 });
                 }
             }
 
@@ -151,8 +160,9 @@ namespace Member_Portal.Controllers
 
                     if (!response.IsSuccessStatusCode)
                     {
+                        string status = "Error";
                         string message = "Something Went Wrong "+ response.StatusCode;
-                        return RedirectToAction("ResponseDisplay","Subscription", new { message });
+                        return RedirectToAction("Index", new { status ,message });
                     }
 
                     var data = response.Content.ReadAsStringAsync().Result;
@@ -161,22 +171,20 @@ namespace Member_Portal.Controllers
 
                     if (result.Status)
                     {
+                        string status = "Error";
                         string message = "Subscription failed due to pending refill dues ";
-                        return RedirectToAction("ResponseDisplay", "Subscription", new { message });
+                        return RedirectToAction("Index", new { status, message });
                     }
 
                     var ob = details.Find(x=>x.Id==id);
                     details.Remove(ob);
-                    return RedirectToAction("Index");
+
+                    string status1 = "Success";
+                    string message1 = " Successfully Unsubscribed for Id "+ id;
+                    return RedirectToAction("Index", new { status1, message1 });
+
                 }
             }
-        }
-
-        public IActionResult ResponseDisplay(string message)
-        {
-            ViewBag.Response = message;
-
-            return View();
         }
     }
 }

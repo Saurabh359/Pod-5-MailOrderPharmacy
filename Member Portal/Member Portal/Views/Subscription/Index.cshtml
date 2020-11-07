@@ -5,13 +5,28 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="justify-content-center">
-    <h2>Mail Order Pharmacy</h2>
-</div>
+    <div class="m-4 text-center">
+        <h2 class="display-4">Mail Order Pharmacy</h2>
+
+        @if (!String.IsNullOrEmpty(ViewBag.Response))
+        {
+            @if (ViewBag.Response.Equals("Error"))
+            {
+                <div class="alert alert-danger" role="alert">
+                    <strong>@ViewBag.message</strong>
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-success" role="alert">
+                    <strong>@ViewBag.message</strong>
+                </div>
+            }
+        }
+    </div>
 
 <div class="container">
 
-    <h1>Vehicle Index</h1>
     <div class="d-flex justify-content-around">
         <p>
             <a class="btn btn-outline-primary" asp-action="Subscribe" asp-controller="Subscription">New Subscription</a>
