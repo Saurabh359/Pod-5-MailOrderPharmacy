@@ -9,9 +9,9 @@
     <h2 class="display-4">Subscribe</h2>
     @if (!String.IsNullOrEmpty(ViewBag.Response))
     {
-         <div class="alert alert-danger" role="alert">
+        <div class="alert alert-danger" role="alert">
             <strong>@ViewBag.Response</strong>
-         </div>
+        </div>
     }
 </div>
 
@@ -60,7 +60,7 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a class="btn btn-primary" asp-action="Index" asp-controller="Subscription">Go Back</a>
 </div>
 
 

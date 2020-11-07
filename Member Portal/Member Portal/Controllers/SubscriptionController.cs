@@ -169,10 +169,17 @@ namespace Member_Portal.Controllers
 
                     result = JsonConvert.DeserializeObject<SubscriptionDetails>(data);
 
+                    if (result==null)
+                    {
+                        string status = "Error";
+                        string message = "Subscription Not Found";
+                        return RedirectToAction("Index", new { status, message });
+                    }
+
                     if (result.Status)
                     {
                         string status = "Error";
-                        string message = "Subscription failed due to pending refill dues ";
+                        string message = "UnSubscription failed due to pending refill dues ";
                         return RedirectToAction("Index", new { status, message });
                     }
 

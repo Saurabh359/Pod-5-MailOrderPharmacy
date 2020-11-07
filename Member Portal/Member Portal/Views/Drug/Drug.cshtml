@@ -5,7 +5,7 @@
     var temp = Model.FirstOrDefault();
 }
 
-<div class=" d-flex justify-content-center">
+<div class=" text-center">
     <h2>Drug Details</h2>
 </div>
 
@@ -20,8 +20,9 @@
         <p><strong>Expiry Date -- </strong>@temp.ExpiryDate</p>
         <p><strong>Manufacturer -- </strong>@temp.Manufacturer</p>
         <p><strong>Manufactured Date -- </strong>@temp.ManufacturedDate</p>
-        <p><strong>Quantity Across Different Location</strong></p>
-
+        <div class="text-center">
+            <h3>Quantity Across Different Location</h3>
+        </div>
         @foreach (var item in Model)
         {
             <p><strong>@item.Location -- </strong>@item.Quantity</p>
