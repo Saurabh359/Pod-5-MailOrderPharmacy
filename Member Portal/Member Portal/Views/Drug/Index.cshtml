@@ -12,25 +12,26 @@
         </div>
     }
 </div>
-<div class="row">
+<div class="container">
     <h4 class="text-center">Search Drug By Name</h4>
-    <div class="col-6 offset-2">
-        <form asp-action="DrugbyName" method="get">
-            <input type="text" placeholder="Drug Name" pattern="[a-zA-Z]" style="float:left" name="name" required />
-            <input type="submit" value="Search by Name" class="btn btn-primary" />
-        </form>
+    <div class="row">
+        <div class="col-10 offset-2 m-2">
+            <form asp-action="DrugbyName" method="get">
+                <input type="text" placeholder="Drug Name" pattern="[a-zA-Z]+" style="float:left" name="name" required />
+                <input type="submit" value="Search by Name" class="btn btn-primary" />
+            </form>
+        </div>
     </div>
-</div>
-<div class="row">
     <h4 class="text-center">Search Drug By Id</h4>
-    <div class="col-6 offset-2">
-        <form asp-action="DrugbyId" method="get">
-            <input type="number" placeholder="Drug Id" pattern="[0-9]+" style="float:left" name="id" required />
-            <input type="submit" value="Search by Id" class="btn btn-primary" />
-        </form>
+    <div class="row">
+        <div class="col-10 offset-2 m-2">
+            <form asp-action="DrugbyId" method="get">
+                <input type="number" placeholder="Drug Id" min="1" max="200" style="float:left" name="id" required />
+                <input type="submit" value="Search by Id" class="btn btn-primary" />
+            </form>
+        </div>
     </div>
 </div>
-
 <div>
     <a class="btn btn-primary" asp-action="Index" asp-controller="Subscription">Go Back</a>
 </div>

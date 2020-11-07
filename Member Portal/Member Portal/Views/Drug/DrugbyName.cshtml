@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Member_Portal.Models.DrugDetails>;
+@{
+    ViewData["Title"] = "DrugbyName";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var temp = Model.FirstOrDefault();
+}
+
+<div class=" text-center">
+    <h2>Drug Details</h2>
+</div>
+
+<div>
+    <a class="btn btn-primary" asp-action="Index" asp-controller="Subscription">Go Back</a>
+</div>
+
+<div class="row">
+    <div class="col-8 offset-2">
+        <p><strong>Drug Id -- </strong>@temp.Id</p>
+        <p><strong>Drug Name -- </strong>@temp.Name</p>
+        <p><strong>Expiry Date -- </strong>@temp.ExpiryDate</p>
+        <p><strong>Manufacturer -- </strong>@temp.Manufacturer</p>
+        <p><strong>Manufactured Date -- </strong>@temp.ManufacturedDate</p>
+        <div class="text-center">
+            <h3 class="text-success">Quantity Across Different Location</h3>
+        </div>
+        @foreach (var item in Model)
+        {
+            <p><strong>@item.Location -- </strong>@item.Quantity</p>
+        }
+
+    </div>
+</div>
