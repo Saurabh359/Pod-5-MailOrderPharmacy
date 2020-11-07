@@ -817,4 +817,1714 @@ ERROR 12:09:26 Trile Error
  2020-11-07 12:20:21,029 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [61] - MESSAGE: Subscribe Page
  2020-11-07 12:20:54,250  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
  2020-11-07 12:21:02,767 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [61] - MESSAGE: Subscribe Page
+ 2020-11-07 16:26:20,676  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 16:26:22,688  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 16:26:22,740  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 16:26:22,763  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 16:26:23,264  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 16:26:23,473  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 16:26:23,872  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 16:26:24,014  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 16:26:24,673  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 16:26:25,045  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 16:26:32,437 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 16:26:32,756  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 16:26:32,782 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 16:26:50,143 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 16:26:50,176  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 16:26:50,256 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 16:26:52,064 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 16:26:52,092  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 16:26:52,348 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 16:35:11,304  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 16:35:11,917  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 16:35:12,019  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 16:35:12,267  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 16:35:12,620  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 16:35:12,710  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 16:35:12,878  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 16:35:13,013  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 16:35:13,433  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 16:35:13,445  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 16:35:19,656 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 16:35:19,745  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 16:35:19,773 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 16:35:37,633 DEBUG Member_Portal.Controllers.HomeController.Register [81] - MESSAGE: Register Page
+ 2020-11-07 16:46:35,509  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 16:46:36,137  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 16:46:36,149  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 16:46:36,155  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 16:46:36,176  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 16:46:36,193  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 16:46:36,250  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 16:46:36,259  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 16:46:36,283  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 16:46:36,327  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 16:46:43,449 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 16:46:43,588  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 16:46:43,706 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 16:47:21,915 DEBUG Member_Portal.Controllers.HomeController.Register [81] - MESSAGE: Register Page
+ 2020-11-07 16:47:43,564 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 16:47:43,582  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 16:47:43,595 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 16:52:39,548  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 16:52:40,154  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 16:52:40,440  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 16:52:40,530  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 16:52:40,577  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 16:52:40,584  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 16:52:40,613  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 16:52:40,657  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 16:52:40,787  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 16:52:40,837  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 16:52:56,480 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 16:52:56,630  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 16:52:56,657 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 16:53:13,589 DEBUG Member_Portal.Controllers.HomeController.Register [81] - MESSAGE: Register Page
+ 2020-11-07 16:53:21,496 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 16:53:21,699  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 16:53:21,708 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 16:54:20,439 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 16:54:20,469  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 16:54:20,477 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 16:54:24,468 DEBUG Member_Portal.Controllers.HomeController.Register [81] - MESSAGE: Register Page
+ 2020-11-07 16:54:33,436 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 16:54:33,463  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 16:54:33,514 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 16:54:41,498 DEBUG Member_Portal.Controllers.HomeController.Register [81] - MESSAGE: Register Page
+ 2020-11-07 16:57:49,849  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 16:57:50,896  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 16:57:51,099  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 16:57:51,197  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 16:57:51,671  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 16:57:51,726  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 16:57:51,796  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 16:57:51,803  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 16:57:51,865  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 16:57:51,969  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 16:58:08,115 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 16:58:08,333  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 16:58:08,346 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 16:58:36,269 DEBUG Member_Portal.Controllers.HomeController.Register [81] - MESSAGE: Register Page
+ 2020-11-07 16:58:39,924 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 16:58:39,935  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 16:58:39,953 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 16:59:27,628 DEBUG Member_Portal.Controllers.HomeController.Register [81] - MESSAGE: Register Page
+ 2020-11-07 16:59:35,829 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 16:59:35,845  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 16:59:35,896 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 17:01:06,344 DEBUG Member_Portal.Controllers.HomeController.Register [81] - MESSAGE: Register Page
+ 2020-11-07 17:01:09,496 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 17:01:09,521  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 17:01:09,552 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 17:01:19,028 DEBUG Member_Portal.Controllers.HomeController.Register [81] - MESSAGE: Register Page
+ 2020-11-07 17:01:24,502 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 17:01:24,530  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 17:01:24,607 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 17:01:26,376 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 17:01:26,397  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 17:01:26,466 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 17:01:29,398 DEBUG Member_Portal.Controllers.HomeController.Register [81] - MESSAGE: Register Page
+ 2020-11-07 17:01:31,365 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 17:01:31,388  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 17:01:31,424 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 17:32:14,548  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 17:32:15,509  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 17:32:15,530  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 17:32:15,535  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 17:32:15,561  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 17:32:15,574  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 17:32:15,701  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 17:32:15,715  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 17:32:15,738  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 17:32:15,751  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 17:32:31,985 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 17:32:32,142  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 17:32:32,154 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 17:32:55,730  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 2020-11-07 17:33:07,517 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 17:33:08,221  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 2020-11-07 17:33:08,798  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 17:33:19,198 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 17:48:25,271  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 17:48:27,112  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 17:48:27,615  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 17:48:27,680  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 17:48:27,855  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 17:48:27,888  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 17:48:28,449  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 17:48:29,486  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 17:48:33,850  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 17:48:38,548  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 17:48:43,360 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 17:48:43,509  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 17:48:43,524 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 17:49:12,162  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 2020-11-07 17:49:16,313 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 17:49:17,379  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 2020-11-07 17:49:17,945  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 17:49:29,122 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 18:19:21,660  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 18:19:22,530  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 18:19:22,808  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 18:19:23,011  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 18:19:23,146  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 18:19:23,197  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 18:19:23,299  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 18:19:23,370  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 18:19:23,421  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 18:19:23,438  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 18:19:42,678 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 18:19:42,857  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 18:19:42,895 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 18:21:05,956  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 2020-11-07 18:21:15,786 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 18:21:16,423  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 2020-11-07 18:21:16,821  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 18:21:20,982 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 18:22:12,863 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 0 Id Drug
+ 2020-11-07 18:44:34,264  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 18:44:34,999  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 18:44:35,109  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 18:44:35,113  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 18:44:35,129  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 18:44:35,141  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 18:44:35,159  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 18:44:35,163  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 18:44:35,178  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 18:44:35,185  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 18:44:50,272 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 18:44:50,395  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 18:44:50,403 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 18:48:35,969  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 18:48:37,452  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 18:48:37,983  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 18:48:38,167  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 18:48:38,593  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 18:48:38,794  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 18:48:39,516  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 18:48:41,003  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 18:48:46,494  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 18:48:50,346  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 18:48:55,947 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 18:48:56,060  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 18:48:56,094 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 18:49:48,197  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- he
+ 2020-11-07 18:49:54,892 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 18:49:54,918 ERROR Member_Portal.Controllers.HomeController.Login [59] - MESSAGE: Login failed BadRequest
+ 2020-11-07 18:49:55,214 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 18:49:55,226  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 18:49:55,244 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 18:50:10,344  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 2020-11-07 18:50:12,703 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 18:50:13,311  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 2020-11-07 18:50:13,650  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 18:50:21,620 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 2020-11-07 18:51:01,374 ERROR Member_Portal.Controllers.SubscriptionController.Subscribe [105] - MESSAGE: False Response
+ 2020-11-07 18:51:01,551 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 2020-11-07 18:53:05,964 ERROR Member_Portal.Controllers.SubscriptionController.Subscribe [105] - MESSAGE: False Response
+ 2020-11-07 18:55:29,906 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 2020-11-07 18:56:27,507 ERROR Member_Portal.Controllers.SubscriptionController.Subscribe [105] - MESSAGE: False Response
+ 2020-11-07 18:56:58,565 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 2020-11-07 19:00:04,033  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 19:00:15,281 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:07:20,236  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 19:12:29,790 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:12:56,079 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of  Drug
+ 2020-11-07 19:12:58,416 ERROR Member_Portal.Controllers.SubscriptionController.DrugbyName [57] - MESSAGE: Response failure 
+ 2020-11-07 19:12:58,654 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:13:07,559 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 0 Id Drug
+ 2020-11-07 19:13:08,658 ERROR Member_Portal.Controllers.SubscriptionController.DrugbyId [103] - MESSAGE: Response failure 
+ 2020-11-07 19:13:08,721 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:14:18,412 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of  Drug
+ 2020-11-07 19:21:15,892  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 19:21:16,546  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 19:21:16,564  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 19:21:16,568  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 19:21:16,589  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 19:21:16,594  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 19:21:16,617  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 19:21:16,625  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 19:21:16,647  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 19:21:16,689  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 19:21:34,116 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 19:21:34,337  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 19:21:34,431 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 19:21:53,908  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 2020-11-07 19:21:58,205 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 19:21:59,438  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 2020-11-07 19:21:59,918  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 19:22:11,787 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:22:23,146 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 2020-11-07 19:22:45,134  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [73] - MESSAGE: Successfull result display 
+ 2020-11-07 19:23:18,894  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 19:23:23,771 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:23:29,288 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 1 Id Drug
+ 2020-11-07 19:23:37,263  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [119] - MESSAGE: Successfull result display 
+ 2020-11-07 19:23:47,580  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 19:23:50,408 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:23:54,406 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of sdssa Drug
+ 2020-11-07 19:24:05,261  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [73] - MESSAGE: Successfull result display 
+ 2020-11-07 19:37:23,238  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 19:37:24,006  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 19:37:24,037  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 19:37:24,042  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 19:37:24,065  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 19:37:24,069  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 19:37:24,090  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 19:37:24,093  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 19:37:24,113  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 19:37:24,126  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 19:37:42,152 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 19:37:42,295  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 19:37:42,316 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 19:38:18,190  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 2020-11-07 19:38:26,438 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 19:38:27,394  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 2020-11-07 19:38:28,376  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 19:38:47,168 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:38:57,877 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 1 Id Drug
+ 2020-11-07 19:39:05,976  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [119] - MESSAGE: Successfull result display 
+ 2020-11-07 19:39:35,409  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 19:39:42,225 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:39:42,252 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:39:47,035 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 2020-11-07 19:39:53,010  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [73] - MESSAGE: Successfull result display 
+ 2020-11-07 19:40:20,658  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 19:40:24,645 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:40:24,774 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:40:37,248 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Boss Drug
+ 2020-11-07 19:40:48,769 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:40:58,263 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 2 Id Drug
+ 2020-11-07 19:41:11,735  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [119] - MESSAGE: Successfull result display 
+ 2020-11-07 19:41:24,812  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 19:41:36,011 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:41:40,780 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 6 Id Drug
+ 2020-11-07 19:41:40,944 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 6 Id Drug
+ 2020-11-07 19:41:41,598 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:42:10,188  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 19:48:27,545  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 19:48:28,220  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 19:48:28,264  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 19:48:28,288  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 19:48:28,392  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 19:48:28,418  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 19:48:28,437  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 19:48:28,444  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 19:48:28,466  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 19:48:28,481  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 19:48:46,484 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 19:48:46,613  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 19:48:46,628 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 19:50:55,811  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 2020-11-07 19:51:01,699 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 19:51:02,443  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 2020-11-07 19:51:02,982  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 19:51:32,193 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:51:38,714 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 2020-11-07 19:51:39,251  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [73] - MESSAGE: Successfull result display 
+ 2020-11-07 19:51:41,889  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 19:51:44,033 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:51:44,039 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 19:51:48,703 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 1 Id Drug
+ 2020-11-07 19:51:48,703 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 1 Id Drug
+ 2020-11-07 19:51:48,918  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [119] - MESSAGE: Successfull result display 
+ 2020-11-07 19:51:48,940  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [119] - MESSAGE: Successfull result display 
+ 2020-11-07 19:52:22,708 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 1 Id Drug
+ 2020-11-07 19:52:23,228  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [119] - MESSAGE: Successfull result display 
+ 2020-11-07 20:03:33,310  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 20:03:34,808  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 2020-11-07 20:03:34,923  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 20:03:34,964  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 2020-11-07 20:03:35,290  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 20:03:35,653  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-07 20:03:36,048  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 20:03:36,230  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-07 20:03:36,500  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 20:03:36,683  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 2020-11-07 20:03:52,896 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 20:03:53,081  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 20:03:53,120 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 20:04:09,181 DEBUG Member_Portal.Controllers.HomeController.Register [81] - MESSAGE: Register Page
+ 2020-11-07 20:04:18,267 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 20:04:18,394  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 20:04:18,418 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 20:04:18,461 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 2020-11-07 20:04:18,563  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 2020-11-07 20:04:18,839 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 2020-11-07 20:04:27,094  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 2020-11-07 20:04:32,517 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 2020-11-07 20:04:33,194  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 2020-11-07 20:04:33,564  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 20:05:04,096 DEBUG Member_Portal.Controllers.SubscriptionController.RefillStatus [36] - MESSAGE: Accessing RefillService for latest completed refill of Subscription Id - 1
+ 2020-11-07 20:05:25,813 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Member_Portal.Controllers.RefillController.RefillStatus(Int32 id) in C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\Controllers\RefillController.cs:line 46
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-07 20:05:26,885 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Member_Portal.Controllers.RefillController.RefillStatus(Int32 id) in C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\Controllers\RefillController.cs:line 46
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-07 20:05:35,594 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 2020-11-07 20:05:43,076 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 1 Id Drug
+ 2020-11-07 20:05:43,595  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [119] - MESSAGE: Successfull result display 
+ 2020-11-07 20:07:11,903  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 2020-11-07 20:07:18,528 DEBUG Member_Portal.Controllers.SubscriptionController.RefillStatus [36] - MESSAGE: Accessing RefillService for latest completed refill of Subscription Id - 1
+ 2020-11-07 20:08:16,141 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Member_Portal.Controllers.RefillController.RefillStatus(Int32 id) in C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\Controllers\RefillController.cs:line 46
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-07 20:08:17,965 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Member_Portal.Controllers.RefillController.RefillStatus(Int32 id) in C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\Controllers\RefillController.cs:line 46
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-07 20:24:14,579  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 20:24:17,027  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 20:24:17,579  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 20:24:17,594  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 20:24:17,653  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 20:24:17,765  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 20:24:17,851  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 20:24:17,864  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 20:24:17,930  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 20:24:17,972  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 20:24:24,580 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-07 20:24:24,771  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-07 20:24:24,789 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-07 20:24:43,584  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 20:24:48,685 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-07 20:24:50,048  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 20:24:50,621  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 20:26:41,251 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 20:26:46,676 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 2 Id Drug
+ 
+2020-11-07 20:26:47,597  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [119] - MESSAGE: Successfull result display 
+ 
+2020-11-07 20:27:58,168  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 20:28:00,672 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 20:28:04,828 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 1 Id Drug
+ 
+2020-11-07 20:28:05,114  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [119] - MESSAGE: Successfull result display 
+ 
+2020-11-07 20:30:05,248  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 20:30:12,670  INFO Member_Portal.Controllers.HomeController.Logout [81] - MESSAGE: Logout -- clear all session data
+ 
+2020-11-07 20:30:13,177 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-07 20:30:13,395  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-07 20:30:13,480 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-07 21:47:18,528  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 21:47:19,926  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 21:47:20,001  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 21:47:20,012  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 21:47:20,037  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 21:47:20,045  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 21:47:20,069  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 21:47:20,076  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 21:47:20,123  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 21:47:20,240  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 21:47:29,827 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-07 21:47:30,039  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-07 21:47:30,055 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-07 21:47:45,211  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 21:47:50,314 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-07 21:47:51,087  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 21:47:51,634  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 21:48:17,493 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 21:48:23,700 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 
+2020-11-07 21:48:24,612  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [73] - MESSAGE: Successfull result display 
+ 
+2020-11-07 21:48:38,492  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 22:09:32,981  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 22:09:33,672  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 22:09:33,713  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 22:09:33,720  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 22:09:33,748  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 22:09:33,752  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 22:09:33,777  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 22:09:33,810  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 22:09:33,907  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 22:09:33,938  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 22:09:45,841 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-07 22:09:46,201  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-07 22:09:46,376 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-07 22:10:09,406  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 22:10:16,384 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-07 22:10:17,199  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 22:10:17,718  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 22:10:58,549 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 22:11:03,461 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 
+2020-11-07 22:11:04,033  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [73] - MESSAGE: Successfull result display 
+ 
+2020-11-07 22:11:17,098  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 22:11:19,670 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 22:11:23,815 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 1 Id Drug
+ 
+2020-11-07 22:11:23,983  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [119] - MESSAGE: Successfull result display 
+ 
+2020-11-07 22:11:49,626  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 22:11:51,824 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 22:11:55,076 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 
+2020-11-07 22:11:55,252  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [73] - MESSAGE: Successfull result display 
+ 
+2020-11-07 22:12:17,176  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 22:12:24,078 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-07 22:13:02,406  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 22:13:10,904  INFO Member_Portal.Controllers.HomeController.Logout [81] - MESSAGE: Logout -- clear all session data
+ 
+2020-11-07 22:13:11,044 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-07 22:13:11,071  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-07 22:13:11,078 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-07 22:32:50,703  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 22:32:51,326  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 22:32:51,372  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 22:32:51,386  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 22:32:51,414  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 22:32:51,417  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 22:32:51,435  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 22:32:51,452  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 22:32:51,530  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 22:32:51,560  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 22:33:04,017 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-07 22:33:04,139  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-07 22:33:04,166 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-07 22:33:29,781  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- h
+ 
+2020-11-07 22:33:33,795 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-07 22:33:33,816 ERROR Member_Portal.Controllers.HomeController.Login [59] - MESSAGE: Login failed BadRequest
+ 
+2020-11-07 22:33:34,073 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-07 22:33:34,097  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-07 22:33:34,136 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-07 22:33:43,576  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 22:33:43,860 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-07 22:33:44,610  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 22:33:45,140  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 22:34:26,797 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 22:34:33,096 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 
+2020-11-07 22:34:33,701  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [73] - MESSAGE: Successfull result display 
+ 
+2020-11-07 22:34:45,848  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 22:34:48,270 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 22:34:51,278 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 1 Id Drug
+ 
+2020-11-07 22:34:51,566  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [119] - MESSAGE: Successfull result display 
+ 
+2020-11-07 22:35:10,142  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 22:35:18,777 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-07 22:35:33,803  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 22:35:39,479 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 22:35:42,374  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 22:35:44,651 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-07 22:35:51,607  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 22:35:54,287 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 22:35:58,398  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 22:36:55,001 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-07 22:45:21,439  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 22:45:22,300  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 22:45:22,323  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 22:45:22,327  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 22:45:22,460  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 22:45:22,510  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 22:45:22,533  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 22:45:22,544  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 22:45:22,572  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 22:45:22,594  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 22:45:30,173 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-07 22:45:30,362  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-07 22:45:30,473 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-07 22:46:18,958  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 22:46:23,085 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-07 22:46:24,064  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 22:46:24,600  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 22:47:31,388 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 22:47:34,457  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 22:47:37,215 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-07 22:47:51,818  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 22:47:55,623  INFO Member_Portal.Controllers.HomeController.Logout [81] - MESSAGE: Logout -- clear all session data
+ 
+2020-11-07 22:47:55,802 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-07 22:47:55,833  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-07 22:47:55,867 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-07 22:56:52,093  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 22:56:52,711  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 22:56:52,730  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 22:56:52,744  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 22:56:52,773  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 22:56:52,781  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 22:56:52,841  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 22:56:52,871  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 22:56:52,956  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 22:56:52,979  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 22:56:59,727 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-07 22:56:59,908  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-07 22:56:59,957 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-07 22:57:18,515  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 22:57:23,348 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-07 22:57:24,099  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 22:57:24,514  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 22:58:38,392 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-07 23:03:40,824  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 23:03:42,041  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 23:03:42,080  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 23:03:42,127  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 23:03:42,596  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 23:03:42,715  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 23:03:42,925  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 23:03:43,100  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 23:03:43,599  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 23:03:43,678  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 23:03:53,166 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-07 23:03:53,383  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-07 23:03:53,419 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-07 23:04:08,675  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 23:04:13,067 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-07 23:04:13,862  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 23:04:14,268  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 23:07:25,927 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 23:07:31,032 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 
+2020-11-07 23:07:31,750  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [73] - MESSAGE: Successfull result display 
+ 
+2020-11-07 23:08:17,391  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 23:08:20,553 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 23:08:25,128 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 1 Id Drug
+ 
+2020-11-07 23:08:26,827  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [119] - MESSAGE: Successfull result display 
+ 
+2020-11-07 23:08:36,275  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 23:14:44,142  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 23:14:44,751  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 23:14:44,783  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 23:14:44,797  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 23:14:44,831  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 23:14:44,868  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 23:14:44,903  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 23:14:44,953  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 23:14:45,048  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 23:14:45,065  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 23:14:52,634 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-07 23:14:52,733  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-07 23:14:52,753 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-07 23:15:07,168  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 23:15:13,065 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-07 23:15:14,146  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 23:15:14,686  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 23:17:04,295 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 23:17:08,922 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 
+2020-11-07 23:17:09,481  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [73] - MESSAGE: Successfull result display 
+ 
+2020-11-07 23:18:04,700  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 23:18:06,952 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 23:18:10,179 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 1 Id Drug
+ 
+2020-11-07 23:18:10,433  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [119] - MESSAGE: Successfull result display 
+ 
+2020-11-07 23:18:27,547  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 23:18:30,982 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-07 23:18:36,495  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 23:27:12,793  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 23:27:13,818  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 23:27:13,867  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 23:27:13,888  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 23:27:14,068  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 23:27:14,100  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 23:27:14,233  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 23:27:14,247  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 23:27:14,545  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 23:27:14,933  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 23:27:26,607 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-07 23:27:26,795  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-07 23:27:26,850 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-07 23:27:46,282  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 23:27:54,243 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-07 23:27:55,339  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 23:27:56,027  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 23:36:33,014  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 23:36:33,824  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 23:36:33,849  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 23:36:33,857  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 23:36:33,897  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 23:36:33,904  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 23:36:33,922  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 23:36:33,935  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 23:36:33,981  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 23:36:34,015  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 23:36:41,042 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-07 23:36:41,173  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-07 23:36:41,220 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-07 23:36:59,313  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 23:37:03,846 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-07 23:37:04,585  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 23:37:05,065  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 23:37:48,892 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 23:37:52,443  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 23:38:28,665 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-07 23:38:35,938  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 23:39:48,135 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 23:39:54,177 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 
+2020-11-07 23:39:54,828  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [73] - MESSAGE: Successfull result display 
+ 
+2020-11-07 23:39:59,489  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 23:40:02,455 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 23:40:06,241 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 1 Id Drug
+ 
+2020-11-07 23:40:06,562  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [119] - MESSAGE: Successfull result display 
+ 
+2020-11-07 23:40:10,298  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 23:40:14,158  INFO Member_Portal.Controllers.HomeController.Logout [81] - MESSAGE: Logout -- clear all session data
+ 
+2020-11-07 23:40:14,284 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-07 23:40:14,333  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-07 23:40:14,351 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-07 23:42:13,054  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 23:42:13,711  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-07 23:42:13,726  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 23:42:13,734  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-07 23:42:13,801  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 23:42:13,818  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-07 23:42:13,876  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 23:42:13,893  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-07 23:42:14,037  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 23:42:14,079  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-07 23:42:22,306 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-07 23:42:22,457  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-07 23:42:22,484 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-07 23:42:38,563  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 23:42:42,803 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-07 23:42:43,577  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-07 23:42:43,985  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-07 23:42:53,803 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 23:43:08,746 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of asdd Drug
+ 
+2020-11-07 23:43:09,179 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 23:43:36,694 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 56 Id Drug
+ 
+2020-11-07 23:43:37,177 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-07 23:43:45,457  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 00:00:53,596  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 00:00:54,418  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 00:00:54,486  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 00:00:54,502  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 00:00:54,542  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 00:00:54,549  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 00:00:54,644  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 00:00:54,709  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 00:00:54,742  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 00:00:54,761  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 00:01:05,875 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 00:01:06,060  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 00:01:06,157 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 00:01:30,746  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 00:01:35,162 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 00:01:35,943  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 00:01:36,556  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 00:01:47,102 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 00:04:50,848  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 00:04:51,422  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 00:04:51,445  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 00:04:51,467  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 00:04:51,547  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 00:04:51,563  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 00:04:51,590  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 00:04:51,627  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 00:04:51,682  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 00:04:51,751  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 00:04:58,751 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 00:04:58,863  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 00:04:58,893 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 00:05:13,444  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 00:05:19,591 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 00:05:20,396  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 00:05:20,972  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 00:05:28,049 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 00:09:14,534 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 00:12:42,529  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 00:12:43,577  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 00:12:43,687  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 00:12:43,697  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 00:12:43,751  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 00:12:43,766  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 00:12:44,063  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 00:12:44,110  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 00:12:44,328  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 00:12:44,415  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 00:12:56,781 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 00:12:57,048  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 00:12:57,164 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 00:13:31,467  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 00:13:38,296 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 00:13:39,390  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 00:13:40,195  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 00:14:01,136 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 00:18:57,521  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 00:18:58,395  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 00:18:58,528  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 00:18:58,563  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 00:18:58,658  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 00:18:58,714  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 00:18:58,753  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 00:18:58,783  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 00:18:58,865  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 00:18:58,876  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 00:19:08,095 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 00:19:08,386  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 00:19:08,556 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 00:19:24,103  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 00:19:31,561 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 00:19:32,782  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 00:19:33,660  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 00:19:51,634 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 00:48:47,827  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 00:48:49,554  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 00:48:49,610  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 00:48:49,625  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 00:48:49,673  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 00:48:49,688  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 00:48:49,730  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 00:48:49,752  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 00:48:49,815  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 00:48:49,844  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 00:48:58,122 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 00:48:58,551  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 00:48:58,713 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 00:49:20,765  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 00:49:25,930 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 00:49:27,357  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 00:49:28,317  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 00:50:00,845 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 00:50:16,109 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 
+2020-11-08 00:50:16,872  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [73] - MESSAGE: Successfull result display 
+ 
+2020-11-08 00:50:35,295  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 00:50:38,637 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 00:50:57,424 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 1 Id Drug
+ 
+2020-11-08 00:50:57,584  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [119] - MESSAGE: Successfull result display 
+ 
+2020-11-08 00:51:03,326  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 00:51:05,836 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 00:51:14,490  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 00:51:19,191 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 00:55:29,217  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 00:55:30,279  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 00:55:30,413  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 00:55:30,421  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 00:55:30,445  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 00:55:30,487  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 00:55:30,521  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 00:55:30,531  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 00:55:30,571  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 00:55:30,593  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 00:55:37,741 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 00:55:37,873  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 00:55:37,891 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 00:56:16,229  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 00:56:19,776 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 00:56:20,530  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 00:56:20,918  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 00:56:36,617 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 00:57:02,427 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 
+2020-11-08 00:57:02,985  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [73] - MESSAGE: Successfull result display 
+ 
+2020-11-08 00:57:13,117 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 00:57:16,828 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 1 Id Drug
+ 
+2020-11-08 00:57:17,114  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [119] - MESSAGE: Successfull result display 
+ 
+2020-11-08 00:57:44,933  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 01:03:09,798  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 01:03:10,483  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 01:03:10,501  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 01:03:10,533  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 01:03:10,623  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 01:03:10,648  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 01:03:10,667  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 01:03:10,676  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 01:03:10,714  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 01:03:10,729  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 01:03:18,781 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 01:03:18,941  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 01:03:18,984 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 01:03:46,669  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 01:03:50,546 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 01:03:51,252  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 01:03:51,892  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 01:04:42,691 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 01:04:49,077 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 
+2020-11-08 01:04:49,613  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [73] - MESSAGE: Successfull result display 
+ 
+2020-11-08 01:07:12,090  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 01:07:12,608  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 01:07:12,634  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 01:07:12,637  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 01:07:12,662  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 01:07:12,672  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 01:07:12,692  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 01:07:12,743  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 01:07:12,866  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 01:07:12,929  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 01:07:19,631 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 01:07:19,703  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 01:07:19,740 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 01:08:03,369  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 01:08:07,148 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 01:08:07,867  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 01:08:08,389  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 01:08:20,403 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 01:08:25,525 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 
+2020-11-08 01:08:26,392  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [73] - MESSAGE: Successfull result display 
+ 
+2020-11-08 01:08:39,881 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 01:09:06,275  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 01:12:53,804  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 01:12:54,442  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 01:12:54,472  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 01:12:54,478  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 01:12:54,507  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 01:12:54,515  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 01:12:54,542  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 01:12:54,549  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 01:12:54,588  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 01:12:54,613  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 01:13:01,965 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 01:13:02,048  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 01:13:02,063 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 01:13:18,781  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 01:13:23,313 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 01:13:24,044  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 01:13:24,671  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 01:13:32,105 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 01:13:35,112 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 
+2020-11-08 01:13:35,943  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [73] - MESSAGE: Successfull result display 
+ 
+2020-11-08 01:13:56,053 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 01:14:00,393 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [89] - MESSAGE: Accessing DrugService for Details of 1 Id Drug
+ 
+2020-11-08 01:14:00,692  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [119] - MESSAGE: Successfull result display 
+ 
+2020-11-08 01:14:12,891 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 01:14:16,591  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 01:20:46,933  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 01:20:48,061  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 01:20:48,112  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 01:20:48,122  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 01:20:48,151  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 01:20:48,158  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 01:20:48,213  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 01:20:48,222  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 01:20:48,265  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 01:20:48,283  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 01:20:57,919 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 01:20:58,213  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 01:20:58,273 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 01:23:19,915  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 01:23:25,249 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 01:23:26,191  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 01:23:26,773  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 01:24:31,720 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 01:24:40,597 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Saurabh Mehra Drug
+ 
+2020-11-08 01:24:41,091 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 01:24:45,007  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 01:24:47,752  INFO Member_Portal.Controllers.HomeController.Logout [81] - MESSAGE: Logout -- clear all session data
+ 
+2020-11-08 01:24:47,920 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 01:24:47,963  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 01:24:47,972 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 01:34:15,125  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 01:34:16,328  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 01:34:16,463  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 01:34:16,474  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 01:34:16,496  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 01:34:16,499  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 01:34:16,529  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 01:34:16,548  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 01:34:16,602  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 01:34:16,653  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 01:34:32,404 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 01:34:32,829  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 01:34:32,893 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 01:36:14,946  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 01:36:25,005 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 01:36:26,277  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 01:36:27,550  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 02:06:14,566  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 02:06:15,483  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 02:06:15,502  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 02:06:15,515  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 02:06:15,542  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 02:06:15,547  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 02:06:15,573  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 02:06:15,591  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 02:06:15,625  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 02:06:15,638  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 02:06:23,095 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 02:06:23,205  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 02:06:23,263 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 02:06:42,659  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 02:06:46,983 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 02:06:47,715  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 02:06:48,187  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 02:07:07,509 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 02:07:13,387 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 
+2020-11-08 02:07:14,270  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [73] - MESSAGE: Successfull result display 
+ 
+2020-11-08 02:07:18,821 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 02:07:20,962  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 02:07:40,317 DEBUG Member_Portal.Controllers.SubscriptionController.RefillStatus [36] - MESSAGE: Accessing RefillService for latest completed refill of Subscription Id - 1
+ 
+2020-11-08 02:07:43,718 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.InvalidOperationException: The partial view 'ReillDetails' was not found. The following locations were searched:
+/Views/Refill/ReillDetails.cshtml
+/Views/Shared/ReillDetails.cshtml
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at AspNetCore.Views_Refill_RefillStatus.ExecuteAsync() in C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\Views\Refill\RefillStatus.cshtml:line 11
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2020-11-08 02:07:44,014 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.InvalidOperationException: The partial view 'ReillDetails' was not found. The following locations were searched:
+/Views/Refill/ReillDetails.cshtml
+/Views/Shared/ReillDetails.cshtml
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at AspNetCore.Views_Refill_RefillStatus.ExecuteAsync() in C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\Views\Refill\RefillStatus.cshtml:line 11
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2020-11-08 02:10:18,765  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 02:10:19,600  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 02:10:19,628  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 02:10:19,635  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 02:10:19,650  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 02:10:19,653  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 02:10:19,668  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 02:10:19,678  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 02:10:19,715  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 02:10:19,729  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 02:10:28,551 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 02:10:28,773  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 02:10:28,875 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 02:10:48,211  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 02:10:52,928 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 02:10:53,903  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 02:10:54,966  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 02:11:37,701 DEBUG Member_Portal.Controllers.SubscriptionController.RefillStatus [36] - MESSAGE: Accessing RefillService for latest completed refill of Subscription Id - 1
+ 
+2020-11-08 02:11:52,415  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
  

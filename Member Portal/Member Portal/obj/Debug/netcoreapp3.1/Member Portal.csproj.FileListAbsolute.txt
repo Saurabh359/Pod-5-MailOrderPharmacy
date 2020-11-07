@@ -26,13 +26,10 @@ C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Member Portal.RazorTargetAssemblyInfo.cache
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Member Portal.RazorTargetAssemblyInfo.cs
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Member Portal.Views.pdb
-C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\staticwebassets\Member Portal.StaticWebAssets.Manifest.cache
-C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\staticwebassets\Member Portal.StaticWebAssets.xml
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Member Portal.dll
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Member Portal.pdb
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Member Portal.genruntimeconfig.cache
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Member Portal.csproj.CopyComplete
-C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Razor\Views\Home\Register.cshtml.g.cs
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
@@ -132,7 +129,14 @@ C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
-C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Member Portal.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Member Portal.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Razor\Views\Drug\DrugbyId.cshtml.g.cs
 C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Razor\Views\Drug\DrugbyName.cshtml.g.cs
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Member Portal.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Member Portal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Razor\Views\Shared\DrugDetails.cshtml.g.cs
+C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\obj\Debug\netcoreapp3.1\Razor\Views\Shared\RefillDetails.cshtml.g.cs

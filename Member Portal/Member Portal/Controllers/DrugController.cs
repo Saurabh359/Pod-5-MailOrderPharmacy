@@ -64,7 +64,7 @@ namespace Member_Portal.Controllers
 
                     var result = JsonConvert.DeserializeObject<List<DrugDetails>>(data);
 
-                    if (result == null)
+                    if (result.Count==0)
                     {
                         string message = name+"Drug Not Available";
                         return RedirectToAction("Index", new { message });
@@ -110,7 +110,7 @@ namespace Member_Portal.Controllers
 
                     var result = JsonConvert.DeserializeObject<List<DrugDetails>>(data);
 
-                    if (result == null)
+                    if (result.Count==0)
                     {
                         string message = id + " Id Drug Not Available";
                         return RedirectToAction("Index", new { message });

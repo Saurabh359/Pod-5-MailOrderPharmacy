@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Member_Portal.Models.DrugDetails>;
+@{
+    var temp = Model.FirstOrDefault();
+}
+<div class=" text-center">
+    <h2>Drug Details</h2>
+</div>
+
+<div class="d-flex justify-content-start">
+    <a class="btn btn-primary" asp-action="Index" asp-controller="Subscription">Go Back</a>
+    <a class="btn btn-primary mx-1" asp-action="Index" asp-controller="Drug">Search More</a>
+</div>
+
+<div class="row d-flex justify-content-center mt-5">
+    <div class="col-6 card shadow">
+        <table class="text-center p-4">
+            <tr>
+                <td class="px-4"><p><strong>Drug Id </strong><p></td>
+                <td class="px-4"><p>@temp.Id</p></td>
+            </tr>
+            <tr>
+                <td class="px-4"><p><strong>Drug Name </strong><p></td>
+                <td class="px-4"><p>@temp.Name</p></td>
+            </tr>
+            <tr>
+                <td class="px-4"><p><strong>Expiry Date </strong><p></td>
+                <td class="px-4"><p>@temp.ExpiryDate</p></td>
+            </tr>
+            <tr>
+                <td class="px-4"><p><strong>Manufacturer </strong><p></td>
+                <td class="px-4"><p>@temp.Manufacturer</p></td>
+            </tr>
+            <tr>
+                <td class="px-4"><p><strong>Manufactured Date </strong><p></td>
+                <td class="px-4"><p>@temp.ManufacturedDate</p></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="row d-flex justify-content-center my-3">
+    <div class="col-6">
+        <div class="text-center">
+            <h3 class="text-success">Quantity Across Different Location</h3>
+        </div>
+        <table class="text-center card shadow p-4 my-3">
+            <thead>
+                <tr>
+                    <th class="px-4">Location</th>
+                    <th class="px-4">Quantity</th>
+                </tr>
+            </thead>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="px-4"><p><strong>@item.Location</strong><p></td>
+                    <td class="px-4"><p>@item.Quantity Units</p></td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>

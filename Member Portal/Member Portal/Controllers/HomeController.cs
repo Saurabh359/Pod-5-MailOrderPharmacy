@@ -76,24 +76,6 @@ namespace Member_Portal.Controllers
            
         }
 
-        public IActionResult Register()
-        {
-            _log4net.Debug("Register Page");
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult Register([Bind("Name,Email,Password,Location")]UserDetails user)
-        {
-            bool success = true;
-            // Register user in Member Database
-            _log4net.Debug("Register to Site ");
-            if (success)
-                return RedirectToAction("Index");
-
-            return View();
-        }
-
         public IActionResult Logout()
         {
             _log4net.Info("Logout -- clear all session data");

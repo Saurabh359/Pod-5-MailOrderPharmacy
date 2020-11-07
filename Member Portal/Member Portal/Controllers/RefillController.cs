@@ -34,7 +34,7 @@ namespace Member_Portal.Controllers
 
             // call Refill microservice
             _log4net.Debug("Accessing RefillService for latest completed refill of Subscription Id - "+ id);
-
+            
             using (var httpClient = new HttpClient())
             {
                 string url = "" + configuration["ServiceUrls:Refill"]+ "RefillStatus";
@@ -55,6 +55,12 @@ namespace Member_Portal.Controllers
                     var data = response.Content.ReadAsStringAsync().Result;
 
                     var result = JsonConvert.DeserializeObject<RefillOrderDetails>(data);
+
+                    if (result == null)
+                    {
+                        string message = "No Fullfilled Refill Order for Subscription Id  - "+id;
+                        return RedirectToAction("ResponseDisplay", "Subscription", new { message });
+                    }
 
                     return View(result);
                 }
@@ -77,7 +83,7 @@ namespace Member_Portal.Controllers
 
             using (var httpClient = new HttpClient())
             {
-                string url = "" + configuration["ServiceUrls:Refill"]+ "RefillDues";
+                string url = "" + configuration["ServiceUrls:Refill"] + "RefillDues";
 
                 var request = new HttpRequestMessage(HttpMethod.Get, url+"/" + id);
 

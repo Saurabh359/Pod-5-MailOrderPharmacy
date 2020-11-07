@@ -1,23 +1,11 @@
 ﻿@model Member_Portal.Models.RefillOrderDetails;
 @{
-    ViewData["Title"] = "Latest Refill Status";
+    ViewData["Title"] = "Adhoc Refill Status";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <div class="text-center">
-    <h2>Latest Refill Status</h2>
+    <h2>Adhoc Refill Status</h2>
 </div>
 
-<div class="row">
-    <div class="col-8 offset-2">
-        <p><strong>Refill Order Id -- </strong>@Model.Id</p>
-        <p><strong>Completion Date -- </strong>@Model.RefillDate</p>
-        <p><strong>Drug Quantity -- </strong>@Model.DrugQuantity</p>
-        <p><strong>Delivered -- </strong>Processing</p>
-        <p><strong>Payment -- </strong>Pending</p>
-    </div>
-</div>
-
-<div>
-    <a class="btn btn-primary" asp-action="Index" asp-controller="Subscription">Go Back</a>
-</div>
+<partial name="RefillDetails" for="@Model" />

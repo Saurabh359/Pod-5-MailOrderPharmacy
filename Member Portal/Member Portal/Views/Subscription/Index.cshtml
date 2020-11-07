@@ -6,7 +6,7 @@
 }
 
     <div class="m-4 text-center">
-        <h2 class="display-4">Mail Order Pharmacy</h2>
+        <h2 class="display-4">Member_Portal</h2>
 
         @if (!String.IsNullOrEmpty(ViewBag.Response))
         {
@@ -29,31 +29,52 @@
 
     <div class="d-flex justify-content-around">
         <p>
-            <a class="btn btn-outline-primary" asp-action="Subscribe" asp-controller="Subscription">New Subscription</a>
+            <a class="btn btn-outline-primary bg-white text-dark" asp-action="Subscribe" asp-controller="Subscription">New Subscription</a>
         </p>
         <p>
-            <a class="btn btn-outline-primary" asp-action="Index" asp-controller="Drug">Drug Details</a>
+            <a class="btn btn-outline-primary bg-white text-dark" asp-action="Index" asp-controller="Drug">Drug Details</a>
         </p>
         <p>
-            <a class="btn btn-outline-primary" asp-action="Logout" asp-controller="Home">Log Out</a>
+            <a class="btn btn-outline-primary bg-white text-dark" asp-action="Logout" asp-controller="Home">Log Out</a>
         </p>
     </div>
     <div class="container pt-3">
         @foreach (var item in Model)
         {
-            <div class="row mt-3 shadow">
-                <div class="col-sm-6 text-center">
-                    <h3 class="card-title m-0"><strong>Subscription Id -- </strong>@item.Id</h3>
-                    <p class="card-text m-0"><strong>Subscription Date --  </strong>@item.SubscriptionDate</p>
-                    <p class="card-text m-0"><strong>Refill Occurrence --  </strong>@item.RefillOccurrence</p>
-                    <p class="card-text m-0"><strong>Delivery Location --  </strong>@item.MemberLocation</p>
-                    <p class="card-text m-0"><strong>Prescription Id --  </strong>@item.PrescriptionId</p>
+            <div class="row mt-3 media shadow bg-white p-2">
+                <div class="col-md-8 text-center d-flex justify-content-center">
+                    <table class="p-2">
+                        <tr>
+                            <td class="px-2"><h3><strong>Subscription Id </strong></h3></td>
+                            <td><h3>@item.Id</h3></td>
+                        </tr>
+                        <tr>
+                            <td class="px-2"><p><strong>Subscription Date </strong></p></td>
+                            <td><p>@item.SubscriptionDate</p></td>
+                        </tr>
+                        <tr>
+                            <td class="px-2"><p><strong>Refill Occurrence </strong></p></td>
+                            <td><p>@item.RefillOccurrence</p></td>
+                        </tr>
+                        <tr>
+                            <td class="px-2"><p><strong>Delivery Location</strong></p></td>
+                            <td><p>@item.MemberLocation</p></td>
+                        </tr>
+                        <tr>
+                            <td class="px-2"><p><strong>Prescription Id</strong></p></td>
+                            <td><p>@item.PrescriptionId</p></td>
+                        </tr>
+                    </table>
                 </div>
-                <div class="col-sm-6">
-                    <a class="btn btn-primary" asp-controller="Subscription" asp-action="UnSubscribe" asp-route-id="@item.Id">UnSubscribe</a>
-                    <a class="btn btn-primary" asp-controller="Refill" asp-action="RefillStatus" asp-route-id="@item.Id">Last Refill Details</a>
-                    <a class="btn btn-primary" asp-controller="Refill" asp-action="RefillDues" asp-route-id="@item.Id">Due Refills</a>
-                    <a class="btn btn-primary" asp-controller="Refill" asp-action="AdhocRefill" asp-route-id="@item.Id">Adhoc Refill</a>
+                <div class="col-md-4 d-flex flex-column align-items-center" style="height:inherit">
+                    <div class="row d-flex justify-content-around">
+                        <a class="btn btn-primary m-1" asp-controller="Subscription" asp-action="UnSubscribe" asp-route-id="@item.Id">UnSubscribe</a>
+                        <a class="btn btn-primary m-1" asp-controller="Refill" asp-action="RefillStatus" asp-route-id="@item.Id">Last Refill Details</a>
+                    </div>
+                    <div class="row d-flex justify-content-around">
+                        <a class="btn btn-primary m-1" asp-controller="Refill" asp-action="RefillDues" asp-route-id="@item.Id">Due Refills</a>
+                        <a class="btn btn-primary m-1" asp-controller="Refill" asp-action="AdhocRefill" asp-route-id="@item.Id">Adhoc Refill</a>
+                    </div>
                 </div>
             </div>
         }
