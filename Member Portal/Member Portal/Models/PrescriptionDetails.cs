@@ -13,14 +13,17 @@ namespace Member_Portal.Models
         public int InsurancePolicyNumber { get; set; }
         [Required]
         [StringLength(255)]
+        [RegularExpression("[a-zA-Z ]+", ErrorMessage ="Only Alphabets are Allowed ")]
         public string InsuranceProvider { get; set; }
         [Required]
         public DateTime PrescriptionDate { get; set; }
         [Required]
         [StringLength(255)]
+        [RegularExpression("[a-zA-Z ]+", ErrorMessage = "Only Alphabets are Allowed ")]
         public string DrugName { get; set; }
         [Required]
         [StringLength(255)]
+        [RegularExpression("[a-zA-Z ]+", ErrorMessage = "Only Alphabets are Allowed ")]
         public string DoctorName { get; set; }
         [Required]
         public string RefillOccurrence { get; set; }

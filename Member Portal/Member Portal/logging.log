@@ -2904,3 +2904,379 @@ ERROR 12:09:26 Trile Error
  
 2020-11-08 11:56:27,454  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
  
+2020-11-08 15:45:32,190  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 15:45:33,327  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 15:45:33,347  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 15:45:33,353  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 15:45:33,374  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 15:45:33,388  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 15:45:33,405  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 15:45:33,419  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 15:45:33,445  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 15:45:33,465  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 15:45:50,451 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 15:45:50,548  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 15:45:50,565 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 15:46:05,716  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 15:46:18,071 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 15:46:18,719  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 15:46:19,250  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 15:47:25,473 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-08 15:51:17,444 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Member_Portal.Controllers.SubscriptionController.Subscribe(PrescriptionDetails prescription) in C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\Controllers\SubscriptionController.cs:line 114
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2020-11-08 15:51:17,547 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Member_Portal.Controllers.SubscriptionController.Subscribe(PrescriptionDetails prescription) in C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\Controllers\SubscriptionController.cs:line 114
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2020-11-08 15:52:10,069 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-08 15:52:58,813 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Member_Portal.Controllers.SubscriptionController.Subscribe(PrescriptionDetails prescription) in C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\Controllers\SubscriptionController.cs:line 114
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2020-11-08 15:52:59,033 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Member_Portal.Controllers.SubscriptionController.Subscribe(PrescriptionDetails prescription) in C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\Controllers\SubscriptionController.cs:line 114
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2020-11-08 15:56:21,316  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 15:56:21,972  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 15:56:21,997  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 15:56:22,000  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 15:56:22,017  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 15:56:22,021  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 15:56:22,042  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 15:56:22,048  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 15:56:22,080  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 15:56:22,095  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 15:56:38,466 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 15:56:38,599  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 15:56:38,638 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 15:57:16,167  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 15:57:19,923 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 15:57:20,641  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 15:57:21,092  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 15:57:36,303 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-08 15:59:34,358 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Member_Portal.Controllers.SubscriptionController.Subscribe(PrescriptionDetails prescription) in C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\Controllers\SubscriptionController.cs:line 114
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2020-11-08 15:59:34,619 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Member_Portal.Controllers.SubscriptionController.Subscribe(PrescriptionDetails prescription) in C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal\Controllers\SubscriptionController.cs:line 114
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2020-11-08 15:59:38,853 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-08 16:04:04,034  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 16:04:04,793  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 16:04:04,814  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 16:04:04,822  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 16:04:04,877  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 16:04:04,917  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 16:04:04,948  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 16:04:04,959  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 16:04:04,993  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 16:04:05,001  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 16:04:27,143 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 16:04:27,285  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 16:04:27,309 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 16:05:01,930  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 16:05:09,157 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 16:05:10,272  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 16:05:10,994  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 16:05:20,205 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-08 16:05:46,094 ERROR Member_Portal.Controllers.SubscriptionController.Subscribe [105] - MESSAGE: False Response
+ 
+2020-11-08 16:05:46,319 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-08 16:06:30,226  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 16:15:39,021  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 16:15:40,161  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 16:15:40,223  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 16:15:40,235  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 16:15:40,272  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 16:15:40,276  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 16:15:40,307  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 16:15:40,336  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 16:15:40,432  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 16:15:40,464  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 16:15:57,814 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 16:15:57,981  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 16:15:58,007 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 16:16:25,205  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 16:16:29,483 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 16:16:30,458  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 16:16:31,063  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 16:16:45,826  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 16:17:02,874 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-08 16:17:34,578 ERROR Member_Portal.Controllers.SubscriptionController.Subscribe [116] - MESSAGE: Exception On Subscription Service side
+ 
+2020-11-08 16:17:34,772 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-08 16:23:16,483  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 16:23:17,320  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 16:23:17,400  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 16:23:17,435  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 16:23:17,455  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 16:23:17,466  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 16:23:17,486  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 16:23:17,498  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 16:23:17,543  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 16:23:17,562  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 16:23:34,362 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 16:23:34,486  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 16:23:34,510 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 16:23:55,812  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 16:23:59,776 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 16:24:00,765  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-08 16:24:01,302  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 16:24:07,821 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-08 16:24:50,435 ERROR Member_Portal.Controllers.SubscriptionController.Subscribe [116] - MESSAGE: Exception On Subscription Service side
+ 
+2020-11-08 16:24:50,580 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-08 16:24:56,999  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 16:25:03,406 DEBUG Member_Portal.Controllers.SubscriptionController.RefillStatus [36] - MESSAGE: Accessing RefillService for latest completed refill of Subscription Id - 3
+ 
+2020-11-08 16:25:08,203  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 16:25:11,321 DEBUG Member_Portal.Controllers.SubscriptionController.RefillDues [82] - MESSAGE: Accessing RefillService for due refill count of Subscription Id - 3
+ 
+2020-11-08 16:25:14,384  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 16:25:18,425  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 16:25:33,650 DEBUG Member_Portal.Controllers.SubscriptionController.AdhocRefill [122] - MESSAGE: Accessing RefillService for Adhoc refill for Subscription Id - 1
+ 
+2020-11-08 16:25:54,771  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 16:25:57,454 DEBUG Member_Portal.Controllers.SubscriptionController.AdhocRefill [122] - MESSAGE: Accessing RefillService for Adhoc refill for Subscription Id - 3
+ 
+2020-11-08 16:26:04,467  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 

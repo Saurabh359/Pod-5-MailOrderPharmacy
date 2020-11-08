@@ -1,0 +1,9 @@
+INFO  05:26:04 Application started. Press Ctrl+C to shut down.
+INFO  05:26:04 Application started. Press Ctrl+C to shut down.
+INFO  05:26:04 Hosting environment: Development
+INFO  05:26:04 Hosting environment: Development
+INFO  05:26:04 Content root path: C:\Users\shree\source\repos\Mfpe-Project\849376_Subscriptionservice-master
+INFO  05:26:04 Content root path: C:\Users\shree\source\repos\Mfpe-Project\849376_Subscriptionservice-master
+INFO  05:26:44 Subscription Request is raised from client side  for Drug= Disprin
+INFO  05:26:44 DruApi is being called to check for the availability of the DrugName= Disprin
+INFO  05:26:44 Disprin Drug Available

@@ -377,4 +377,41 @@
  2020-11-08 11:56:26,051 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [58] - MESSAGE: Returning token with user data containing Id- 1 and Location- Haldwani and Token- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhdXJhYmgiLCJlbWFpbCI6InNtMTIzQGdtYWlsLmNvbSIsIm5iZiI6MTYwNDgxNjc4NSwiZXhwIjoxNjA0ODE3Mzg1LCJpYXQiOjE2MDQ4MTY3ODUsImlzcyI6IkludmVudG9yeUF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSW52ZW50b3J5U2VydmljZVBvc3RtYW5DbGllbnQifQ.wONDOatsDOIJ9c_cK5IWMfEJZbrG9MAbMkd4peM9m4A
  2020-11-08 12:16:41,632  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
  2020-11-08 12:16:41,900  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 2020-11-08 15:44:11,468  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5004
+ 2020-11-08 15:44:11,717  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5004
+ 2020-11-08 15:44:11,718  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5005
+ 2020-11-08 15:44:11,719  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5005
+ 2020-11-08 15:44:11,721  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-08 15:44:11,723  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-08 15:44:11,724  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-08 15:44:11,726  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-08 15:44:11,727  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\AuthorizationMicroService\AuthorizationMicroService
+ 2020-11-08 15:44:11,732  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\AuthorizationMicroService\AuthorizationMicroService
+ 2020-11-08 15:46:15,344 DEBUG AuthorizationMicroService.Providers.TokenProvider.GetToken [28] - MESSAGE: Validate Login Details Email- sm123@gmail.com and Password- hello
+ 2020-11-08 15:46:15,563  INFO AuthorizationMicroService.Providers.TokenProvider.GetToken [36] - MESSAGE: login data is correct for Email- sm123@gmail.com and Password- hello
+ 2020-11-08 15:46:15,744 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [26] - MESSAGE: Token generation initiated for User- Saurabh
+ 2020-11-08 15:46:17,757  INFO AuthorizationMicroService.Repository.TokenRepository.GetToken [49] - MESSAGE: Token Generated Successfuly
+ 2020-11-08 15:46:17,763 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [58] - MESSAGE: Returning token with user data containing Id- 1 and Location- Haldwani and Token- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhdXJhYmgiLCJlbWFpbCI6InNtMTIzQGdtYWlsLmNvbSIsIm5iZiI6MTYwNDgzMDU3NSwiZXhwIjoxNjA0ODMxMTc1LCJpYXQiOjE2MDQ4MzA1NzUsImlzcyI6IkludmVudG9yeUF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSW52ZW50b3J5U2VydmljZVBvc3RtYW5DbGllbnQifQ.lWkY8lNQPcNwo1wOBLqOiP4uyHYn658OeumKBsorB5A
+ 2020-11-08 15:57:19,749 DEBUG AuthorizationMicroService.Providers.TokenProvider.GetToken [28] - MESSAGE: Validate Login Details Email- sm123@gmail.com and Password- hello
+ 2020-11-08 15:57:19,796  INFO AuthorizationMicroService.Providers.TokenProvider.GetToken [36] - MESSAGE: login data is correct for Email- sm123@gmail.com and Password- hello
+ 2020-11-08 15:57:19,812 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [26] - MESSAGE: Token generation initiated for User- Saurabh
+ 2020-11-08 15:57:19,830  INFO AuthorizationMicroService.Repository.TokenRepository.GetToken [49] - MESSAGE: Token Generated Successfuly
+ 2020-11-08 15:57:19,842 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [58] - MESSAGE: Returning token with user data containing Id- 1 and Location- Haldwani and Token- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhdXJhYmgiLCJlbWFpbCI6InNtMTIzQGdtYWlsLmNvbSIsIm5iZiI6MTYwNDgzMTIzOSwiZXhwIjoxNjA0ODMxODM5LCJpYXQiOjE2MDQ4MzEyMzksImlzcyI6IkludmVudG9yeUF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSW52ZW50b3J5U2VydmljZVBvc3RtYW5DbGllbnQifQ.LHnjN-rJonsRQxRkDaHs7qIhh49WQVMSyEHwBFaKcdA
+ 2020-11-08 16:05:08,577 DEBUG AuthorizationMicroService.Providers.TokenProvider.GetToken [28] - MESSAGE: Validate Login Details Email- sm123@gmail.com and Password- hello
+ 2020-11-08 16:05:08,594  INFO AuthorizationMicroService.Providers.TokenProvider.GetToken [36] - MESSAGE: login data is correct for Email- sm123@gmail.com and Password- hello
+ 2020-11-08 16:05:08,608 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [26] - MESSAGE: Token generation initiated for User- Saurabh
+ 2020-11-08 16:05:08,636  INFO AuthorizationMicroService.Repository.TokenRepository.GetToken [49] - MESSAGE: Token Generated Successfuly
+ 2020-11-08 16:05:08,639 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [58] - MESSAGE: Returning token with user data containing Id- 1 and Location- Haldwani and Token- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhdXJhYmgiLCJlbWFpbCI6InNtMTIzQGdtYWlsLmNvbSIsIm5iZiI6MTYwNDgzMTcwOCwiZXhwIjoxNjA0ODMyMzA4LCJpYXQiOjE2MDQ4MzE3MDgsImlzcyI6IkludmVudG9yeUF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSW52ZW50b3J5U2VydmljZVBvc3RtYW5DbGllbnQifQ.YNxiEPnPq-1Pl1xRdEpMTvmTWUcftREcF2yoDCr8XAQ
+ 2020-11-08 16:16:29,021 DEBUG AuthorizationMicroService.Providers.TokenProvider.GetToken [28] - MESSAGE: Validate Login Details Email- sm123@gmail.com and Password- hello
+ 2020-11-08 16:16:29,051  INFO AuthorizationMicroService.Providers.TokenProvider.GetToken [36] - MESSAGE: login data is correct for Email- sm123@gmail.com and Password- hello
+ 2020-11-08 16:16:29,076 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [26] - MESSAGE: Token generation initiated for User- Saurabh
+ 2020-11-08 16:16:29,111  INFO AuthorizationMicroService.Repository.TokenRepository.GetToken [49] - MESSAGE: Token Generated Successfuly
+ 2020-11-08 16:16:29,127 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [58] - MESSAGE: Returning token with user data containing Id- 1 and Location- Haldwani and Token- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhdXJhYmgiLCJlbWFpbCI6InNtMTIzQGdtYWlsLmNvbSIsIm5iZiI6MTYwNDgzMjM4OSwiZXhwIjoxNjA0ODMyOTg5LCJpYXQiOjE2MDQ4MzIzODksImlzcyI6IkludmVudG9yeUF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSW52ZW50b3J5U2VydmljZVBvc3RtYW5DbGllbnQifQ.sP4U9E_5pNDHTd5rRgy0AwwcX42Fl2RKT-Q8sc6yctg
+ 2020-11-08 16:23:59,593 DEBUG AuthorizationMicroService.Providers.TokenProvider.GetToken [28] - MESSAGE: Validate Login Details Email- sm123@gmail.com and Password- hello
+ 2020-11-08 16:23:59,598  INFO AuthorizationMicroService.Providers.TokenProvider.GetToken [36] - MESSAGE: login data is correct for Email- sm123@gmail.com and Password- hello
+ 2020-11-08 16:23:59,618 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [26] - MESSAGE: Token generation initiated for User- Saurabh
+ 2020-11-08 16:23:59,635  INFO AuthorizationMicroService.Repository.TokenRepository.GetToken [49] - MESSAGE: Token Generated Successfuly
+ 2020-11-08 16:23:59,637 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [58] - MESSAGE: Returning token with user data containing Id- 1 and Location- Haldwani and Token- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhdXJhYmgiLCJlbWFpbCI6InNtMTIzQGdtYWlsLmNvbSIsIm5iZiI6MTYwNDgzMjgzOSwiZXhwIjoxNjA0ODMzNDM5LCJpYXQiOjE2MDQ4MzI4MzksImlzcyI6IkludmVudG9yeUF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSW52ZW50b3J5U2VydmljZVBvc3RtYW5DbGllbnQifQ.GMxh-_Yaq3VnVwvwZQZKQFt_EAES75gbu7DYrJdiLQc
+ 2020-11-08 16:50:40,457  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 2020-11-08 16:50:40,503  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
  

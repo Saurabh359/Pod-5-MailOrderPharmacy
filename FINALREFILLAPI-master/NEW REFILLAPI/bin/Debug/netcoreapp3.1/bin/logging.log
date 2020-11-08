@@ -1,0 +1,509 @@
+INFO  09:39:19 Application started. Press Ctrl+C to shut down.
+INFO  09:39:19 Application started. Press Ctrl+C to shut down.
+INFO  09:39:19 Hosting environment: Development
+INFO  09:39:19 Hosting environment: Development
+INFO  09:39:19 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  09:39:19 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  09:39:29 RefillStatus Method Called
+INFO  12:08:52 Application started. Press Ctrl+C to shut down.
+INFO  12:08:52 Application started. Press Ctrl+C to shut down.
+INFO  12:08:52 Hosting environment: Development
+INFO  12:08:52 Hosting environment: Development
+INFO  12:08:52 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  12:08:52 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  12:27:08 RefillStatus Method Called
+INFO  02:13:52 Application started. Press Ctrl+C to shut down.
+INFO  02:13:52 Application started. Press Ctrl+C to shut down.
+INFO  02:13:52 Hosting environment: Development
+INFO  02:13:52 Hosting environment: Development
+INFO  02:13:52 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  02:13:52 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  02:14:02 AdhocRefill Method Called
+INFO  02:30:25 Application started. Press Ctrl+C to shut down.
+INFO  02:30:25 Application started. Press Ctrl+C to shut down.
+INFO  02:30:25 Hosting environment: Development
+INFO  02:30:25 Hosting environment: Development
+INFO  02:30:25 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  02:30:25 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  02:33:30 Application started. Press Ctrl+C to shut down.
+INFO  02:33:30 Application started. Press Ctrl+C to shut down.
+INFO  02:33:30 Hosting environment: Development
+INFO  02:33:30 Hosting environment: Development
+INFO  02:33:30 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  02:33:30 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  02:39:04 Application started. Press Ctrl+C to shut down.
+INFO  02:39:04 Application started. Press Ctrl+C to shut down.
+INFO  02:39:04 Hosting environment: Development
+INFO  02:39:04 Hosting environment: Development
+INFO  02:39:04 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  02:39:04 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  02:39:12 RefillStatus Method that Called ID is1
+INFO  02:39:24 RefillDues Method that Called id is1
+INFO  02:39:41 AdhocRefill Method Called Susbcription Id2
+INFO  02:45:10 Application started. Press Ctrl+C to shut down.
+INFO  02:45:10 Application started. Press Ctrl+C to shut down.
+INFO  02:45:10 Hosting environment: Development
+INFO  02:45:10 Hosting environment: Development
+INFO  02:45:10 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  02:45:10 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  02:45:23 AdhocRefill Method Called Susbcription Id2
+INFO  03:58:14 Application started. Press Ctrl+C to shut down.
+INFO  03:58:14 Application started. Press Ctrl+C to shut down.
+INFO  03:58:14 Hosting environment: Development
+INFO  03:58:14 Hosting environment: Development
+INFO  03:58:14 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  03:58:14 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  03:59:01 Application started. Press Ctrl+C to shut down.
+INFO  03:59:01 Application started. Press Ctrl+C to shut down.
+INFO  03:59:01 Hosting environment: Development
+INFO  03:59:01 Hosting environment: Development
+INFO  03:59:01 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  03:59:01 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:02:07 Application started. Press Ctrl+C to shut down.
+INFO  04:02:07 Application started. Press Ctrl+C to shut down.
+INFO  04:02:07 Hosting environment: Development
+INFO  04:02:07 Hosting environment: Development
+INFO  04:02:07 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:02:07 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:07:57 Application started. Press Ctrl+C to shut down.
+INFO  04:07:57 Application started. Press Ctrl+C to shut down.
+INFO  04:07:57 Hosting environment: Development
+INFO  04:07:57 Hosting environment: Development
+INFO  04:07:57 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:07:57 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:11:52 Application started. Press Ctrl+C to shut down.
+INFO  04:11:52 Application started. Press Ctrl+C to shut down.
+INFO  04:11:53 Hosting environment: Development
+INFO  04:11:53 Hosting environment: Development
+INFO  04:11:53 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:11:53 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:17:49 Application started. Press Ctrl+C to shut down.
+INFO  04:17:49 Application started. Press Ctrl+C to shut down.
+INFO  04:17:49 Hosting environment: Development
+INFO  04:17:49 Hosting environment: Development
+INFO  04:17:50 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:17:50 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:17:59 RefillStatus Method that Called ID is1
+INFO  04:18:26 RefillDues Method that Called id is2
+ERROR 04:18:26 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:18:26 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  04:18:35 RefillDues Method that Called id is1
+INFO  04:19:37 RefillDues Method that Called id is2
+ERROR 04:19:37 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:19:37 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  04:19:54 RefillDues Method that Called id is4
+ERROR 04:19:54 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:19:54 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  04:20:04 RefillDues Method that Called id is9
+ERROR 04:20:04 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:20:04 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  04:21:39 AdhocRefill Method Called Susbcription Id1
+INFO  04:21:52 AdhocRefill Method Called Susbcription Id4
+ERROR 04:21:52 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:21:52 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  04:22:01 AdhocRefill Method Called Susbcription Id1
+INFO  04:22:18 AdhocRefill Method Called Susbcription Id2
+ERROR 04:22:18 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:22:18 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  04:23:11 RefillStatus Method that Called ID is3
+ERROR 04:23:11 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:23:11 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  04:27:36 Application started. Press Ctrl+C to shut down.
+INFO  04:27:37 Application started. Press Ctrl+C to shut down.
+INFO  04:27:37 Hosting environment: Development
+INFO  04:27:37 Hosting environment: Development
+INFO  04:27:37 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:27:37 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:27:50 RefillStatus Method that Called ID is1
+INFO  04:27:55 RefillStatus Method that Called ID is23
+INFO  04:33:09 Application started. Press Ctrl+C to shut down.
+INFO  04:33:09 Application started. Press Ctrl+C to shut down.
+INFO  04:33:09 Hosting environment: Development
+INFO  04:33:09 Hosting environment: Development
+INFO  04:33:09 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:33:09 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:33:19 RefillStatus Method that Called ID is2
+INFO  04:33:26 RefillStatus Method that Called ID is1
+INFO  04:33:49 RefillDues Method that Called id is1
+INFO  04:34:03 RefillDues Method that Called id is2
+ERROR 04:34:04 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:34:04 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  04:35:47 Application started. Press Ctrl+C to shut down.
+INFO  04:35:47 Application started. Press Ctrl+C to shut down.
+INFO  04:35:47 Hosting environment: Development
+INFO  04:35:47 Hosting environment: Development
+INFO  04:35:48 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:35:48 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:35:56 RefillStatus Method that Called ID is2
+INFO  04:35:58 RefillStatus Method that Called ID is2
+INFO  04:37:27 Application started. Press Ctrl+C to shut down.
+INFO  04:37:27 Application started. Press Ctrl+C to shut down.
+INFO  04:37:27 Hosting environment: Development
+INFO  04:37:27 Hosting environment: Development
+INFO  04:37:27 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:37:27 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:37:45 AdhocRefill Method Called Susbcription Id2
+INFO  04:38:02 AdhocRefill Method Called Susbcription Id1
+INFO  04:38:09 AdhocRefill Method Called Susbcription Id2
+INFO  04:41:03 Application started. Press Ctrl+C to shut down.
+INFO  04:41:03 Application started. Press Ctrl+C to shut down.
+INFO  04:41:03 Hosting environment: Development
+INFO  04:41:03 Hosting environment: Development
+INFO  04:41:03 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:41:03 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:41:19 AdhocRefill Method Called Susbcription Id1
+INFO  04:42:46 Application started. Press Ctrl+C to shut down.
+INFO  04:42:46 Application started. Press Ctrl+C to shut down.
+INFO  04:42:46 Hosting environment: Development
+INFO  04:42:46 Hosting environment: Development
+INFO  04:42:46 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:42:46 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  04:42:57 AdhocRefill Method Called Susbcription Id1
+INFO  04:43:10 AdhocRefill Method Called Susbcription Id2
+INFO  04:43:22 AdhocRefill Method Called Susbcription Id1
+INFO  05:10:05 Application started. Press Ctrl+C to shut down.
+INFO  05:10:05 Application started. Press Ctrl+C to shut down.
+INFO  05:10:05 Hosting environment: Development
+INFO  05:10:05 Hosting environment: Development
+INFO  05:10:05 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  05:10:05 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  05:30:03 Application started. Press Ctrl+C to shut down.
+INFO  05:30:03 Application started. Press Ctrl+C to shut down.
+INFO  05:30:03 Hosting environment: Development
+INFO  05:30:03 Hosting environment: Development
+INFO  05:30:03 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  05:30:03 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  05:30:45 Application started. Press Ctrl+C to shut down.
+INFO  05:30:45 Application started. Press Ctrl+C to shut down.
+INFO  05:30:45 Hosting environment: Development
+INFO  05:30:45 Hosting environment: Development
+INFO  05:30:45 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  05:30:45 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  05:30:59 AdhocRefill Method Called Susbcription Id 2
+INFO  05:31:10 AdhocRefill Method Called Susbcription Id 1
+INFO  05:31:20 AdhocRefill Method Called Susbcription Id 1
+INFO  06:03:23 Application started. Press Ctrl+C to shut down.
+INFO  06:03:23 Application started. Press Ctrl+C to shut down.
+INFO  06:03:23 Hosting environment: Development
+INFO  06:03:23 Hosting environment: Development
+INFO  06:03:23 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  06:03:23 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  06:03:32 RefillStatus Method that Called ID is 212
+INFO  06:07:27 Application started. Press Ctrl+C to shut down.
+INFO  06:07:27 Application started. Press Ctrl+C to shut down.
+INFO  06:07:27 Hosting environment: Development
+INFO  06:07:27 Hosting environment: Development
+INFO  06:07:27 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  06:07:27 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  06:07:34 RefillStatus Method that Called ID is 1
+INFO  06:07:39 RefillStatus Method that Called ID is 21
+INFO  06:08:56 Application started. Press Ctrl+C to shut down.
+INFO  06:08:56 Application started. Press Ctrl+C to shut down.
+INFO  06:08:56 Hosting environment: Development
+INFO  06:08:56 Hosting environment: Development
+INFO  06:08:56 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  06:08:56 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  06:09:03 RefillDues Method that Called id is 2
+INFO  06:11:38 RefillDues Method that Called id is 1
+INFO  10:57:21 Application started. Press Ctrl+C to shut down.
+INFO  10:57:21 Application started. Press Ctrl+C to shut down.
+INFO  10:57:21 Hosting environment: Development
+INFO  10:57:21 Hosting environment: Development
+INFO  10:57:21 Content root path: C:\Users\user\Desktop\FINALREFILLAPI-master\NEW REFILLAPI
+INFO  10:57:21 Content root path: C:\Users\user\Desktop\FINALREFILLAPI-master\NEW REFILLAPI
+INFO  11:16:40 Application started. Press Ctrl+C to shut down.
+INFO  11:16:40 Application started. Press Ctrl+C to shut down.
+INFO  11:16:40 Hosting environment: Development
+INFO  11:16:40 Hosting environment: Development
+INFO  11:16:40 Content root path: C:\Users\user\Desktop\FINALREFILLAPI-master\NEW REFILLAPI
+INFO  11:16:40 Content root path: C:\Users\user\Desktop\FINALREFILLAPI-master\NEW REFILLAPI
+INFO  11:22:53 RefillStatus Method that Called ID is 1
+INFO  11:23:08 RefillStatus Method that Called ID is 3
+INFO  11:23:38 RefillDues Method that Called id is 1
+INFO  11:23:54 RefillDues Method that Called id is 1
+INFO  11:24:18 RefillDues Method that Called id is 3
+INFO  11:24:28 AdhocRefill Method Called Susbcription Id 1
+INFO  11:27:52 RefillStatus Method that Called ID is 3
+INFO  11:49:32 RefillDues Method that Called id is 1
+INFO  11:49:41 RefillStatus Method that Called ID is 1
+INFO  11:49:52 RefillDues Method that Called id is 1
+INFO  11:50:03 AdhocRefill Method Called Susbcription Id 1
+INFO  11:50:26 AdhocRefill Method Called Susbcription Id 1
+INFO  11:50:52 RefillDues Method that Called id is 3
+INFO  11:51:59 RefillStatus Method that Called ID is 4
+INFO  11:52:16 RefillDues Method that Called id is 4
+INFO  11:52:26 AdhocRefill Method Called Susbcription Id 4
+INFO  03:40:36 Now listening on: https://localhost:44365
+INFO  03:40:36 Now listening on: https://localhost:44365
+INFO  03:40:36 Now listening on: http://localhost:5000
+INFO  03:40:36 Now listening on: http://localhost:5000
+INFO  03:40:36 Application started. Press Ctrl+C to shut down.
+INFO  03:40:36 Application started. Press Ctrl+C to shut down.
+INFO  03:40:36 Hosting environment: Development
+INFO  03:40:36 Hosting environment: Development
+INFO  03:40:36 Content root path: C:\Users\user\Desktop\FINALREFILLAPI-master\NEW REFILLAPI
+INFO  03:40:36 Content root path: C:\Users\user\Desktop\FINALREFILLAPI-master\NEW REFILLAPI
+INFO  04:16:44 RefillDues Method that Called id is 3
+INFO  04:25:03 RefillStatus Method that Called ID is 3
+INFO  04:25:11 RefillDues Method that Called id is 3
+INFO  04:25:18 RefillDues Method that Called id is 1
+INFO  04:25:34 AdhocRefill Method Called Susbcription Id 1
+INFO  04:25:57 AdhocRefill Method Called Susbcription Id 3
+INFO  04:50:49 Application is shutting down...
+INFO  04:50:49 Application is shutting down...

@@ -7,5 +7,6 @@ namespace Member_Portal.Filters
 {
     public class CustomExceptionFilter
     {
+        //Tried IException but not implementing as expected
     }
 }

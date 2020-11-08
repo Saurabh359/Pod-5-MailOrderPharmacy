@@ -111,6 +111,13 @@ namespace Member_Portal.Controllers
 
                     result = JsonConvert.DeserializeObject<SubscriptionDetails>(data);
 
+                    if(result==null)
+                    {
+                        _log4net.Error("Exception On Subscription Service side");
+                        string message = "Something Went Wrong " + response.StatusCode;
+                        return RedirectToAction("Subscribe", new { message });
+                    }
+
                     if(!result.Status)
                     {
                         _log4net.Info(prescription.DrugName + " Drug Not Available.... Subscription Failed ");
