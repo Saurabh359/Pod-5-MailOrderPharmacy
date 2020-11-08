@@ -122,7 +122,7 @@ namespace Member_Portal.Controllers
 
                     string status1 = "Success";
                     string message1 = " Subscription Successfull..... Subscription Id is " + result.Id;
-                    return RedirectToAction("Index", new { status1, message1 });
+                    return RedirectToAction("Index", new { status=status1, message=message1 });
                 }
             }
 
@@ -188,10 +188,16 @@ namespace Member_Portal.Controllers
 
                     string status1 = "Success";
                     string message1 = " Successfully Unsubscribed for Id "+ id;
-                    return RedirectToAction("Index", new { status1, message1 });
+                    return RedirectToAction("Index", new { status=status1, message=message1 });
 
                 }
             }
+        }
+
+        public IActionResult ResponseDisplay(string message)
+        {
+            ViewBag.Response = message;
+            return View();
         }
     }
 }
