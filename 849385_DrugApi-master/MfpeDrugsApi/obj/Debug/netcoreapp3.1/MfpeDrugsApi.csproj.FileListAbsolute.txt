@@ -41,3 +41,46 @@ C:\Users\pande\source\repos\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Moq.dll
 C:\Users\pande\source\repos\MfpeDrugsApi\obj\Debug\netcoreapp3.1\MfpeDrugsApi.csproj.CoreCompileInputs.cache
 C:\Users\pande\source\repos\MfpeDrugsApi\obj\Debug\netcoreapp3.1\MfpeDrugsApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\pande\source\repos\MfpeDrugsApi\obj\Debug\netcoreapp3.1\MfpeDrugsApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\MfpeDrugsApi.exe
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\MfpeDrugsApi.deps.json
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\MfpeDrugsApi.runtimeconfig.json
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\MfpeDrugsApi.runtimeconfig.dev.json
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\MfpeDrugsApi.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\MfpeDrugsApi.pdb
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Moq.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\obj\Debug\netcoreapp3.1\MfpeDrugsApi.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\obj\Debug\netcoreapp3.1\MfpeDrugsApi.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\obj\Debug\netcoreapp3.1\MfpeDrugsApi.AssemblyInfo.cs
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\obj\Debug\netcoreapp3.1\MfpeDrugsApi.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\obj\Debug\netcoreapp3.1\MfpeDrugsApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\obj\Debug\netcoreapp3.1\MfpeDrugsApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\obj\Debug\netcoreapp3.1\MfpeDrugsApi.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\obj\Debug\netcoreapp3.1\MfpeDrugsApi.csproj.CopyComplete
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\obj\Debug\netcoreapp3.1\staticwebassets\MfpeDrugsApi.StaticWebAssets.Manifest.cache
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\obj\Debug\netcoreapp3.1\staticwebassets\MfpeDrugsApi.StaticWebAssets.xml
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\obj\Debug\netcoreapp3.1\MfpeDrugsApi.dll
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\obj\Debug\netcoreapp3.1\MfpeDrugsApi.pdb
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\obj\Debug\netcoreapp3.1\MfpeDrugsApi.genruntimeconfig.cache

@@ -51,7 +51,6 @@ namespace Member_Portal.Controllers
 
                 using (var response = httpClient.SendAsync(request).Result)
                 {
-
                     if (!response.IsSuccessStatusCode)
                     {
                         _log4net.Error("Response failure ");

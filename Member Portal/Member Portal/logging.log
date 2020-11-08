@@ -3280,3 +3280,41 @@ ERROR 12:09:26 Trile Error
  
 2020-11-08 16:26:04,467  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
  
+2020-11-08 20:04:56,021  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 20:05:17,740  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5002
+ 
+2020-11-08 20:05:20,061  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 20:05:21,040  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5003
+ 
+2020-11-08 20:05:22,130  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 20:05:22,420  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-08 20:05:23,262  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 20:05:24,077  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-08 20:05:27,104  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 20:05:30,679  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\Member Portal\Member Portal
+ 
+2020-11-08 20:05:30,758 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-08 20:05:32,676  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-08 20:05:33,060 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-08 20:08:27,561  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- bt123@gmail.com and password- hello
+ 
+2020-11-08 20:08:42,058 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-08 20:08:43,213  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- bt123@gmail.com and password- hello
+ 
+2020-11-08 20:08:44,223  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-08 20:08:54,476 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-08 20:09:03,077 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 

@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pande\\source\\repos\\DrugApiTesting\\DrugApiTesting.csproj": {}
+    "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\849385_DrugApi-master\\DrugApiTesting\\DrugApiTesting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pande\\source\\repos\\DrugApiTesting\\DrugApiTesting.csproj": {
+    "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\849385_DrugApi-master\\DrugApiTesting\\DrugApiTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pande\\source\\repos\\DrugApiTesting\\DrugApiTesting.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\849385_DrugApi-master\\DrugApiTesting\\DrugApiTesting.csproj",
         "projectName": "DrugApiTesting",
-        "projectPath": "C:\\Users\\pande\\source\\repos\\DrugApiTesting\\DrugApiTesting.csproj",
-        "packagesPath": "C:\\Users\\pande\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pande\\source\\repos\\DrugApiTesting\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\849385_DrugApi-master\\DrugApiTesting\\DrugApiTesting.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\849385_DrugApi-master\\DrugApiTesting\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\pande\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\pande\\source\\repos\\MfpeDrugsApi\\MfpeDrugsApi.csproj": {
-                "projectPath": "C:\\Users\\pande\\source\\repos\\MfpeDrugsApi\\MfpeDrugsApi.csproj"
+              "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\849385_DrugApi-master\\MfpeDrugsApi\\MfpeDrugsApi.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\849385_DrugApi-master\\MfpeDrugsApi\\MfpeDrugsApi.csproj"
               }
             }
           }
@@ -81,21 +84,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\pande\\source\\repos\\MfpeDrugsApi\\MfpeDrugsApi.csproj": {
+    "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\849385_DrugApi-master\\MfpeDrugsApi\\MfpeDrugsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pande\\source\\repos\\MfpeDrugsApi\\MfpeDrugsApi.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\849385_DrugApi-master\\MfpeDrugsApi\\MfpeDrugsApi.csproj",
         "projectName": "MfpeDrugsApi",
-        "projectPath": "C:\\Users\\pande\\source\\repos\\MfpeDrugsApi\\MfpeDrugsApi.csproj",
-        "packagesPath": "C:\\Users\\pande\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pande\\source\\repos\\MfpeDrugsApi\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\849385_DrugApi-master\\MfpeDrugsApi\\MfpeDrugsApi.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\849385_DrugApi-master\\MfpeDrugsApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\pande\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -154,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -13,10 +13,10 @@ namespace RefillApi.Repository
     public class RefillOrderRepository : IRefillOrderRepository
     {
 
-        private List<RefillOrder> refill = new List<RefillOrder>()
+       static private List<RefillOrder> refill = new List<RefillOrder>()
         {
             new RefillOrder{ Id =1, RefillDate = Convert.ToDateTime("2020-11-24 12:12:00 PM"),DrugQuantity = 10, RefillDelivered=true,Payment=true, SubscriptionId=1},
-            new RefillOrder{ Id =2, RefillDate = Convert.ToDateTime("2020-11-24 12:12:00 PM"),DrugQuantity = 10, RefillDelivered=true,Payment=true, SubscriptionId=3},
+            new RefillOrder{ Id =2, RefillDate = Convert.ToDateTime("2020-11-24 12:12:00 PM"),DrugQuantity = 10, RefillDelivered=true,Payment=true, SubscriptionId=2},
             new RefillOrder{ Id =3, RefillDate = Convert.ToDateTime("2020-11-24 12:12:00 PM"),DrugQuantity = 10, RefillDelivered=false,Payment=false, SubscriptionId=1}
         };
 
@@ -82,17 +82,16 @@ namespace RefillApi.Repository
 
                     var check = JsonConvert.DeserializeObject<bool>(data);
 
-                    
                     if (check)
                     {
-                        result.Id = DrugId;
+                        result.Id = refill[refill.Count-1].Id+1;
                         result.RefillDate = DateTime.Now;
                         result.DrugQuantity = 10;
                         result.RefillDelivered = false;
                         result.Payment = false;
                         result.SubscriptionId = SubscriptionId;
                     }
-
+                        refill.Add(result);
                     return result;
                 }
             }

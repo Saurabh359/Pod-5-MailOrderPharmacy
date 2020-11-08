@@ -414,4 +414,21 @@
  2020-11-08 16:23:59,637 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [58] - MESSAGE: Returning token with user data containing Id- 1 and Location- Haldwani and Token- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhdXJhYmgiLCJlbWFpbCI6InNtMTIzQGdtYWlsLmNvbSIsIm5iZiI6MTYwNDgzMjgzOSwiZXhwIjoxNjA0ODMzNDM5LCJpYXQiOjE2MDQ4MzI4MzksImlzcyI6IkludmVudG9yeUF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSW52ZW50b3J5U2VydmljZVBvc3RtYW5DbGllbnQifQ.GMxh-_Yaq3VnVwvwZQZKQFt_EAES75gbu7DYrJdiLQc
  2020-11-08 16:50:40,457  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
  2020-11-08 16:50:40,503  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 2020-11-08 20:07:36,662  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5004
+ 2020-11-08 20:07:37,245  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5004
+ 2020-11-08 20:07:37,247  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5005
+ 2020-11-08 20:07:37,248  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5005
+ 2020-11-08 20:07:37,250  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-08 20:07:37,252  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-08 20:07:37,254  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-08 20:07:37,255  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-08 20:07:37,257  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\AuthorizationMicroService\AuthorizationMicroService
+ 2020-11-08 20:07:37,262  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\AuthorizationMicroService\AuthorizationMicroService
+ 2020-11-08 20:08:38,422 DEBUG AuthorizationMicroService.Providers.TokenProvider.GetToken [28] - MESSAGE: Validate Login Details Email- bt123@gmail.com and Password- hello
+ 2020-11-08 20:08:38,769  INFO AuthorizationMicroService.Providers.TokenProvider.GetToken [36] - MESSAGE: login data is correct for Email- bt123@gmail.com and Password- hello
+ 2020-11-08 20:08:38,915 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [26] - MESSAGE: Token generation initiated for User- Ben
+ 2020-11-08 20:08:41,591  INFO AuthorizationMicroService.Repository.TokenRepository.GetToken [49] - MESSAGE: Token Generated Successfuly
+ 2020-11-08 20:08:41,602 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [58] - MESSAGE: Returning token with user data containing Id- 2 and Location- Haldwani and Token- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkJlbiIsImVtYWlsIjoiYnQxMjNAZ21haWwuY29tIiwibmJmIjoxNjA0ODQ2MzE5LCJleHAiOjE2MDQ4NDY5MTksImlhdCI6MTYwNDg0NjMxOSwiaXNzIjoiSW52ZW50b3J5QXV0aGVudGljYXRpb25TZXJ2ZXIiLCJhdWQiOiJJbnZlbnRvcnlTZXJ2aWNlUG9zdG1hbkNsaWVudCJ9.RG1lm_799rKSCeirrp4vVDCe_mEgon3VSzMX3Cc02kc
+ 2020-11-08 20:53:21,445  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 2020-11-08 20:53:21,543  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
  
