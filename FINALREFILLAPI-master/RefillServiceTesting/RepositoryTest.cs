@@ -57,9 +57,9 @@ namespace RefillServiceTesting
             //int p = 1;
             Mock<IRefillOrderRepository> refillContextMock = new Mock<IRefillOrderRepository>();
             var refillRepoObject = new RefillOrderRepository();
-            refillContextMock.Setup(x => x.AdhocRefill(1,2,1)).Returns(refillorder);
-            var adhocrefill = refillRepoObject.AdhocRefill(1,2,1);
-           // Assert.IsNotNull(adhocrefill);
+            refillContextMock.Setup(x => x.AdhocRefill(1,2,1,"abc")).Returns(refillorder);
+            var adhocrefill = refillRepoObject.AdhocRefill(1,2,1,"abc");
+            Assert.IsNull(adhocrefill);
         }
 
  

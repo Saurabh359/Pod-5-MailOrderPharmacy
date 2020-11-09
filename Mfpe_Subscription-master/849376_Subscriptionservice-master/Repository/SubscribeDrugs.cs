@@ -9,6 +9,10 @@ using SubscriptionService.Models;
 using SubscriptionService.Controllers;
 using System.Web.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Http.Headers;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.Connections;
+using Microsoft.Extensions.Configuration;
 
 namespace SubscriptionService.Repository
 {
@@ -22,28 +26,36 @@ namespace SubscriptionService.Repository
              };
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(SubscribeController));
         
-        public SubscriptionDetails PostSubscription(PrescriptionDetails prescription, string PolicyDetails, int Member_Id)
+        public SubscriptionDetails PostSubscription(PrescriptionDetails prescription, string PolicyDetails, int Member_Id, string auth)
         {
             _log4net.Info("DruApi is being called to check for the availability of the DrugName= "+prescription.DrugName);
             
             List<LocationWiseDrug> location = new List<LocationWiseDrug>();
               var drugs = "";
               var query = prescription.DrugName;
+              
+              string[] token=auth.Split(" ");
+              
               HttpClient client = new HttpClient();
-            HttpResponseMessage result=null;
+              HttpResponseMessage result=null;
+              
             try
             {
-                result = client.GetAsync("https://localhost:44393/api/DrugsApi/searchDrugsByName/" + query).Result;
+                var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:44393/api/DrugsApi/searchDrugsByName/" + query);
+                request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token[1]);
+
+                result = client.SendAsync(request).Result;
 
                 if (!result.IsSuccessStatusCode)
                 {
                     return null;
-
                 }
             }
             catch (Exception ex)
             {
                 _log4net.Error("Exception occured in calling Drug Api" + nameof(SubscribeDrugs) + " and error is" + ex.Message);
+
+                return null;
             }
             drugs = result.Content.ReadAsStringAsync().Result;
             location = JsonConvert.DeserializeObject<List<LocationWiseDrug>>(drugs);
@@ -61,7 +73,7 @@ namespace SubscriptionService.Repository
                 return new SubscriptionDetails { Id = 0, MemberId = 0, MemberLocation = "", PrescriptionId = 0, RefillOccurrence = "", Status = false, SubscriptionDate = Convert.ToDateTime("2020-12-01 01:01:00 AM") };
             }
         }
-        public SubscriptionDetails PostUnSubscription(int Member_Id, int Subscription_Id)
+        public SubscriptionDetails PostUnSubscription(int Member_Id, int Subscription_Id, string auth)
         {
 
             // Get the data from refill microservice 
@@ -78,7 +90,12 @@ namespace SubscriptionService.Repository
 
                     using (var httpClient = new HttpClient())
                     {
-                        using (var response = httpClient.GetAsync("https://localhost:44365/api/RefillOrders/RefillDues/" + Subscription_Id).Result)
+                        string[] token=auth.Split(" ");
+                        
+                        var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:44365/api/RefillOrders/RefillDues/" + Subscription_Id);
+                        request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token[1]);
+
+                        using (var response = httpClient.SendAsync(request).Result)
                         {
 
                             if (!response.IsSuccessStatusCode)
@@ -109,6 +126,7 @@ namespace SubscriptionService.Repository
                 catch(Exception ex)
                 {
                     _log4net.Error(ex.Message);
+                    return null;
                 }
                     return result;
 

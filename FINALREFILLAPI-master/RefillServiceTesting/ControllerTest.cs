@@ -27,10 +27,39 @@ namespace RefillServiceTesting
             };
         }
 
+        [TestCase(1)]
+        public void ControllerTestPass1(int subscriptionId)
+        {
+
+
+            Mock<IRefillOrderProvider> mock = new Mock<IRefillOrderProvider>();
+            mock.Setup(p => p.RefillStatus(subscriptionId)).Returns(refillorder);
+            RefillOrdersController pc = new RefillOrdersController(mock.Object);
+            var result = pc.RefillStatus(subscriptionId);
+            Assert.IsNotNull(result);
+
+        }
+
+
+        [TestCase(-12)]
+        public void ControllerTestFail1(int subscriptionId)
+        {
+
+
+
+            Mock<IRefillOrderProvider> mock = new Mock<IRefillOrderProvider>();
+            mock.Setup(p => p.RefillStatus(subscriptionId)).Returns(refillorder);
+            RefillOrdersController pc = new RefillOrdersController(mock.Object);
+            var result = pc.RefillStatus(subscriptionId);
+            Assert.IsNull(result);
+
+        }
+
+
 
         [TestCase(1)]
         [TestCase(2)]
-        public void ControllerTestPass(int subscriptionId)
+        public void ControllerTestPass2(int subscriptionId)
         {
 
             
@@ -45,7 +74,7 @@ namespace RefillServiceTesting
         [TestCase(-3)]
         [TestCase(-4)]
         [TestCase(-10)]
-        public void ControllerTestFail(int subscriptionId)
+        public void ControllerTestFail2(int subscriptionId)
         {
 
 

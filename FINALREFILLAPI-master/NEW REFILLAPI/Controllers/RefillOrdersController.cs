@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -14,6 +15,7 @@ using RefillApi.Repository;
 
 namespace RefillApi.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]/[action]")]
     
@@ -52,7 +54,7 @@ namespace RefillApi.Controllers
             else
             {
                 _log4net.Info("RefillStatus Method that Called ID is " + id);
-                return BadRequest();
+                return null;
             }
         }
 
@@ -72,13 +74,13 @@ namespace RefillApi.Controllers
         }
 
         [HttpPost("{PolicyId}/{MemberId}/{SubscriptionId}")]
-        public IActionResult AdhocRefill([FromRoute] int PolicyId, int MemberId, int SubscriptionId)
+        public IActionResult AdhocRefill([FromRoute] int PolicyId, int MemberId, int SubscriptionId, [FromHeader(Name ="Authorization")]string auth)
         {
             if (SubscriptionId > 0)
             {
                 _log4net.Info("AdhocRefill Method Called Susbcription Id " + SubscriptionId);
                 // drugId and Location is taken from subscription service with the help of MemberId
-                return Ok(_refillOrderProvider.AdhocRefill(PolicyId, MemberId, SubscriptionId));
+                return Ok(_refillOrderProvider.AdhocRefill(PolicyId, MemberId, SubscriptionId,auth));
             }
             else
             {

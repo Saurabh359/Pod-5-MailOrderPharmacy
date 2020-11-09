@@ -16,9 +16,9 @@ namespace RefillApi.Provider
             _refillOrderRepository = repository1;
         }
 
-        public RefillOrder AdhocRefill(int PolicyId, int MemberId, int SubscriptionId)
+        public RefillOrder AdhocRefill(int PolicyId, int MemberId, int SubscriptionId, string auth)
         {
-            return _refillOrderRepository.AdhocRefill(PolicyId, MemberId, SubscriptionId);
+            return _refillOrderRepository.AdhocRefill(PolicyId, MemberId, SubscriptionId,auth);
         }
 
             public int RefillDues(int id)

@@ -7,7 +7,7 @@ namespace SubscriptionService.Provider
 {
     public interface ISubscribeProvider
     {
-        SubscriptionDetails Subscribe(PrescriptionDetails subscription, string PolicyDetails, int MemberId);
-        SubscriptionDetails UnSubscribe(int Member_Id, int Subscription_Id);
+        SubscriptionDetails Subscribe(PrescriptionDetails subscription, string PolicyDetails, int MemberId, string auth);
+        SubscriptionDetails UnSubscribe(int Member_Id, int Subscription_Id,string auth);
     }
 }

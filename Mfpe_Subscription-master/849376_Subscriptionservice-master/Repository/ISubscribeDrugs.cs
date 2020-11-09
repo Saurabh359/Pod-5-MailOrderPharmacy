@@ -7,7 +7,7 @@ namespace SubscriptionService.Repository
 {
    public interface ISubscribeDrugs
     {
-        SubscriptionDetails PostSubscription(PrescriptionDetails subscription, string PolicyDetails, int MemberId);
-        SubscriptionDetails PostUnSubscription(int Member_Id, int Subscription_Id);
+        SubscriptionDetails PostSubscription(PrescriptionDetails subscription, string PolicyDetails, int MemberId, string auth);
+        SubscriptionDetails PostUnSubscription(int Member_Id, int Subscription_Id, string auth);
     }
 }

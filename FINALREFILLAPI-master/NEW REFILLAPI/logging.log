@@ -557,3 +557,66 @@ INFO  09:14:28 Hosting environment: Development
 INFO  09:14:28 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
 INFO  09:14:28 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
 INFO  09:14:34 RefillStatus Method that Called ID is 2
+INFO  09:37:40 Application started. Press Ctrl+C to shut down.
+INFO  09:37:40 Application started. Press Ctrl+C to shut down.
+INFO  09:37:40 Hosting environment: Development
+INFO  09:37:40 Hosting environment: Development
+INFO  09:37:40 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  09:37:40 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  09:38:03 AdhocRefill Method Called Susbcription Id 1
+INFO  09:38:21 AdhocRefill Method Called Susbcription Id 1
+INFO  09:38:33 AdhocRefill Method Called Susbcription Id 3
+INFO  09:38:39 AdhocRefill Method Called Susbcription Id 1
+INFO  09:38:42 AdhocRefill Method Called Susbcription Id 3
+INFO  09:38:45 AdhocRefill Method Called Susbcription Id 1
+INFO  09:38:48 AdhocRefill Method Called Susbcription Id 1
+INFO  06:39:04 Application started. Press Ctrl+C to shut down.
+INFO  06:39:04 Application started. Press Ctrl+C to shut down.
+INFO  06:39:04 Hosting environment: Development
+INFO  06:39:04 Hosting environment: Development
+INFO  06:39:04 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  06:39:04 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  06:41:06 Application started. Press Ctrl+C to shut down.
+INFO  06:41:06 Application started. Press Ctrl+C to shut down.
+INFO  06:41:06 Hosting environment: Development
+INFO  06:41:06 Hosting environment: Development
+INFO  06:41:06 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  06:41:06 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  06:42:51 Application started. Press Ctrl+C to shut down.
+INFO  06:42:51 Application started. Press Ctrl+C to shut down.
+INFO  06:42:51 Hosting environment: Development
+INFO  06:42:51 Hosting environment: Development
+INFO  06:42:52 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  06:42:52 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  06:43:32 AdhocRefill Method Called Susbcription Id 3
+INFO  06:43:40 AdhocRefill Method Called Susbcription Id 1
+INFO  06:43:54 RefillStatus Method that Called ID is 3
+INFO  06:44:03 RefillDues Method that Called id is 1
+INFO  06:44:06 RefillStatus Method that Called ID is 1
+INFO  06:44:08 RefillDues Method that Called id is 1
+INFO  06:44:11 AdhocRefill Method Called Susbcription Id 1
+INFO  06:44:21 RefillDues Method that Called id is 1
+INFO  06:44:33 RefillStatus Method that Called ID is 3
+INFO  06:44:36 RefillDues Method that Called id is 3
+INFO  06:44:39 AdhocRefill Method Called Susbcription Id 3
+INFO  06:44:48 RefillDues Method that Called id is 3
+INFO  06:46:09 Application started. Press Ctrl+C to shut down.
+INFO  06:46:09 Application started. Press Ctrl+C to shut down.
+INFO  06:46:09 Hosting environment: Development
+INFO  06:46:09 Hosting environment: Development
+INFO  06:46:09 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  06:46:09 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  07:01:09 Application started. Press Ctrl+C to shut down.
+INFO  07:01:09 Application started. Press Ctrl+C to shut down.
+INFO  07:01:09 Hosting environment: Development
+INFO  07:01:09 Hosting environment: Development
+INFO  07:01:09 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  07:01:09 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  07:02:19 Application started. Press Ctrl+C to shut down.
+INFO  07:02:19 Application started. Press Ctrl+C to shut down.
+INFO  07:02:19 Hosting environment: Development
+INFO  07:02:19 Hosting environment: Development
+INFO  07:02:19 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  07:02:19 Content root path: C:\Users\user\Desktop\MFPE\NEW REFILLAPI
+INFO  07:02:27 RefillDues Method that Called id is 1
+INFO  07:02:30 RefillStatus Method that Called ID is 1

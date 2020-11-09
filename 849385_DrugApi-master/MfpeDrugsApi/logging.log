@@ -724,3 +724,118 @@ INFO  11:22:19 getDispatchableDrugstock from provider is called with DrugId & Lo
 INFO  11:22:19 Response sent according to the DrugId = 1 and Location = Rishikesh recieved
 INFO  11:22:25 Drug Id = 0 and Location = Rishikesh Recieved From refill Api
 INFO  11:22:31 Drug Id = -1 and Location = Rishikesh Recieved From refill Api
+INFO  01:38:12 Application started. Press Ctrl+C to shut down.
+INFO  01:38:12 Hosting environment: Development
+INFO  01:38:12 Content root path: C:\Users\pande\source\repos\MfpeDrugsApi
+INFO  01:40:31  Drug Name asdads Entered For Searching
+INFO  01:40:31 searchDrugsByName from provider is called with DrugName: asdads
+INFO  01:40:31 Searchng started according to Name = asdads
+INFO  01:40:31 Drugs Details Returned According to Name = asdads
+INFO  01:40:58  Drug Name Disprin Entered For Searching
+INFO  01:40:58 searchDrugsByName from provider is called with DrugName: Disprin
+INFO  01:40:58 Searchng started according to Name = Disprin
+INFO  01:40:58 Drugs Details Returned According to Name = Disprin
+INFO  01:41:30  Drug Name Disprin Entered For Searching
+INFO  01:41:30 searchDrugsByName from provider is called with DrugName: Disprin
+INFO  01:41:30 Searchng started according to Name = Disprin
+INFO  01:41:30 Drugs Details Returned According to Name = Disprin
+INFO  01:41:43  Drug Name Paracetamol Entered For Searching
+INFO  01:41:43 searchDrugsByName from provider is called with DrugName: Paracetamol
+INFO  01:41:43 Searchng started according to Name = Paracetamol
+INFO  01:41:43 Drugs Details Returned According to Name = Paracetamol
+INFO  01:42:01  Drug Name safdfs Entered For Searching
+INFO  01:42:01 searchDrugsByName from provider is called with DrugName: safdfs
+INFO  01:42:01 Searchng started according to Name = safdfs
+INFO  01:42:01 Drugs Details Returned According to Name = safdfs
+INFO  01:42:06 Drug ID 1 Entered For Searching
+INFO  01:42:06 searchDrugsById from provider is called with DrugId: 1
+INFO  01:42:06 Searchng started according to DrugId = 1
+INFO  01:42:06 Drugs Details Returned According to DrugId = 1
+INFO  01:42:52 Drug ID 4 Entered For Searching
+INFO  01:42:52 searchDrugsById from provider is called with DrugId: 4
+INFO  01:42:52 Searchng started according to DrugId = 4
+INFO  01:42:52 Drugs Details Returned According to DrugId = 4
+INFO  02:47:33 Application started. Press Ctrl+C to shut down.
+INFO  02:47:33 Hosting environment: Development
+INFO  02:47:33 Content root path: C:\Users\pande\source\repos\MfpeDrugsApi
+INFO  02:49:59  Drug Name Paracetamol Entered For Searching
+INFO  02:49:59 searchDrugsByName from provider is called with DrugName: Paracetamol
+INFO  02:49:59 Searchng started according to Name = Paracetamol
+INFO  02:49:59 Drugs Details Returned According to Name = Paracetamol
+INFO  02:51:47  Drug Name jhjh Entered For Searching
+INFO  02:51:47 searchDrugsByName from provider is called with DrugName: jhjh
+INFO  02:51:47 Searchng started according to Name = jhjh
+INFO  02:51:47 Drugs Details Returned According to Name = jhjh
+INFO  02:51:51  Drug Name Paracetamol Entered For Searching
+INFO  02:51:51 searchDrugsByName from provider is called with DrugName: Paracetamol
+INFO  02:51:51 Searchng started according to Name = Paracetamol
+INFO  02:51:51 Drugs Details Returned According to Name = Paracetamol
+INFO  02:52:03 Drug ID 1 Entered For Searching
+INFO  02:52:03 searchDrugsById from provider is called with DrugId: 1
+INFO  02:52:03 Searchng started according to DrugId = 1
+INFO  02:52:03 Drugs Details Returned According to DrugId = 1
+INFO  02:52:10 Drug ID 2 Entered For Searching
+INFO  02:52:10 searchDrugsById from provider is called with DrugId: 2
+INFO  02:52:10 Searchng started according to DrugId = 2
+INFO  02:52:10 Drugs Details Returned According to DrugId = 2
+INFO  02:52:18 Drug ID 87976 Entered For Searching
+INFO  02:52:18 searchDrugsById from provider is called with DrugId: 87976
+INFO  02:52:18 Searchng started according to DrugId = 87976
+INFO  02:52:18 Drugs Details Returned According to DrugId = 87976
+INFO  02:53:35  Drug Name Paracetamol Entered For Searching
+INFO  02:53:35 searchDrugsByName from provider is called with DrugName: Paracetamol
+INFO  02:53:35 Searchng started according to Name = Paracetamol
+INFO  02:53:35 Drugs Details Returned According to Name = Paracetamol
+INFO  05:59:53 Application started. Press Ctrl+C to shut down.
+INFO  05:59:53 Hosting environment: Development
+INFO  05:59:53 Content root path: C:\Users\pande\source\repos\MfpeDrugsApi
+INFO  06:02:19  Drug Name Disprin Entered For Searching
+INFO  06:02:19 searchDrugsByName from provider is called with DrugName: Disprin
+INFO  06:02:19 Searchng started according to Name = Disprin
+INFO  06:02:19 Drugs Details Returned According to Name = Disprin
+INFO  06:02:33  Drug Name gfdxg Entered For Searching
+INFO  06:02:33 searchDrugsByName from provider is called with DrugName: gfdxg
+INFO  06:02:33 Searchng started according to Name = gfdxg
+INFO  06:02:33 Drugs Details Returned According to Name = gfdxg
+INFO  06:02:55 Drug ID 5 Entered For Searching
+INFO  06:02:55 searchDrugsById from provider is called with DrugId: 5
+INFO  06:02:55 Searchng started according to DrugId = 5
+INFO  06:02:55 Drugs Details Returned According to DrugId = 5
+INFO  06:02:58 Drug ID 1 Entered For Searching
+INFO  06:02:58 searchDrugsById from provider is called with DrugId: 1
+INFO  06:02:58 Searchng started according to DrugId = 1
+INFO  06:02:58 Drugs Details Returned According to DrugId = 1
+INFO  06:03:07 Drug ID 2 Entered For Searching
+INFO  06:03:07 searchDrugsById from provider is called with DrugId: 2
+INFO  06:03:07 Searchng started according to DrugId = 2
+INFO  06:03:07 Drugs Details Returned According to DrugId = 2
+INFO  06:03:15  Drug Name Paracetamol Entered For Searching
+INFO  06:03:15 searchDrugsByName from provider is called with DrugName: Paracetamol
+INFO  06:03:15 Searchng started according to Name = Paracetamol
+INFO  06:03:15 Drugs Details Returned According to Name = Paracetamol
+INFO  06:04:09 Application started. Press Ctrl+C to shut down.
+INFO  06:04:09 Hosting environment: Development
+INFO  06:04:09 Content root path: C:\Users\pande\source\repos\MfpeDrugsApi
+INFO  06:05:36 Application started. Press Ctrl+C to shut down.
+INFO  06:05:36 Hosting environment: Development
+INFO  06:05:36 Content root path: C:\Users\pande\source\repos\MfpeDrugsApi
+INFO  06:05:59  Drug Name Disprin Entered For Searching
+INFO  06:05:59 searchDrugsByName from provider is called with DrugName: Disprin
+INFO  06:05:59 Searchng started according to Name = Disprin
+INFO  06:05:59 Drugs Details Returned According to Name = Disprin
+INFO  06:06:06  Drug Name Paracetamol Entered For Searching
+INFO  06:06:06 searchDrugsByName from provider is called with DrugName: Paracetamol
+INFO  06:06:06 Searchng started according to Name = Paracetamol
+INFO  06:06:06 Drugs Details Returned According to Name = Paracetamol
+INFO  06:06:13  Drug Name xfg Entered For Searching
+INFO  06:06:13 searchDrugsByName from provider is called with DrugName: xfg
+INFO  06:06:13 Searchng started according to Name = xfg
+INFO  06:06:13 Drugs Details Returned According to Name = xfg
+INFO  06:06:17 Drug ID 1 Entered For Searching
+INFO  06:06:17 searchDrugsById from provider is called with DrugId: 1
+INFO  06:06:17 Searchng started according to DrugId = 1
+INFO  06:06:17 Drugs Details Returned According to DrugId = 1
+INFO  06:06:21 Drug ID 2 Entered For Searching
+INFO  06:06:21 searchDrugsById from provider is called with DrugId: 2
+INFO  06:06:21 Searchng started according to DrugId = 2
+INFO  06:06:21 Drugs Details Returned According to DrugId = 2

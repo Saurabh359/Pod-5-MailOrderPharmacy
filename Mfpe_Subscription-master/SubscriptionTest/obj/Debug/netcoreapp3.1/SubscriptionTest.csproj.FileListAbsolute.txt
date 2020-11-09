@@ -276,3 +276,4 @@ C:\Users\shree\source\repos\Mfpe-Project\SubscriptionTest\obj\Debug\netcoreapp3.
 C:\Users\shree\source\repos\Mfpe-Project\SubscriptionTest\obj\Debug\netcoreapp3.1\SubscriptionTest.dll
 C:\Users\shree\source\repos\Mfpe-Project\SubscriptionTest\obj\Debug\netcoreapp3.1\SubscriptionTest.pdb
 C:\Users\shree\source\repos\Mfpe-Project\SubscriptionTest\obj\Debug\netcoreapp3.1\SubscriptionTest.genruntimeconfig.cache
+C:\Users\shree\source\repos\Mfpe-Project\SubscriptionTest\bin\Debug\netcoreapp3.1\SubscriptionService.yaml

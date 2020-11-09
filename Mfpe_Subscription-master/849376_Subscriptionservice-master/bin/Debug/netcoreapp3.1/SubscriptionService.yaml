@@ -1,7 +1,7 @@
 ﻿apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:subscriptionservice-deployment
+  name: subscriptionservice-deployment
 spec:
   replicas: 1
   selector:
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: subscriptionservicerepos
-        image: samplecr1.azurecr.io/subscriptionservicerepos:latest
+        image: sample714cr.azurecr.io/subscriptionservicerepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:

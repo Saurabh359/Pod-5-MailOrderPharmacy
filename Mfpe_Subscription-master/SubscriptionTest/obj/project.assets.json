@@ -6103,23 +6103,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\shree\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\Mfpe_Subscription-master\\SubscriptionTest\\SubscriptionTest.csproj",
+      "projectUniqueName": "C:\\Users\\shree\\source\\repos\\Mfpe-Project\\SubscriptionTest\\SubscriptionTest.csproj",
       "projectName": "SubscriptionTest",
-      "projectPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\Mfpe_Subscription-master\\SubscriptionTest\\SubscriptionTest.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\Mfpe_Subscription-master\\SubscriptionTest\\obj\\",
+      "projectPath": "C:\\Users\\shree\\source\\repos\\Mfpe-Project\\SubscriptionTest\\SubscriptionTest.csproj",
+      "packagesPath": "C:\\Users\\shree\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shree\\source\\repos\\Mfpe-Project\\SubscriptionTest\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shree\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6132,8 +6128,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\Mfpe_Subscription-master\\849376_Subscriptionservice-master\\SubscriptionService.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\Mfpe_Subscription-master\\849376_Subscriptionservice-master\\SubscriptionService.csproj"
+            "C:\\Users\\shree\\source\\repos\\Mfpe-Project\\849376_Subscriptionservice-master\\SubscriptionService.csproj": {
+              "projectPath": "C:\\Users\\shree\\source\\repos\\Mfpe-Project\\849376_Subscriptionservice-master\\SubscriptionService.csproj"
             }
           }
         }
@@ -6190,7 +6186,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   },

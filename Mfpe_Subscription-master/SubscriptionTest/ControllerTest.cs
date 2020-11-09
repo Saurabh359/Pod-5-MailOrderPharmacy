@@ -39,7 +39,7 @@ namespace SubscriptionTest
         [Test]
         public void PostSubscribe_WhenCalled_returnobject()
         {
-            _prod.Setup(p => p.Subscribe(pre, "hello", 1)).Returns(new SubscriptionDetails()
+            _prod.Setup(p => p.Subscribe(pre, "hello", 1,"abc")).Returns(new SubscriptionDetails()
             {
                 Id = 1,
                 Status = true,
@@ -49,27 +49,27 @@ namespace SubscriptionTest
                 RefillOccurrence = "Weekly",
                 SubscriptionDate = DateAndTime.Now
             });
-            var res = sub.PostSubscribe(pre, "hello", 1);
+            var res = sub.PostSubscribe(pre, "hello", 1,"abc");
             var check = res as OkObjectResult;
             var value = check.Value as SubscriptionDetails;
             Assert.That(value.Status, Is.True);
 
         }
-        [TestCase(null,"abc",1)]
-        [TestCase(null,null,1)]
-        [TestCase(null,"",1)]
-        [TestCase(null,null,-1)]
-        [TestCase(null, null,0)]
-        public void PostSubscribe_prescriptionisnull_returnobject(PrescriptionDetails prescription, string policy, int MemberId)
+        [TestCase(null,"abc",1,null)]
+        [TestCase(null,null,1,null)]
+        [TestCase(null,"",1,null)]
+        [TestCase(null,null,-1,null)]
+        [TestCase(null, null,0,null)]
+        public void PostSubscribe_prescriptionisnull_returnobject(PrescriptionDetails prescription, string policy, int MemberId,string auth)
         {
-            var result = (BadRequestResult)sub.PostSubscribe(prescription, policy, MemberId);
+            var result = (BadRequestResult)sub.PostSubscribe(prescription, policy, MemberId,auth);
             Assert.AreEqual(result.StatusCode,400);
         }
        
         [Test]
         public void PostUnSubscribe_WhenCalled_returnobject()
         {
-            _prod.Setup(p => p.UnSubscribe(1, 1)).Returns(new SubscriptionDetails()
+            _prod.Setup(p => p.UnSubscribe(1, 1,"abc")).Returns(new SubscriptionDetails()
             {
                  Id = 1,
                 Status = false,
@@ -79,7 +79,7 @@ namespace SubscriptionTest
                 RefillOccurrence = "Weekly",
                 SubscriptionDate = DateAndTime.Now
             });
-            var result = sub.PostUnsubscribe(1, 1);
+            var result = sub.PostUnsubscribe(1, 1,"abc");
             var check = result as OkObjectResult;
             var value = check.Value as SubscriptionDetails;
             Assert.That(value.Status, Is.False);
@@ -88,16 +88,16 @@ namespace SubscriptionTest
         }
        
        
-        [TestCase(-1,1)]
-        [TestCase(-1, -1)]
-        [TestCase(0, 1)]
-        [TestCase(1, 0)]
-        [TestCase(-1, 0)]
-        [TestCase(0, -1)]
-        [TestCase(1, -1)]
-        public void PostUnSubscribe_whennegativevaluepassed_returnobject(int MemberId,int SubscriptionId)
+        [TestCase(-1,1,null)]
+        [TestCase(-1, -1,"abc")]
+        [TestCase(0, 1,null)]
+        [TestCase(1, 0,"abc")]
+        [TestCase(-1, 0,"abc")]
+        [TestCase(0, -1,"abc")]
+        [TestCase(1, -1,"abc")]
+        public void PostUnSubscribe_whennegativevaluepassed_returnobject(int MemberId,int SubscriptionId,string auth)
         {
-            var result = (BadRequestResult)sub.PostUnsubscribe(MemberId,SubscriptionId);
+            var result = (BadRequestResult)sub.PostUnsubscribe(MemberId,SubscriptionId,auth);
             Assert.AreEqual(result.StatusCode, 400);
         }
         

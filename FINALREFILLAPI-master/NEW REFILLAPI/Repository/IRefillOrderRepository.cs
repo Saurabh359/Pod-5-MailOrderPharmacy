@@ -10,7 +10,7 @@ namespace RefillApi.Repository
     public interface IRefillOrderRepository
     {
 
-        public RefillOrder AdhocRefill(int PolicyId, int MemberId, int SubscriptionId);
+        public RefillOrder AdhocRefill(int PolicyId, int MemberId, int SubscriptionId, string auth);
         public int RefillDues(int id);
         public RefillOrder RefillStatus(int id);
         

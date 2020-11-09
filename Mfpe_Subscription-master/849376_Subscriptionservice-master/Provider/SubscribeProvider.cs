@@ -19,11 +19,11 @@ namespace SubscriptionService.Provider
             subs = subscribeDrugs;
         }
 
-         public SubscriptionDetails Subscribe(PrescriptionDetails subscription, string PolicyDetails, int MemberId)
+         public SubscriptionDetails Subscribe(PrescriptionDetails subscription, string PolicyDetails, int MemberId, string auth)
         {
             try
             {
-                return subs.PostSubscription(subscription, PolicyDetails, MemberId);
+                return subs.PostSubscription(subscription, PolicyDetails, MemberId,  auth);
             }
             catch(Exception ex)
             {
@@ -32,11 +32,11 @@ namespace SubscriptionService.Provider
             }
         }
 
-        public SubscriptionDetails UnSubscribe(int Member_Id, int Subscription_Id)
+        public SubscriptionDetails UnSubscribe(int Member_Id, int Subscription_Id, string auth)
         {
             try
             {
-                return subs.PostUnSubscription(Member_Id, Subscription_Id);
+                return subs.PostUnSubscription(Member_Id, Subscription_Id, auth);
             }
             catch(Exception ex)
             {

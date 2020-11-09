@@ -1,20 +1,20 @@
 ﻿apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mfpedrugsapi-deployment
+  name: subscriptionservice-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: MfpeDrugsApi
+      app: SubscriptionService
   template:
     metadata:
       labels:
-        app: MfpeDrugsApi
+        app: SubscriptionService
     spec:
       containers:
-      - name: mfpedrugsapirepos
-        image: samplecr1.azurecr.io/mfpedrugsapirepos:latest
+      - name: subscriptionservicerepos
+        image: sample714cr.azurecr.io/subscriptionservicerepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
@@ -24,10 +24,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: mfpedrugsapi
+  name: subscriptionservice
 spec:
   type: LoadBalancer
   ports:
   - port: 80
   selector:
-    app: MfpeDrugsApi
+    app: SubscriptionService

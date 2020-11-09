@@ -5,12 +5,14 @@ using System.Threading.Tasks;
 using MfpeDrugsApi.Models;
 using MfpeDrugsApi.Provider;
 using MfpeDrugsApi.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace MfpeDrugsApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class DrugsApiController : ControllerBase

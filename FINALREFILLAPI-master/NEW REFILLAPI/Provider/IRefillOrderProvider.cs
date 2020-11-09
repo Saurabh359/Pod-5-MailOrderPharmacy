@@ -8,7 +8,7 @@ namespace RefillApi.Provider
 {
     public interface IRefillOrderProvider
     {
-        RefillOrder AdhocRefill(int PolicyId, int MemberId, int SubscriptionId);
+        RefillOrder AdhocRefill(int PolicyId, int MemberId, int SubscriptionId,string auth);
         int RefillDues(int id);
        RefillOrder RefillStatus(int id);
     }
