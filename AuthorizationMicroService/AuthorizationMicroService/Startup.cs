@@ -18,6 +18,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
+
 namespace AuthorizationMicroService
 {
     public class Startup
@@ -33,6 +34,7 @@ namespace AuthorizationMicroService
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
 
             var Key = Configuration.GetConnectionString("DatabaseKey");
 
@@ -94,13 +96,12 @@ namespace AuthorizationMicroService
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
-
             loggerFactory.AddLog4Net();
 
             app.UseSwagger();

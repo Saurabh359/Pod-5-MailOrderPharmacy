@@ -38,7 +38,7 @@ namespace AuthorizationMicroService.Repository
                     }),
                     Issuer = configuration["Jwt:Issuer"],
                     Audience = configuration["Jwt:Audience"],
-                    Expires = DateTime.UtcNow.AddMinutes(10),
+                    Expires = DateTime.UtcNow.AddMinutes(15),
                     SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(tokenkey),
                                                                 SecurityAlgorithms.HmacSha256Signature)
                 };
