@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\MFPE\\RefillServiceTesting\\RefillServiceTesting.csproj": {}
+    "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\FINALREFILLAPI-master\\RefillServiceTesting\\RefillServiceTesting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\MFPE\\NEW REFILLAPI\\RefillApi.csproj": {
+    "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\FINALREFILLAPI-master\\NEW REFILLAPI\\RefillApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\MFPE\\NEW REFILLAPI\\RefillApi.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\FINALREFILLAPI-master\\NEW REFILLAPI\\RefillApi.csproj",
         "projectName": "RefillApi",
-        "projectPath": "C:\\Users\\user\\Desktop\\MFPE\\NEW REFILLAPI\\RefillApi.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\FINALREFILLAPI-master\\NEW REFILLAPI\\RefillApi.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\MFPE\\NEW REFILLAPI\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\FINALREFILLAPI-master\\NEW REFILLAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -81,19 +84,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\MFPE\\RefillServiceTesting\\RefillServiceTesting.csproj": {
+    "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\FINALREFILLAPI-master\\RefillServiceTesting\\RefillServiceTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\MFPE\\RefillServiceTesting\\RefillServiceTesting.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\FINALREFILLAPI-master\\RefillServiceTesting\\RefillServiceTesting.csproj",
         "projectName": "RefillServiceTesting",
-        "projectPath": "C:\\Users\\user\\Desktop\\MFPE\\RefillServiceTesting\\RefillServiceTesting.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\FINALREFILLAPI-master\\RefillServiceTesting\\RefillServiceTesting.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\MFPE\\RefillServiceTesting\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\FINALREFILLAPI-master\\RefillServiceTesting\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -108,8 +114,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\MFPE\\NEW REFILLAPI\\RefillApi.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\MFPE\\NEW REFILLAPI\\RefillApi.csproj"
+              "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\FINALREFILLAPI-master\\NEW REFILLAPI\\RefillApi.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\FINALREFILLAPI-master\\NEW REFILLAPI\\RefillApi.csproj"
               }
             }
           }
@@ -158,7 +164,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

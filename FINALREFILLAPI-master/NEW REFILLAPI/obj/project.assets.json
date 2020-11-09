@@ -3051,17 +3051,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\MFPE\\NEW REFILLAPI\\RefillApi.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\FINALREFILLAPI-master\\NEW REFILLAPI\\RefillApi.csproj",
       "projectName": "RefillApi",
-      "projectPath": "C:\\Users\\user\\Desktop\\MFPE\\NEW REFILLAPI\\RefillApi.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\FINALREFILLAPI-master\\NEW REFILLAPI\\RefillApi.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\MFPE\\NEW REFILLAPI\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\FINALREFILLAPI-master\\NEW REFILLAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -3130,7 +3134,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   },

@@ -84,3 +84,4 @@ C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\obj
 C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\obj\Debug\netcoreapp3.1\MfpeDrugsApi.dll
 C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\obj\Debug\netcoreapp3.1\MfpeDrugsApi.pdb
 C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\obj\Debug\netcoreapp3.1\MfpeDrugsApi.genruntimeconfig.cache
+C:\Users\user\Desktop\Mail Order Pharmacy\849385_DrugApi-master\MfpeDrugsApi\bin\Debug\netcoreapp3.1\MfpeDrugsApi.yaml

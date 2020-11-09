@@ -215,3 +215,4 @@ C:\Users\user\Desktop\Mail Order Pharmacy\Mfpe_Subscription-master\849376_Subscr
 C:\Users\user\Desktop\Mail Order Pharmacy\Mfpe_Subscription-master\849376_Subscriptionservice-master\obj\Debug\netcoreapp3.1\SubscriptionService.dll
 C:\Users\user\Desktop\Mail Order Pharmacy\Mfpe_Subscription-master\849376_Subscriptionservice-master\obj\Debug\netcoreapp3.1\SubscriptionService.pdb
 C:\Users\user\Desktop\Mail Order Pharmacy\Mfpe_Subscription-master\849376_Subscriptionservice-master\obj\Debug\netcoreapp3.1\SubscriptionService.genruntimeconfig.cache
+C:\Users\user\Desktop\Mail Order Pharmacy\Mfpe_Subscription-master\849376_Subscriptionservice-master\bin\Debug\netcoreapp3.1\SubscriptionService.yaml
