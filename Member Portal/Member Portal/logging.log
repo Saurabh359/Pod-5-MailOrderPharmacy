@@ -3766,3 +3766,603 @@ ERROR 12:09:26 Trile Error
  
 2020-11-09 21:17:20,406  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
  
+2020-11-09 23:25:06,243  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5001
+ 
+2020-11-09 23:25:06,408  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5001
+ 
+2020-11-09 23:25:06,411  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5000
+ 
+2020-11-09 23:25:06,413  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5000
+ 
+2020-11-09 23:25:06,415  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-09 23:25:06,422  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-09 23:25:06,429  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-09 23:25:06,446  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-09 23:25:06,453  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order\Member Portal\Member Portal
+ 
+2020-11-09 23:25:06,478  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order\Member Portal\Member Portal
+ 
+2020-11-09 23:26:47,525 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-09 23:26:47,647  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-09 23:26:47,674 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-09 23:26:54,837  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sa123@gmail.com and password- fsfs
+ 
+2020-11-09 23:26:57,799 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-09 23:26:57,814 ERROR Member_Portal.Controllers.HomeController.Login [59] - MESSAGE: Login failed BadRequest
+ 
+2020-11-09 23:26:57,879 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-09 23:26:57,886  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-09 23:26:57,891 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-09 23:27:04,581  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-09 23:27:06,586 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-09 23:27:06,863  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-09 23:27:06,960  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-09 23:27:24,464  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 
+2020-11-09 23:27:24,481  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 
+2020-11-09 23:45:34,686  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5001
+ 
+2020-11-09 23:45:34,826  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5001
+ 
+2020-11-09 23:45:34,831  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5000
+ 
+2020-11-09 23:45:34,833  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5000
+ 
+2020-11-09 23:45:34,835  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-09 23:45:34,838  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-09 23:45:34,842  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-09 23:45:34,858  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-09 23:45:34,863  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order\Member Portal\Member Portal
+ 
+2020-11-09 23:45:34,872  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order\Member Portal\Member Portal
+ 
+2020-11-09 23:46:25,496 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-09 23:46:25,548  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-09 23:46:25,558 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-09 23:46:58,649  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sa123@gmail.com and password- asdffffdffsdf
+ 
+2020-11-09 23:47:02,500 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.AggregateException: One or more errors occurred. (No such host is known.)
+ ---> System.Net.Http.HttpRequestException: No such host is known.
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Member_Portal.Controllers.HomeController.Login(UserDetails user) in C:\Users\user\Desktop\Member Portal\Member Portal\Controllers\HomeController.cs:line 53
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2020-11-09 23:47:02,686 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.AggregateException: One or more errors occurred. (No such host is known.)
+ ---> System.Net.Http.HttpRequestException: No such host is known.
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Member_Portal.Controllers.HomeController.Login(UserDetails user) in C:\Users\user\Desktop\Member Portal\Member Portal\Controllers\HomeController.cs:line 53
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2020-11-09 23:48:17,804  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 
+2020-11-09 23:48:17,835  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 
+2020-11-09 23:49:50,705  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5001
+ 
+2020-11-09 23:49:50,856  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5001
+ 
+2020-11-09 23:49:50,859  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5000
+ 
+2020-11-09 23:49:50,863  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5000
+ 
+2020-11-09 23:49:50,866  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-09 23:49:50,869  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-09 23:49:50,874  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-09 23:49:50,896  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-09 23:49:50,904  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order\Member Portal\Member Portal
+ 
+2020-11-09 23:49:50,913  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order\Member Portal\Member Portal
+ 
+2020-11-09 23:50:12,044 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-09 23:50:12,142  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-09 23:50:12,148 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-09 23:50:39,609  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sa123@gmail.com and password- afsads
+ 
+2020-11-09 23:51:02,616 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.AggregateException: One or more errors occurred. (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Member_Portal.Controllers.HomeController.Login(UserDetails user) in C:\Users\user\Desktop\Member Portal\Member Portal\Controllers\HomeController.cs:line 53
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2020-11-09 23:51:02,800 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.AggregateException: One or more errors occurred. (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Member_Portal.Controllers.HomeController.Login(UserDetails user) in C:\Users\user\Desktop\Member Portal\Member Portal\Controllers\HomeController.cs:line 53
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2020-11-09 23:51:22,403 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-09 23:51:22,419  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-09 23:51:22,426 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-09 23:51:26,496  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sa123@gmail.com and password- xsxz
+ 
+2020-11-09 23:51:47,673 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.AggregateException: One or more errors occurred. (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Member_Portal.Controllers.HomeController.Login(UserDetails user) in C:\Users\user\Desktop\Member Portal\Member Portal\Controllers\HomeController.cs:line 53
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2020-11-09 23:51:48,064 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.AggregateException: One or more errors occurred. (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Member_Portal.Controllers.HomeController.Login(UserDetails user) in C:\Users\user\Desktop\Member Portal\Member Portal\Controllers\HomeController.cs:line 53
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2020-11-09 23:54:56,709  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 
+2020-11-09 23:54:56,727  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 
+2020-11-09 23:56:56,367  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5001
+ 
+2020-11-09 23:56:56,537  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5001
+ 
+2020-11-09 23:56:56,539  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5000
+ 
+2020-11-09 23:56:56,541  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5000
+ 
+2020-11-09 23:56:56,543  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-09 23:56:56,545  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-09 23:56:56,551  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-09 23:56:56,561  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-09 23:56:56,573  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order\Member Portal\Member Portal
+ 
+2020-11-09 23:56:56,580  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order\Member Portal\Member Portal
+ 
+2020-11-09 23:57:20,093 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-09 23:57:20,172  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-09 23:57:20,186 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-09 23:57:55,790  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sa123@gmail.com and password- sdadsd
+ 
+2020-11-09 23:57:57,306 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-09 23:57:57,362 ERROR Member_Portal.Controllers.HomeController.Login [59] - MESSAGE: Login failed BadRequest
+ 
+2020-11-09 23:57:57,436 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-09 23:57:57,452  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-09 23:57:57,470 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-09 23:58:20,793  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-09 23:58:21,526 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-09 23:58:21,793  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-09 23:58:21,882  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 00:21:54,940  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 
+2020-11-10 00:21:54,955  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 
+2020-11-10 14:17:20,595  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5001
+ 
+2020-11-10 14:17:20,841  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5001
+ 
+2020-11-10 14:17:20,843  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5000
+ 
+2020-11-10 14:17:20,845  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5000
+ 
+2020-11-10 14:17:20,852  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-10 14:17:20,855  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-10 14:17:20,859  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-10 14:17:20,872  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-10 14:17:20,887  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order\Member Portal\Member Portal
+ 
+2020-11-10 14:17:20,893  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order\Member Portal\Member Portal
+ 
+2020-11-10 14:17:53,122 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-10 14:17:53,206  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-10 14:17:53,212 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-10 14:18:05,289  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-10 14:18:07,670 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-10 14:18:07,920  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-10 14:18:08,049  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 14:18:12,998 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-10 14:18:16,097  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 14:18:19,504 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-10 14:18:25,504 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 
+2020-11-10 14:18:26,433  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [72] - MESSAGE: Successfull result display 
+ 
+2020-11-10 14:18:35,195 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-10 14:18:38,885 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Saurabh Mehra Drug
+ 
+2020-11-10 14:18:40,066 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-10 14:18:42,185  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 14:18:48,552  INFO Member_Portal.Controllers.HomeController.Logout [81] - MESSAGE: Logout -- clear all session data
+ 
+2020-11-10 14:18:48,595 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-10 14:18:48,601  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-10 14:18:48,622 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-10 14:18:59,535  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 
+2020-11-10 14:18:59,547  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 
+2020-11-10 15:06:03,297  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5001
+ 
+2020-11-10 15:06:03,421  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5001
+ 
+2020-11-10 15:06:03,423  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5000
+ 
+2020-11-10 15:06:03,425  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5000
+ 
+2020-11-10 15:06:03,427  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-10 15:06:03,429  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-10 15:06:03,435  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-10 15:06:03,447  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-10 15:06:03,456  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order\Member Portal\Member Portal
+ 
+2020-11-10 15:06:03,463  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order\Member Portal\Member Portal
+ 
+2020-11-10 15:06:44,862 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-10 15:07:55,468  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-10 15:07:55,491 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-10 15:08:21,375  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-10 15:08:23,014 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-10 15:08:23,291  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-10 15:08:23,415  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 15:08:28,486 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-10 15:08:35,084 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 
+2020-11-10 15:08:35,923  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [72] - MESSAGE: Successfull result display 
+ 
+2020-11-10 15:08:39,107 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-10 15:08:43,300 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [88] - MESSAGE: Accessing DrugService for Details of 1 Id Drug
+ 
+2020-11-10 15:08:43,922  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [118] - MESSAGE: Successfull result display 
+ 
+2020-11-10 15:08:46,943 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-10 15:08:50,303 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [88] - MESSAGE: Accessing DrugService for Details of 6 Id Drug
+ 
+2020-11-10 15:08:51,196 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-10 15:08:54,455  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 15:08:57,365 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [64] - MESSAGE: Subscribe Page
+ 
+2020-11-10 15:09:19,097  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 15:09:28,625  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 15:09:32,816 DEBUG Member_Portal.Controllers.SubscriptionController.RefillStatus [36] - MESSAGE: Accessing RefillService for latest completed refill of Subscription Id - 1
+ 
+2020-11-10 15:09:37,251  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 15:09:40,051 DEBUG Member_Portal.Controllers.SubscriptionController.RefillDues [82] - MESSAGE: Accessing RefillService for due refill count of Subscription Id - 1
+ 
+2020-11-10 15:09:45,535  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 15:09:47,146 DEBUG Member_Portal.Controllers.SubscriptionController.AdhocRefill [122] - MESSAGE: Accessing RefillService for Adhoc refill for Subscription Id - 1
+ 
+2020-11-10 15:09:51,418  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 15:09:54,098 DEBUG Member_Portal.Controllers.SubscriptionController.RefillDues [82] - MESSAGE: Accessing RefillService for due refill count of Subscription Id - 1
+ 
+2020-11-10 15:09:58,148  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 15:10:00,629 DEBUG Member_Portal.Controllers.SubscriptionController.RefillDues [82] - MESSAGE: Accessing RefillService for due refill count of Subscription Id - 3
+ 
+2020-11-10 15:10:11,405  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 15:10:15,367 DEBUG Member_Portal.Controllers.SubscriptionController.RefillStatus [36] - MESSAGE: Accessing RefillService for latest completed refill of Subscription Id - 3
+ 
+2020-11-10 15:10:18,360  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 15:10:22,171  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 15:10:28,798 DEBUG Member_Portal.Controllers.SubscriptionController.RefillDues [82] - MESSAGE: Accessing RefillService for due refill count of Subscription Id - 5
+ 
+2020-11-10 15:10:32,015  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 15:10:34,491 DEBUG Member_Portal.Controllers.SubscriptionController.RefillStatus [36] - MESSAGE: Accessing RefillService for latest completed refill of Subscription Id - 5
+ 
+2020-11-10 15:10:38,815  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 15:10:42,263  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 15:10:48,179 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-10 15:10:50,757  INFO Member_Portal.Controllers.SubscriptionController.Index [43] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-10 15:10:52,649  INFO Member_Portal.Controllers.HomeController.Logout [81] - MESSAGE: Logout -- clear all session data
+ 
+2020-11-10 15:10:52,692 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-10 15:10:52,703  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-10 15:10:52,709 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-10 15:14:48,629  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 
+2020-11-10 15:14:48,646  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 
