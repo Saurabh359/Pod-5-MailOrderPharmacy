@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Member Portal\\Member Portal\\Member Portal.csproj": {}
+    "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\Member Portal\\Member Portal\\Member Portal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Member Portal\\Member Portal\\Member Portal.csproj": {
+    "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\Member Portal\\Member Portal\\Member Portal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Member Portal\\Member Portal\\Member Portal.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\Member Portal\\Member Portal\\Member Portal.csproj",
         "projectName": "Member Portal",
-        "projectPath": "C:\\Users\\user\\Desktop\\Member Portal\\Member Portal\\Member Portal.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\Member Portal\\Member Portal\\Member Portal.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Member Portal\\Member Portal\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Mail Order Pharmacy\\Member Portal\\Member Portal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -53,9 +53,23 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
-              "version": "[3.1.9, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
               "target": "Package",
