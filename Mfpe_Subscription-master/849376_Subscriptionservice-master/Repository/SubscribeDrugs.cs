@@ -19,11 +19,11 @@ namespace SubscriptionService.Repository
     public class SubscribeDrugs : ISubscribeDrugs
     {
         static List<SubscriptionDetails> details = new List<SubscriptionDetails>() {
-                new SubscriptionDetails{ Id=1, MemberId=1, MemberLocation="Delhi", PrescriptionId=1, RefillOccurrence="weekly", Status=true, SubscriptionDate= Convert.ToDateTime("2020-12-01 01:01:00 AM")},
-                new SubscriptionDetails{ Id=2, MemberId=2, MemberLocation="Kolkata", PrescriptionId=2, RefillOccurrence="Monthly", Status=true, SubscriptionDate= Convert.ToDateTime("2020-12-01 01:01:00 AM")},
-                 new SubscriptionDetails{ Id=3, MemberId=1, MemberLocation="Kolkata", PrescriptionId=3, RefillOccurrence="Monthly", Status=true, SubscriptionDate= Convert.ToDateTime("2020-12-01 01:01:00 AM")},
-                 new SubscriptionDetails{ Id=4, MemberId=1, MemberLocation="Haldwani", PrescriptionId=3, RefillOccurrence="Weekly", Status=true, SubscriptionDate= Convert.ToDateTime("2020-12-01 01:01:00 AM")}
-             };
+               new SubscriptionDetails{Id=1, MemberId=1, MemberLocation="Haldwani", PrescriptionId=2, RefillOccurrence="Weekly", SubscriptionDate=Convert.ToDateTime("2020-11-24 12:12:00 PM"), Status=true },
+               new SubscriptionDetails{Id=2, MemberId=2, MemberLocation="Haldwani", PrescriptionId=3, RefillOccurrence="Weekly", SubscriptionDate=Convert.ToDateTime("2020-11-24 12:12:00 PM"), Status=true },
+               new SubscriptionDetails{Id=3, MemberId=1, MemberLocation="Haldwani", PrescriptionId=2, RefillOccurrence="Weekly", SubscriptionDate=Convert.ToDateTime("2020-11-24 12:12:00 PM"), Status=true },
+               new SubscriptionDetails{Id=4, MemberId=3, MemberLocation="Haldwani", PrescriptionId=3, RefillOccurrence="Monthly", SubscriptionDate=Convert.ToDateTime("2020-11-24 12:12:00 PM"), Status=true },
+              };
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(SubscribeController));
         
         public SubscriptionDetails PostSubscription(PrescriptionDetails prescription, string PolicyDetails, int Member_Id, string auth)

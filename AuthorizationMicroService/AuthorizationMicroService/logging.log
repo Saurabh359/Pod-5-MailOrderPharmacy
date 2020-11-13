@@ -535,4 +535,70 @@
  2020-11-13 17:54:00,660 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [26] - MESSAGE: Token generation initiated for User- Saurabh
  2020-11-13 17:54:01,718  INFO AuthorizationMicroService.Repository.TokenRepository.GetToken [49] - MESSAGE: Token Generated Successfuly
  2020-11-13 17:54:01,724 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [58] - MESSAGE: Returning token with user data containing Id- 1 and Location- Haldwani and Token- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhdXJhYmgiLCJlbWFpbCI6InNtMTIzQGdtYWlsLmNvbSIsIm5iZiI6MTYwNTI3MDI0MCwiZXhwIjoxNjA1MjcxMTQwLCJpYXQiOjE2MDUyNzAyNDAsImlzcyI6IkludmVudG9yeUF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSW52ZW50b3J5U2VydmljZVBvc3RtYW5DbGllbnQifQ.w1U57IbKSFNH0kJjGzRDoFISx1ucDpEddP7A-F9ZeqY
+ 2020-11-13 18:07:41,115  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:44372
+ 2020-11-13 18:07:41,352  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:44372
+ 2020-11-13 18:07:41,355  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5004
+ 2020-11-13 18:07:41,356  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5004
+ 2020-11-13 18:07:41,358  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-13 18:07:41,360  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-13 18:07:41,361  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-13 18:07:41,363  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-13 18:07:41,364  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\AuthorizationMicroService\AuthorizationMicroService
+ 2020-11-13 18:07:41,365  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\AuthorizationMicroService\AuthorizationMicroService
+ 2020-11-13 18:07:54,848 DEBUG AuthorizationMicroService.Providers.TokenProvider.GetToken [28] - MESSAGE: Validate Login Details Email- sm123@gmail.com and Password- hello
+ 2020-11-13 18:07:54,911  INFO AuthorizationMicroService.Providers.TokenProvider.GetToken [36] - MESSAGE: login data is correct for Email- sm123@gmail.com and Password- hello
+ 2020-11-13 18:07:54,934 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [26] - MESSAGE: Token generation initiated for User- Saurabh
+ 2020-11-13 18:07:55,810  INFO AuthorizationMicroService.Repository.TokenRepository.GetToken [49] - MESSAGE: Token Generated Successfuly
+ 2020-11-13 18:07:55,816 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [58] - MESSAGE: Returning token with user data containing Id- 1 and Location- Haldwani and Token- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhdXJhYmgiLCJlbWFpbCI6InNtMTIzQGdtYWlsLmNvbSIsIm5iZiI6MTYwNTI3MTA3NCwiZXhwIjoxNjA1MjcxOTc0LCJpYXQiOjE2MDUyNzEwNzQsImlzcyI6IkludmVudG9yeUF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSW52ZW50b3J5U2VydmljZVBvc3RtYW5DbGllbnQifQ._zlO57ugMlIi9jePq_H8v1f3JrKMvOFd-wBoey_w3wk
+ 2020-11-13 18:12:41,685  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 2020-11-13 18:12:41,692  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 2020-11-13 20:30:21,738  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:44372
+ 2020-11-13 20:30:22,081  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:44372
+ 2020-11-13 20:30:22,085  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5004
+ 2020-11-13 20:30:22,086  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5004
+ 2020-11-13 20:30:22,088  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-13 20:30:22,093  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-13 20:30:22,095  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-13 20:30:22,096  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-13 20:30:22,098  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\AuthorizationMicroService\AuthorizationMicroService
+ 2020-11-13 20:30:22,099  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\AuthorizationMicroService\AuthorizationMicroService
+ 2020-11-13 20:33:49,239 DEBUG AuthorizationMicroService.Providers.TokenProvider.GetToken [28] - MESSAGE: Validate Login Details Email- sm123@gmail.com and Password- hello
+ 2020-11-13 20:33:50,161  INFO AuthorizationMicroService.Providers.TokenProvider.GetToken [36] - MESSAGE: login data is correct for Email- sm123@gmail.com and Password- hello
+ 2020-11-13 20:33:51,537 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [26] - MESSAGE: Token generation initiated for User- Saurabh
+ 2020-11-13 20:33:54,391  INFO AuthorizationMicroService.Repository.TokenRepository.GetToken [49] - MESSAGE: Token Generated Successfuly
+ 2020-11-13 20:33:54,398 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [58] - MESSAGE: Returning token with user data containing Id- 1 and Location- Haldwani and Token- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhdXJhYmgiLCJlbWFpbCI6InNtMTIzQGdtYWlsLmNvbSIsIm5iZiI6MTYwNTI3OTgzMSwiZXhwIjoxNjA1MjgwNzMxLCJpYXQiOjE2MDUyNzk4MzEsImlzcyI6IkludmVudG9yeUF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSW52ZW50b3J5U2VydmljZVBvc3RtYW5DbGllbnQifQ.MK3nJAKG_5YTY2jL4RusLV3E0PjR3CvYcmgHCFA8Ivk
+ 2020-11-13 20:36:41,542  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 2020-11-13 20:36:41,551  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 2020-11-13 21:01:26,038  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:44372
+ 2020-11-13 21:01:26,254  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:44372
+ 2020-11-13 21:01:26,255  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5004
+ 2020-11-13 21:01:26,257  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5004
+ 2020-11-13 21:01:26,258  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-13 21:01:26,263  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-11-13 21:01:26,268  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-13 21:01:26,271  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2020-11-13 21:01:26,272  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\AuthorizationMicroService\AuthorizationMicroService
+ 2020-11-13 21:01:26,273  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order Pharmacy\AuthorizationMicroService\AuthorizationMicroService
+ 2020-11-13 21:03:56,648 DEBUG AuthorizationMicroService.Providers.TokenProvider.GetToken [28] - MESSAGE: Validate Login Details Email- sm123@gmail.com and Password- hello
+ 2020-11-13 21:03:56,770  INFO AuthorizationMicroService.Providers.TokenProvider.GetToken [36] - MESSAGE: login data is correct for Email- sm123@gmail.com and Password- hello
+ 2020-11-13 21:03:56,810 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [26] - MESSAGE: Token generation initiated for User- Saurabh
+ 2020-11-13 21:03:58,727  INFO AuthorizationMicroService.Repository.TokenRepository.GetToken [49] - MESSAGE: Token Generated Successfuly
+ 2020-11-13 21:03:58,757 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [58] - MESSAGE: Returning token with user data containing Id- 1 and Location- Haldwani and Token- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhdXJhYmgiLCJlbWFpbCI6InNtMTIzQGdtYWlsLmNvbSIsIm5iZiI6MTYwNTI4MTYzNiwiZXhwIjoxNjA1MjgyNTM2LCJpYXQiOjE2MDUyODE2MzYsImlzcyI6IkludmVudG9yeUF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSW52ZW50b3J5U2VydmljZVBvc3RtYW5DbGllbnQifQ.m7xzjsXhhtiehi4Jsfpp7wHqek_H1BLbwgq4sECBcHw
+ 2020-11-13 21:20:11,881 DEBUG AuthorizationMicroService.Providers.TokenProvider.GetToken [28] - MESSAGE: Validate Login Details Email- sm123@gmail.com and Password- hello
+ 2020-11-13 21:20:11,894  INFO AuthorizationMicroService.Providers.TokenProvider.GetToken [36] - MESSAGE: login data is correct for Email- sm123@gmail.com and Password- hello
+ 2020-11-13 21:20:11,898 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [26] - MESSAGE: Token generation initiated for User- Saurabh
+ 2020-11-13 21:20:11,913  INFO AuthorizationMicroService.Repository.TokenRepository.GetToken [49] - MESSAGE: Token Generated Successfuly
+ 2020-11-13 21:20:11,917 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [58] - MESSAGE: Returning token with user data containing Id- 1 and Location- Haldwani and Token- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhdXJhYmgiLCJlbWFpbCI6InNtMTIzQGdtYWlsLmNvbSIsIm5iZiI6MTYwNTI4MjYxMSwiZXhwIjoxNjA1MjgzNTExLCJpYXQiOjE2MDUyODI2MTEsImlzcyI6IkludmVudG9yeUF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSW52ZW50b3J5U2VydmljZVBvc3RtYW5DbGllbnQifQ.xirU_V-fuDClazgGpoEjLacxhiklImTrQAcdr9566qU
+ 2020-11-13 21:27:13,977 DEBUG AuthorizationMicroService.Providers.TokenProvider.GetToken [28] - MESSAGE: Validate Login Details Email- sm123@gmail.com and Password- hello
+ 2020-11-13 21:27:13,981  INFO AuthorizationMicroService.Providers.TokenProvider.GetToken [36] - MESSAGE: login data is correct for Email- sm123@gmail.com and Password- hello
+ 2020-11-13 21:27:13,982 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [26] - MESSAGE: Token generation initiated for User- Saurabh
+ 2020-11-13 21:27:13,993  INFO AuthorizationMicroService.Repository.TokenRepository.GetToken [49] - MESSAGE: Token Generated Successfuly
+ 2020-11-13 21:27:14,000 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [58] - MESSAGE: Returning token with user data containing Id- 1 and Location- Haldwani and Token- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhdXJhYmgiLCJlbWFpbCI6InNtMTIzQGdtYWlsLmNvbSIsIm5iZiI6MTYwNTI4MzAzMywiZXhwIjoxNjA1MjgzOTMzLCJpYXQiOjE2MDUyODMwMzMsImlzcyI6IkludmVudG9yeUF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSW52ZW50b3J5U2VydmljZVBvc3RtYW5DbGllbnQifQ.aQ92JUIVNnUaqFfW0Hzatryiwr5eiljf2GIIxSYotHg
+ 2020-11-13 21:28:17,396 DEBUG AuthorizationMicroService.Providers.TokenProvider.GetToken [28] - MESSAGE: Validate Login Details Email- sm123@gmail.com and Password- hello
+ 2020-11-13 21:28:17,421  INFO AuthorizationMicroService.Providers.TokenProvider.GetToken [36] - MESSAGE: login data is correct for Email- sm123@gmail.com and Password- hello
+ 2020-11-13 21:28:17,428 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [26] - MESSAGE: Token generation initiated for User- Saurabh
+ 2020-11-13 21:28:17,457  INFO AuthorizationMicroService.Repository.TokenRepository.GetToken [49] - MESSAGE: Token Generated Successfuly
+ 2020-11-13 21:28:17,461 DEBUG AuthorizationMicroService.Repository.TokenRepository.GetToken [58] - MESSAGE: Returning token with user data containing Id- 1 and Location- Haldwani and Token- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhdXJhYmgiLCJlbWFpbCI6InNtMTIzQGdtYWlsLmNvbSIsIm5iZiI6MTYwNTI4MzA5NywiZXhwIjoxNjA1MjgzOTk3LCJpYXQiOjE2MDUyODMwOTcsImlzcyI6IkludmVudG9yeUF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSW52ZW50b3J5U2VydmljZVBvc3RtYW5DbGllbnQifQ.EygpqbjsYvbJq_P5xc3UNpcfNZMSLgGCRNrG-4l5c_0
+ 2020-11-13 21:40:22,416  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 2020-11-13 21:40:22,426  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
  

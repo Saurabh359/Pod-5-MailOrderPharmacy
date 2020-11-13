@@ -131,6 +131,13 @@ namespace Member_Portal.Controllers
 
                     details.Add(result);
 
+                    var db = context.Subscriptions.FirstOrDefault(x => x.Id == result.Id);
+                    if (db == null)
+                    {
+                        context.Subscriptions.Add(result);
+                        context.SaveChanges();
+                    }
+
                     string status1 = "Success";
                     string message1 = " Subscription Successfull..... Subscription Id is " + result.Id;
                     return RedirectToAction("Index", new { status=status1, message=message1 });
@@ -196,6 +203,14 @@ namespace Member_Portal.Controllers
 
                     var ob = details.Find(x=>x.Id==id);
                     details.Remove(ob);
+
+                    var db = context.Subscriptions.FirstOrDefault(x => x.Id == result.Id);
+
+                    if (db != null)
+                    {
+                        context.Remove(ob);
+                        context.SaveChanges();
+                    }
 
                     string status1 = "Success";
                     string message1 = " Successfully Unsubscribed for Id "+ id;

@@ -10,14 +10,13 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Member_Portal.Migrations
 {
     [DbContext(typeof(PharmacyContext))]
-    [Migration("20201113115822_InitialCreate")]
+    [Migration("20201113145534_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .UseIdentityColumns()
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
 
@@ -25,19 +24,20 @@ namespace Member_Portal.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
+                        .HasColumnType("int");
 
                     b.Property<int>("MemberId")
                         .HasColumnType("int");
 
                     b.Property<string>("MemberLocation")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PrescriptionId")
                         .HasColumnType("int");
 
                     b.Property<string>("RefillOccurrence")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("Status")
