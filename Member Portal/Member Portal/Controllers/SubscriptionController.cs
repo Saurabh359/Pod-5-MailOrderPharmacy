@@ -28,6 +28,14 @@ namespace Member_Portal.Controllers
             context = pharmacyContext;
         }
 
+  static List<SubscriptionDetails> details = new List<SubscriptionDetails>()
+        {
+            new SubscriptionDetails{Id=1, MemberId=1, MemberLocation="Haldwani", PrescriptionId=2, RefillOccurrence="Weekly", SubscriptionDate=Convert.ToDateTime("2020-11-24 12:12:00 PM"), Status=true },
+            new SubscriptionDetails{Id=2, MemberId=2, MemberLocation="Haldwani", PrescriptionId=3, RefillOccurrence="Weekly", SubscriptionDate=Convert.ToDateTime("2020-11-24 12:12:00 PM"), Status=true },
+            new SubscriptionDetails{Id=3, MemberId=1, MemberLocation="Haldwani", PrescriptionId=2, RefillOccurrence="Weekly", SubscriptionDate=Convert.ToDateTime("2020-11-24 12:12:00 PM"), Status=true },
+            new SubscriptionDetails{Id=4, MemberId=3, MemberLocation="Haldwani", PrescriptionId=3, RefillOccurrence="Monthly", SubscriptionDate=Convert.ToDateTime("2020-11-24 12:12:00 PM"), Status=true },
+        };
+
         public IActionResult Index(string status,string message)
         {
             if (String.IsNullOrEmpty(HttpContext.Session.GetString("Token")))
@@ -43,7 +51,7 @@ namespace Member_Portal.Controllers
 
             // List of all subscriptions
             int MemberId = (int)HttpContext.Session.GetInt32("MemberId");
-            var subs = context.Subscriptions.Where(x => x.MemberId.Equals(MemberId));
+            var subs = details.FindAll(x => x.MemberId.Equals(MemberId));
             return View(subs);
         }
 
@@ -121,8 +129,7 @@ namespace Member_Portal.Controllers
                         return RedirectToAction("Subscribe", new { message } );
                     }
 
-                    context.Subscriptions.Add(result);
-                    context.SaveChanges();
+                    details.Add(result);
 
                     string status1 = "Success";
                     string message1 = " Subscription Successfull..... Subscription Id is " + result.Id;
@@ -187,8 +194,8 @@ namespace Member_Portal.Controllers
                         return RedirectToAction("Index", new { status, message });
                     }
 
-                    var ob = context.Subscriptions.Find(id);
-                    context.Subscriptions.Remove(ob);
+                    var ob = details.Find(x=>x.Id==id);
+                    details.Remove(ob);
 
                     string status1 = "Success";
                     string message1 = " Successfully Unsubscribed for Id "+ id;
