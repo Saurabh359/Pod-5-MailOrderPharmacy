@@ -208,7 +208,7 @@ namespace Member_Portal.Controllers
 
                     if (db != null)
                     {
-                        context.Remove(ob);
+                        context.Remove(db);
                         context.SaveChanges();
                     }
 
