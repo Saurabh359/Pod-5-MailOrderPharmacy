@@ -5480,3 +5480,223 @@ Error Number:2627,State:1,Class:14
  
 2020-11-16 12:14:40,924  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
  
+2020-11-16 12:30:03,059  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5001
+ 
+2020-11-16 12:30:03,213  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: https://localhost:5001
+ 
+2020-11-16 12:30:03,214  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5000
+ 
+2020-11-16 12:30:03,217  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Now listening on: http://localhost:5000
+ 
+2020-11-16 12:30:03,222  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-16 12:30:03,230  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 
+2020-11-16 12:30:03,238  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-16 12:30:03,258  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 
+2020-11-16 12:30:03,262  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order\Member Portal
+ 
+2020-11-16 12:30:03,274  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: C:\Users\user\Desktop\Mail Order\Member Portal
+ 
+2020-11-16 12:30:54,983 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-16 12:30:55,040  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-16 12:30:55,054 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-16 12:31:05,279  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-16 12:31:07,561 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-16 12:31:08,049  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-16 12:31:09,036  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:31:13,489  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:31:16,268 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [68] - MESSAGE: Subscribe Page
+ 
+2020-11-16 12:31:43,803  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:31:50,433  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:32:06,019 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-16 12:32:12,779  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:32:30,395  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:32:34,495 DEBUG Member_Portal.Controllers.SubscriptionController.RefillStatus [36] - MESSAGE: Accessing RefillService for latest completed refill of Subscription Id - 1
+ 
+2020-11-16 12:32:39,742  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:32:42,130 DEBUG Member_Portal.Controllers.SubscriptionController.RefillDues [82] - MESSAGE: Accessing RefillService for due refill count of Subscription Id - 1
+ 
+2020-11-16 12:32:44,877  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:32:46,371 DEBUG Member_Portal.Controllers.SubscriptionController.AdhocRefill [122] - MESSAGE: Accessing RefillService for Adhoc refill for Subscription Id - 1
+ 
+2020-11-16 12:32:50,100  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:32:54,021 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [68] - MESSAGE: Subscribe Page
+ 
+2020-11-16 12:32:57,408  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:32:59,403 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-16 12:33:03,447 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 
+2020-11-16 12:33:04,342  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [72] - MESSAGE: Successfull result display 
+ 
+2020-11-16 12:33:14,963  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:33:17,525 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-16 12:33:23,501 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Boss Drug
+ 
+2020-11-16 12:33:24,692 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-16 12:33:27,931 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [88] - MESSAGE: Accessing DrugService for Details of 1 Id Drug
+ 
+2020-11-16 12:33:28,524  INFO Member_Portal.Controllers.SubscriptionController.DrugbyId [118] - MESSAGE: Successfull result display 
+ 
+2020-11-16 12:33:31,116 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-16 12:33:33,849 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyId [88] - MESSAGE: Accessing DrugService for Details of 6 Id Drug
+ 
+2020-11-16 12:33:34,715 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-16 12:33:41,046  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:33:44,864 DEBUG Member_Portal.Controllers.SubscriptionController.Index [28] - MESSAGE: Index page for Drug Search Acccessed
+ 
+2020-11-16 12:33:46,913 DEBUG Member_Portal.Controllers.SubscriptionController.DrugbyName [43] - MESSAGE: Accessing DrugService for Details of Disprin Drug
+ 
+2020-11-16 12:33:54,540  INFO Member_Portal.Controllers.SubscriptionController.DrugbyName [72] - MESSAGE: Successfull result display 
+ 
+2020-11-16 12:34:03,016  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:36:34,601  INFO Member_Portal.Controllers.HomeController.Logout [81] - MESSAGE: Logout -- clear all session data
+ 
+2020-11-16 12:36:34,685 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-16 12:36:34,696  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-16 12:36:34,703 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-16 12:36:40,861  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sa123@gmail.com and password- bvhj
+ 
+2020-11-16 12:36:41,710 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-16 12:36:41,733 ERROR Member_Portal.Controllers.HomeController.Login [59] - MESSAGE: Login failed BadRequest
+ 
+2020-11-16 12:36:41,764 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-16 12:36:41,813  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-16 12:36:41,823 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-16 12:36:55,820  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- bt@123gmail.com and password- hello
+ 
+2020-11-16 12:36:56,748 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-16 12:36:56,769 ERROR Member_Portal.Controllers.HomeController.Login [59] - MESSAGE: Login failed BadRequest
+ 
+2020-11-16 12:36:56,818 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-16 12:36:56,841  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-16 12:36:56,850 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-16 12:37:05,656  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- bt123@gmail.com and password- hello
+ 
+2020-11-16 12:37:06,358 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-16 12:37:06,369  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- bt123@gmail.com and password- hello
+ 
+2020-11-16 12:37:06,406  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:37:09,376  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:37:18,612 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [68] - MESSAGE: Subscribe Page
+ 
+2020-11-16 12:37:32,317  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:37:35,473 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [68] - MESSAGE: Subscribe Page
+ 
+2020-11-16 12:38:04,649  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:38:16,458  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:38:22,542  INFO Member_Portal.Controllers.HomeController.Logout [81] - MESSAGE: Logout -- clear all session data
+ 
+2020-11-16 12:38:22,572 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-16 12:38:22,580  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-16 12:38:22,595 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-16 12:38:28,141  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-16 12:38:28,898 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-16 12:38:28,917  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-16 12:38:28,942  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:38:31,594 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [68] - MESSAGE: Subscribe Page
+ 
+2020-11-16 12:38:48,812  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:38:58,410  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:38:59,977 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [68] - MESSAGE: Subscribe Page
+ 
+2020-11-16 12:39:11,506  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:39:15,020  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:39:16,913 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [68] - MESSAGE: Subscribe Page
+ 
+2020-11-16 12:39:31,939  INFO Member_Portal.Controllers.SubscriptionController.Subscribe [127] - MESSAGE: asdf Drug Not Available.... Subscription Failed 
+ 
+2020-11-16 12:39:32,001 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [68] - MESSAGE: Subscribe Page
+ 
+2020-11-16 12:39:49,614  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:40:12,177  INFO Member_Portal.Controllers.HomeController.Logout [81] - MESSAGE: Logout -- clear all session data
+ 
+2020-11-16 12:40:12,211 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-16 12:40:12,220  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-16 12:40:12,232 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-16 12:40:18,086  INFO Member_Portal.Controllers.HomeController.Login [45] - MESSAGE: Access Authorization Microservice and get Token for email- sm123@gmail.com and password- hello
+ 
+2020-11-16 12:40:18,982 DEBUG Member_Portal.Controllers.HomeController.Login [55] - MESSAGE: Back to Member Portal from Authorization Microservice
+ 
+2020-11-16 12:40:18,995  INFO Member_Portal.Controllers.HomeController.Login [72] - MESSAGE: Login Successfull for email- sm123@gmail.com and password- hello
+ 
+2020-11-16 12:40:19,041  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:40:27,051  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:40:36,795 DEBUG Member_Portal.Controllers.SubscriptionController.Subscribe [68] - MESSAGE: Subscribe Page
+ 
+2020-11-16 12:40:44,903  INFO Member_Portal.Controllers.SubscriptionController.Index [47] - MESSAGE: Display Member Subscriptions
+ 
+2020-11-16 12:44:29,952  INFO Member_Portal.Controllers.HomeController.Logout [81] - MESSAGE: Logout -- clear all session data
+ 
+2020-11-16 12:44:30,012 DEBUG Member_Portal.Controllers.HomeController.Index [30] - MESSAGE: Login Page
+ 
+2020-11-16 12:44:30,019  WARN Member_Portal.Controllers.HomeController.Index [31] - MESSAGE: Trile Warn
+ 
+2020-11-16 12:44:30,026 ERROR Member_Portal.Controllers.HomeController.Index [32] - MESSAGE: Trile Error
+ 
+2020-11-16 12:44:38,100  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 
+2020-11-16 12:44:38,116  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application is shutting down...
+ 
